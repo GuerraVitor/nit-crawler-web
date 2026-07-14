@@ -243,7 +243,7 @@ export default function CountryMap({ countryCounts, onCountryClick, selectedCoun
           padding: "0.75rem 1rem",
         }}
       >
-        <h4 style={{ margin: "0 0 0.5rem 0", color: "#014f38" }}>Países com bolsas</h4>
+        <h4 style={{ margin: "0 0 0.5rem 0", color: "#014f38" }}>Chamadas abertas por país</h4>
         {hasData ? (
           <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "grid", gap: "0.35rem" }}>
             {listItems.map(([name, count]) => {

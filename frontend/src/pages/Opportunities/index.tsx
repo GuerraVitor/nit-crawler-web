@@ -276,10 +276,10 @@ const Opportunities = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.4 }}
           >
-            <HeroTitle>Bolsas e oportunidades</HeroTitle>
+            <HeroTitle>Chamadas e oportunidades</HeroTitle>
             <HeroSubtitle>
-              Encontre editais e oportunidades internacionais com filtros inteligentes e uma
-              visao clara por pais.
+              Encontre chamadas, ditais e oportunidades internacionais com filtros inteligentes e uma
+              visão por pais.
             </HeroSubtitle>
           </motion.div>
         </Hero>

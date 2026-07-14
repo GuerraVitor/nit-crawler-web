@@ -1,0 +1,25 @@
+=== Opportunities Collected ===
+
+--- By Spiders ---
+anr: 23
+cnpq: 1
+daad: 82
+erasmus: 1
+euraexx: 141
+eureka: 15
+faperj: 11
+fapesp: 79
+finep: 20
+msca: 20
+ukri: 122
+
+--- By Country ---
+Alemanha: 82
+Brasil: 111
+França: 23
+Reino Unido: 122
+União Europeia: 162
+mundo: 15
+
+--- All ---
+Total itens: 515

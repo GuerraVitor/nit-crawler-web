@@ -9,7 +9,7 @@ const Navbar = () => {
         <Logo src={Nit} alt="Logo" />
       </ImageLink>
       <NavLinks style={{ marginRight: "4rem" }}>
-        <NavLink to="/opportunities">Bolsas</NavLink>
+        <NavLink to="/opportunities">Chamadas</NavLink>
         <NavLink to="/about">Sobre nós</NavLink>
         <NavLink to="/contact">Contato</NavLink>
       </NavLinks>
