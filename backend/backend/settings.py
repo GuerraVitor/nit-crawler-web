@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     "corsheaders",
     "funding",
     "projects",
+    "researchers",
     "django_filters",
 ]
 

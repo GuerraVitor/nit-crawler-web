@@ -16,3 +16,10 @@ export const fetchProjectById = async (id: string) => {
   const response = await axios.get(`${BASE_URL}/projects/${id}/`);
   return response.data;
 };
+
+export const searchResearchers = async (query: string) => {
+  const response = await axios.get(`${BASE_URL}/researchers/search/`, {
+    params: { q: query },
+  });
+  return response.data;
+};

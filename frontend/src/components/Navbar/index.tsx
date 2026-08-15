@@ -10,6 +10,7 @@ const Navbar = () => {
       </ImageLink>
       <NavLinks style={{ marginRight: "4rem" }}>
         <NavLink to="/opportunities">Chamadas</NavLink>
+        <NavLink to="/pesquisadores">Pesquisadores</NavLink>
         <NavLink to="/about">Sobre nós</NavLink>
         <NavLink to="/contact">Contato</NavLink>
       </NavLinks>

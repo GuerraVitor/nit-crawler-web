@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Opportunities from "./pages/Opportunities";
+import ResearcherSearch from "./pages/ResearcherSearch";
 import { GlobalStyle } from "./GlobalStyle";
 import AboutUs from "./pages/About";
 import Contact from "./pages/Contact";
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/opportunities" element={<Opportunities />} />
+            <Route path="/pesquisadores" element={<ResearcherSearch />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

@@ -1,0 +1,56 @@
+NOVIDADE: BUSCA DE PESQUISADORES NO SITE DO NIT
+=================================================
+
+O QUE FOI FEITO
+----------------
+Criamos uma nova página no site onde qualquer pessoa pode buscar
+pesquisadores cadastrados na Plataforma Lattes digitando um tema,
+palavra-chave ou área de interesse (por exemplo: "saúde", "inovação",
+"propriedade intelectual").
+
+Isso é um protótipo/demonstração: hoje ele responde com uma lista de
+exemplo (dados fictícios) para mostrar como a busca vai funcionar na
+prática. O próximo passo é conectar essa tela ao robô (crawler) que
+varre de verdade os currículos Lattes.
+
+ONDE ENCONTRAR
+---------------
+Um novo item "Pesquisadores" foi adicionado ao menu principal do site,
+ao lado de "Chamadas", "Sobre nós" e "Contato".
+
+COMO FUNCIONA (fluxo do usuário)
+----------------------------------
+1. A pessoa acessa a página "Pesquisadores".
+2. Digita um tema de interesse na caixa de busca (ex: "inovação").
+3. Clica no botão "Buscar".
+4. O sistema mostra a lista de pesquisadores encontrados, com:
+   - Nome do pesquisador
+   - Instituição a que pertence
+   - As áreas de interesse dele, destacando em verde as que combinam
+     com o termo pesquisado
+   - O número de identificação do currículo Lattes
+   - Um botão "Ver currículo Lattes" que abre o currículo oficial
+     diretamente no site do CNPq
+
+Se nenhum pesquisador for encontrado para o termo digitado, o sistema
+avisa de forma clara, sem travar ou dar erro.
+
+POR QUE ISSO É ÚTIL
+---------------------
+- Facilita a vida de quem procura especialistas em um tema específico
+  dentro da instituição (por exemplo, para formar parcerias, comitês
+  ou responder a demandas externas).
+- Centraliza a busca em um único lugar, sem precisar procurar
+  manualmente currículo por currículo.
+- É a base sobre a qual vamos ligar a busca automática de verdade
+  (via scriptLattes), sem precisar redesenhar a tela depois.
+
+PRÓXIMOS PASSOS
+------------------
+- Conectar a tela à busca real feita pelo crawler (hoje ela usa dados
+  de exemplo).
+- Definir com a equipe quais informações adicionais devem aparecer
+  no resultado (ex: quantidade de publicações, links de outras redes,
+  filtros por instituição).
+- Validar o design da tela com o time antes de divulgar para o
+  público externo.
