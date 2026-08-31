@@ -106,7 +106,18 @@ This repository ships with a Docker Compose stack that starts PostgreSQL, the Dj
    - Frontend reads `VITE_API_BASE_URL` (Compose sets `http://localhost:8000/api`).
 
 6. What happens on container start
-   - The backend entrypoint waits for PostgreSQL to be ready, runs `makemigrations` and `migrate`, then starts the dev server on `0.0.0.0:8000`.
+   - The backend entrypoint waits for PostgreSQL to be ready, runs `makemigrations` and `migrate`, imports every JSON file found in the mounted `scrapy_output` folder via `import_scrapy_batch`, then starts the dev server on `0.0.0.0:8000`.
+
+7. Funding opportunities data (`scrapy_output`)
+   - The `scrapy_output/` folder at the repository root is mounted read-only into the backend container at `/data/scrapy_output` (see `docker-compose.yml`).
+   - Drop the Scrapy-generated JSON files (one per source, e.g. `cnpq.json`, `fapesp.json`, ...) into `scrapy_output/` **before** starting the stack.
+   - On every `docker compose up`, the entrypoint automatically runs `python manage.py import_scrapy_batch --path /data/scrapy_output`, which creates or updates `FundingOpportunity` records for each item and removes stale duplicates. The source name for each opportunity is derived from the JSON filename.
+   - These records power the **Opportunities** ("Chamadas") page in the frontend via `/api/opportunities/`, `/api/opportunities/country-counts/` and `/api/filterable-fields/` — no manual import step is required with Docker.
+   - To re-run the import after adding/updating files without restarting the whole stack:
+     ```zsh
+     docker compose exec backend python manage.py import_scrapy_batch --path /data/scrapy_output
+     ```
+   - You can override the folder used inside the container by setting `SCRAPY_OUTPUT_PATH` (defaults to `/data/scrapy_output`) as an environment variable for the `backend` service.
 
 ### Manual setup (without Docker)
 

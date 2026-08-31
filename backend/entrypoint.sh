@@ -16,5 +16,13 @@ python manage.py makemigrations
 echo "Running migrate..."
 python manage.py migrate --noinput
 
+SCRAPY_OUTPUT_PATH=${SCRAPY_OUTPUT_PATH:-/data/scrapy_output}
+if [ -d "${SCRAPY_OUTPUT_PATH}" ]; then
+	echo "Importing Scrapy output from ${SCRAPY_OUTPUT_PATH}..."
+	python manage.py import_scrapy_batch --path "${SCRAPY_OUTPUT_PATH}"
+else
+	echo "No Scrapy output folder found at ${SCRAPY_OUTPUT_PATH}, skipping import."
+fi
+
 echo "Starting Django development server..."
 exec "$@"
