@@ -1,0 +1,424 @@
+{
+  "informacoes_pessoais": {
+    "id_lattes": "4854637109722444",
+    "nome_completo": "Renata Oliveira Fagundes",
+    "nome_citacoes": "FAGUNDES, R. O.;OLIVEIRA FAGUNDES, RENATA",
+    "sexo": "Masculino",
+    "rotulo": "* Sem rótulo",
+    "periodo": "",
+    "bolsa_produtividade": "",
+    "endereco_profissional": "Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos. Av. Comandante Guaranys, 447 Jacarepaguá 22775903 - Rio de Janeiro, RJ - Brasil Telefone: (021) 33485013 URL da Homepage: www.far.fiocruz.br/",
+    "atualizacao_cv": "20/02/2026",
+    "url": "http://lattes.cnpq.br/4854637109722444",
+    "texto_resumo": "Doutora em Gestão, Pesquisa e Desenvolvimento na Indústria Farmacêutica pela Fiocruz (FARMANGUINHOS), com mestrado na mesma área e especialização em Engenharia de Produção (Qualidade e Produtividade) pela UFRJ, onde também se graduou em Farmácia Industrial.Desde 2008, atua como Tecnologista em Saúde Pública na Fundação Oswaldo Cruz, integrando atualmente o Núcleo de Inovação Tecnológica (NIT) de Farmanguinhos. Possui sólida experiência em Assuntos Regulatórios (Saneantes e Medicamentos) e em Gestão de Projetos de PDI, com foco em Gestão Tecnológica na Indústria Farmoquímica e Farmacêutica. (Texto informado pelo autor)"
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado em Doutorado Profissional",
+      "nome_instituicao": "Instituto de Tecnologia em Fármacos - Fundação Oswaldo Cruz, FARMANGUINHOS, Brasil",
+      "ano_inicio": "2021",
+      "ano_conclusao": "2025",
+      "descricao": "Título: Prospecção científica e tecnológica para medicamentos imunossupressores utilizados em transplantes de órgãos, Ano de obtenção: 2025. Orientador: Jorge Lima de Magalhães. Coorientador: Carla Cristina de Freitas da Silveira. Palavras-chave: Imunossupressores; Transplante de Órgãos; Prospecção Tecnológica; Inovação Farmacêutica. Grande área: Ciências da Saúde / Área: Farmácia / Subárea: Gestão, Pesquisa e Desenvolvimento na Indústria Farmacêutica."
+    },
+    {
+      "tipo": "Mestrado profissional em Gestão, Pesquisa e Desenvolvimento na Indústria Fa",
+      "nome_instituicao": "Instituto de Tecnologia em Fármacos - Fundação Oswaldo Cruz, FARMANGUINHOS, Brasil",
+      "ano_inicio": "2010",
+      "ano_conclusao": "2012",
+      "descricao": "Título: Implantação do guia ICH Q8(R2): o processo de desenvolvimento farmacêutico sob uma abordagem científica e de gerenciamento de risco de qualidade, Ano de Obtenção: 2012. Orientador: Helvécio Vinícius Antunes Rocha."
+    },
+    {
+      "tipo": "Especialização em Eng",
+      "nome_instituicao": "de Produção: Ênfase Qualidade/Produtividade",
+      "ano_inicio": "1999",
+      "ano_conclusao": "1999",
+      "descricao": "(Carga Horária: 402h). Universidade Federal do Rio de Janeiro, UFRJ, Brasil. Título: Não houve."
+    },
+    {
+      "tipo": "Graduação em Farmácia Industrial",
+      "nome_instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil",
+      "ano_inicio": "1993",
+      "ano_conclusao": "1997",
+      "descricao": "Título: Não houve."
+    },
+    {
+      "tipo": "Curso técnico/profissionalizante",
+      "nome_instituicao": "Escola Técnica Federal de Química - RJ, ETFQ-RJ, Brasil",
+      "ano_inicio": "1989",
+      "ano_conclusao": "1990",
+      "descricao": ""
+    }
+  ],
+  "atuacao_profissional": [
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil.",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2008 - Atual",
+      "ano_inicio": "2008",
+      "ano_fim": "Atual",
+      "vinculo": "Servidor público",
+      "enquadramento": "Tecnologista em Saúde Pública",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Produtos Roche Químicos e Farmacêuticos S.A., ROCHE, Brasil.",
+      "instituicao_nome": "Produtos Roche Químicos e Farmacêuticos S.A.",
+      "instituicao_sigla": "ROCHE",
+      "instituicao_pais": "Brasil",
+      "periodo": "2007 - 2008",
+      "ano_inicio": "2007",
+      "ano_fim": "2008",
+      "vinculo": "Colaborador",
+      "enquadramento": "Analista de Assuntos Regulatórios Pleno",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Lundbeck Brasil Ltda., LUNDBECK, Brasil.",
+      "instituicao_nome": "Lundbeck Brasil Ltda.",
+      "instituicao_sigla": "LUNDBECK",
+      "instituicao_pais": "Brasil",
+      "periodo": "2005 - 2007",
+      "ano_inicio": "2005",
+      "ano_fim": "2007",
+      "vinculo": "Colaborador",
+      "enquadramento": "Analista de Assuntos Regulatórios",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Ceras Johnson Ltda., CJ, Brasil.",
+      "instituicao_nome": "Ceras Johnson Ltda.",
+      "instituicao_sigla": "CJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2001 - 2005",
+      "ano_inicio": "2001",
+      "ano_fim": "2005",
+      "vinculo": "Colaborador",
+      "enquadramento": "Analista de Assuntos Regulatórios",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Indústria Química Farmacêutica Schering Plough S.A., SCHERING, Brasil.",
+      "instituicao_nome": "Indústria Química Farmacêutica Schering Plough S.A.",
+      "instituicao_sigla": "SCHERING",
+      "instituicao_pais": "Brasil",
+      "periodo": "2000 - 2001",
+      "ano_inicio": "2000",
+      "ano_fim": "2001",
+      "vinculo": "Colaborador",
+      "enquadramento": "Trainee Gerencial",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "GlaxoWellcome S.A., GLAXO, Brasil.",
+      "instituicao_nome": "GlaxoWellcome S.A.",
+      "instituicao_sigla": "GLAXO",
+      "instituicao_pais": "Brasil",
+      "periodo": "1998 - 2000",
+      "ano_inicio": "1998",
+      "ano_fim": "2000",
+      "vinculo": "Colaborador",
+      "enquadramento": "Analista de Produção",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "GlaxoWellcome S.A., GLAXO, Brasil.",
+      "instituicao_nome": "GlaxoWellcome S.A.",
+      "instituicao_sigla": "GLAXO",
+      "instituicao_pais": "Brasil",
+      "periodo": "1998 - 1998",
+      "ano_inicio": "1998",
+      "ano_fim": "1998",
+      "vinculo": "Estagiária",
+      "enquadramento": "Estagiária de Produção",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    }
+  ],
+  "projetos_pesquisa": [],
+  "projetos_extensao": [],
+  "projetos_desenvolvimento": [],
+  "areas_de_atuacao": [
+    {
+      "grande_area": "Ciências da Saúde",
+      "area": "Farmácia",
+      "subarea": "INDÚSTRIA",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências da Saúde / Área: Farmácia / Subárea: INDÚSTRIA."
+    }
+  ],
+  "idiomas": [
+    {
+      "nome": "Inglês",
+      "compreende": "Bem",
+      "fala": "Razoavelmente",
+      "le": "Bem",
+      "escreve": "Razoavelmente",
+      "proficiencia_completa": "Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente."
+    },
+    {
+      "nome": "Espanhol",
+      "compreende": "Razoavelmente",
+      "fala": "",
+      "le": "Razoavelmente",
+      "escreve": "",
+      "proficiencia_completa": "Compreende Razoavelmente, Lê Razoavelmente."
+    }
+  ],
+  "premios_titulos": [
+    {
+      "descricao": "Benjamin Gilbert Award - 1° lugar Gestão na indústria farmacêutica (Apresentação do trabalho Implantação do guia ICH Q8(R2): o processo de desenvolvimento farmacêutico sob uma abordagem científica), Instituto de Tecnologia em Fármacos.",
+      "ano": 2013
+    }
+  ],
+  "linhas_de_pesquisa": [],
+  "producao_bibliografica": {
+    "artigos_periodicos": [
+      {
+        "titulo": "Mapeamento tecnológico de inovações para tratamento, prevenção e diagnóstico de tuberculose e cancro do pulmão",
+        "ano": 2024,
+        "autores": "FAGUNDES, R. O.; MENDES, F. M. L. ; SILVEIRA, C. C. F. ; MAGALHAES, J. L. ; CHAVES, H. K. ; HARTZ, Z. M. A.",
+        "revista": "ANAIS DO INSTITUTO DE HIGIENE E MEDICINA TROPICAL",
+        "volume": "23",
+        "numero": "",
+        "paginas": "84-93",
+        "issn": "0303-7762",
+        "doi": "http://dx.doi.org/10.25761/anaisihmt.502",
+        "qualis": ""
+      },
+      {
+        "titulo": "DATA SCIENCE AS A SUPPORT FOR CHEMICAL PATENT MANAGEMENT: A CASE STUDY OF THE CHEMICAL ELEMENT TECHNETIUM IN ONCOLOGICAL AREA",
+        "ano": 2023,
+        "autores": "CHAVES, H. K. ; FAGUNDES, R. O. ; BRANDÃO DA SILVA, JÚLIA MARIA ; SILVEIRA, C. C. F. ; ANTUNES, A. M. S. ; MENDES, F. M. L. ; LIMA DE MAGALHÃES, JORGE",
+        "revista": "CHIMICA OGGI-CHEMISTRY TODAY",
+        "volume": "41",
+        "numero": "",
+        "paginas": "26-29",
+        "issn": "0392-839X",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "CARACTERIZAÇÃO DA AUTOMEDICAÇÃO POR PLANTAS MEDICINAIS EM PACIENTES SUBMETIDOS AO TRATAMENTO ANTINEOPLÁSICO.",
+        "ano": 2017,
+        "autores": "MARIA BEZERRA LUNA LIMA, CALIANDRA ; MARIA BASTOS CAVALCANTE, ULANNA ; RUAN FERREIRA DE ARAÚJO, CRISTINA ; FAGUNDES, R. O.",
+        "revista": "INTERFACES CIENTÍFICAS - SAÚDE E AMBIENTE",
+        "volume": "6",
+        "numero": "",
+        "paginas": "63",
+        "issn": "2316-3798",
+        "doi": "http://dx.doi.org/10.17564/2316-3798.2017v6n1p63-74",
+        "qualis": ""
+      }
+    ],
+    "livros_publicados": [],
+    "capitulos_livros": [
+      {
+        "titulo": "Innovation Management in Health Technology Scenarios: A Reflection on Immunosuppressant Drugs for Organ Transplants",
+        "ano": 2025,
+        "autores": "FAGUNDES, R. O.; SILVEIRA, C. C. F. ; CHAVES, H. K. ; MAGALHAES, J. L.",
+        "titulo_livro": "",
+        "editora": "IGI Global Scientific Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "467-490"
+      },
+      {
+        "titulo": "Gestão Tecnológica em cenários digitais e competitivos em saúde: o caso dos imunossupressores no transplante de órgãos",
+        "ano": 2024,
+        "autores": "FAGUNDES, R. O. ; Silveira, Carla C F ; CHAVES, H. K. ; LIMA DE MAGALHÃES, JORGE",
+        "titulo_livro": "",
+        "editora": "Synergia Editora",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "37-69"
+      }
+    ],
+    "trabalhos_completos_congressos": [],
+    "resumos_expandidos": [],
+    "resumos_congressos": [
+      {
+        "titulo": "Metodologia de Gestão de PD&I com foco na Elaboração de Portfólio de Produtos e Serviços Tecnológicos",
+        "ano": 2010,
+        "autores": "PERES, S. A. C. ; LIMA, M. C. R. ; MEDINA, F. ; GOMES, S. W. L. ; FAGUNDES, R. O. ; ALMEIDA, M. C. ; SOUZA, C. V. C.",
+        "evento": "Encontro Nacional de Inovação em Fármacos e Medicamentos (ENIFarMed), 2010, São Paulo. Encontro Nacional de Inovação em Fármacos e Medicamentos (ENIFarMed)",
+        "cidade": ""
+      }
+    ],
+    "artigos_aceitos": [],
+    "apresentacoes_trabalhos": [
+      {
+        "titulo": "Earned value of project management: critical success factor in preclinical drug development",
+        "ano": 2017,
+        "autores": "PERES, S. A. C. ; SOARES, C. M. ; FAGUNDES, R. O. ; PITTA, L. ; MEDINA, F. ; SILVA, C. ; LIMA, M. C. R.",
+        "evento": ""
+      },
+      {
+        "titulo": "Implantação do guia ICH Q8(R2): o processo de desenvolvimento farmacêutico sob uma abordagem científica e de gerenciamento de risco de qualidade",
+        "ano": 2013,
+        "autores": "FAGUNDES, R. O.; ROCHA, H. V. A. ; DANTAS, V. S.",
+        "evento": ""
+      },
+      {
+        "titulo": "Gerenciamento de projetos como prática de gestão em Farmanguinhos: do apoio à pesquisa científica à busca por resultados",
+        "ano": 2013,
+        "autores": "MEDINA, F. ; PERES, S. A. C. ; FAGUNDES, R. O. ; ALMEIDA, M. C. ; SOARES, C. M. ; LIMA, M. C. R.",
+        "evento": ""
+      }
+    ],
+    "textos_jornais": [],
+    "outras_producoes": []
+  },
+  "producao_tecnica": {
+    "softwares_com_patente": [],
+    "softwares_sem_patente": [],
+    "produtos_tecnologicos": [],
+    "processos_tecnicas": [],
+    "trabalhos_tecnicos": [],
+    "outras_producoes_tecnicas": [],
+    "entrevistas": []
+  },
+  "patentes_registros": {
+    "patentes": [],
+    "programas_computador": [],
+    "desenhos_industriais": []
+  },
+  "producao_artistica": [],
+  "orientacoes": {
+    "em_andamento": {
+      "pos_doutorado": [],
+      "doutorado": [],
+      "mestrado": [],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [],
+      "outros": []
+    },
+    "concluidas": {
+      "pos_doutorado": [],
+      "doutorado": [],
+      "mestrado": [],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [],
+      "outros": []
+    }
+  },
+  "eventos": {
+    "participacoes": [
+      {
+        "evento": "4th International Symposium on Challenges and New Technologies in Drug Discovery & Pharmaceutical Production",
+        "apresentacao": "Earned value of project management: critical success factor in preclinical drug development",
+        "ano": 2017,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "10° Encontro Nacional de Inovação em Fármacos e Medicamentos",
+        "apresentacao": null,
+        "ano": 2016,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "2nd International Symposium on Challenges and New Technologies in Drug Discovery & Pharmaceutical Production",
+        "apresentacao": "Implantação do guia ICH Q8(R2): o processo de desenvolvimento farmacêutico sob uma abordagem científica e de gerenciamento de risco de qualidade",
+        "ano": 2013,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "V Seminário das RedesFitos: Inovação em Medicamentos da Biodiversidade em tempos de Desenvolvimento Sustentável",
+        "apresentacao": null,
+        "ano": 2013,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "3° Ciclo de Debates do Sistema Gestec-NIT",
+        "apresentacao": null,
+        "ano": 2012,
+        "tipo_evento": "Outra",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "2° Ciclo de Debates do Sistema Gestec-NIT",
+        "apresentacao": null,
+        "ano": 2011,
+        "tipo_evento": "Outra",
+        "tipo": "Participação em evento"
+      }
+    ],
+    "organizacoes": []
+  },
+  "bancas": {
+    "mestrado": [],
+    "doutorado": [],
+    "qualificacao_doutorado": [],
+    "qualificacao_mestrado": [],
+    "graduacao": [],
+    "outras": [
+      {
+        "descricao": "FAGUNDES, R. O.. Participação em banca de Meiriele do Carmo de Almeida. A Problematização das Normas Reguladoras em relação à Inovação e a Produção de Novos Fitoterápicos no Brasil. 2016. Monografia (Aperfeiçoamento/Especialização em Especialização em Gestão da Inovação em Fitomedicamentos) - Instituto de Tecnologia em Fármacos - Fundação Oswaldo Cruz.",
+        "ano": 2016,
+        "tipo": "Participação em banca",
+        "aluno": "Meiriele do Carmo de Almeida",
+        "membros_banca": [
+          "FAGUNDES, R. O."
+        ],
+        "titulo_trabalho": "A Problematização das Normas Reguladoras em relação à Inovação e a Produção de Novos Fitoterápicos no Brasil",
+        "curso": "Monografia (Aperfeiçoamento/Especialização em Especialização em Gestão da Inovação em Fitomedicamentos)",
+        "universidade": "Fundação Oswaldo Cruz"
+      },
+      {
+        "descricao": "FAGUNDES, R. O.. Participação em banca de Ana Leda Ribeiro da Rocha. Uso racional de medicamentos. 2014. Monografia (Aperfeiçoamento/Especialização em Especialização em Tecnologias Industriais Farmacêu) - Instituto de Tecnologia em Fármacos - Fundação Oswaldo Cruz.",
+        "ano": 2014,
+        "tipo": "Participação em banca",
+        "aluno": "Ana Leda Ribeiro da Rocha",
+        "membros_banca": [
+          "FAGUNDES, R. O."
+        ],
+        "titulo_trabalho": "Uso racional de medicamentos",
+        "curso": "Monografia (Aperfeiçoamento/Especialização em Especialização em Tecnologias Industriais Farmacêu)",
+        "universidade": "Fundação Oswaldo Cruz"
+      },
+      {
+        "descricao": "FAGUNDES, R. O.. Participação em banca de Paula Floriano Lanzillotti. Sistemas para liberação modificada de fármaco. 2012. Monografia (Aperfeiçoamento/Especialização em Especialização em Tecnologias Industriais Farmacêu) - Instituto de Tecnologia em Fármacos - Fundação Oswaldo Cruz.",
+        "ano": 2012,
+        "tipo": "Participação em banca",
+        "aluno": "Paula Floriano Lanzillotti",
+        "membros_banca": [
+          "FAGUNDES, R. O."
+        ],
+        "titulo_trabalho": "Sistemas para liberação modificada de fármaco",
+        "curso": "Monografia (Aperfeiçoamento/Especialização em Especialização em Tecnologias Industriais Farmacêu)",
+        "universidade": "Fundação Oswaldo Cruz"
+      }
+    ]
+  },
+  "estatisticas": {
+    "total_artigos_periodicos": 3,
+    "total_livros": 0,
+    "total_capitulos": 2,
+    "total_trabalhos_congressos": 0,
+    "total_projetos_pesquisa": 0,
+    "total_projetos_extensao": 0,
+    "total_projetos_desenvolvimento": 0,
+    "total_orientacoes_concluidas": 0,
+    "total_orientacoes_andamento": 0
+  }
+}

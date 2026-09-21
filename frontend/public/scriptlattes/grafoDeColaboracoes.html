@@ -1,0 +1,565 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>NIT-Far</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>NIT-Far</h2></div>
+    <h3>Grafo de colaborações</h3>
+    <p>
+      <a href="membros.html">
+        7 currículos Lattes
+      </a> geraram este grafo baseado em <em>Artigos completos publicados em periódicos, Livros publicados/organizados ou edições, Capítulos de livros publicados, Textos em jornais de notícias/revistas, Trabalhos completos publicados em anais de congressos, Resumos expandidos publicados em anais de congressos, Resumos publicados em anais de congressos, Artigos aceitos para publicação, Apresentações de trabalho, Demais tipos de produção bibliográfica, Programas de computador com registro, Programas de computador sem registro, Produtos tecnológicos, Processos ou técnicas, Trabalhos técnicos , Demais tipos de produção técnica, Entrevistas, mesas redondas, programas e comentários na mídia, Produções artísticas</em>.<br>
+      O tamanho do vértice é proporcional ao número de colaboradores. A espessura da aresta é proporcional ao número de colaborações.
+    </p>
+    
+    <style>
+      .viz-wrap { display:flex; gap:1rem; }
+      #info-pane {
+        flex:1; max-height: 1200px; overflow:auto;
+        border:1px solid #ddd; padding:0.75rem; background:#fafafa;
+      }
+      .toolbar {
+        display:flex; gap:0.5rem; align-items:center; margin-bottom:0.5rem; flex-wrap: wrap;
+      }
+      .toolbar input[type="text"] {
+        flex:1; min-width: 220px; padding:0.5rem; border:1px solid #ccc; border-radius:8px;
+      }
+      .toolbar button {
+        padding:0.5rem 0.75rem; border:1px solid #ccc; border-radius:8px; background:#fff; cursor:pointer;
+      }
+      .legend { display:flex; align-items:center; gap:.5rem; flex-wrap:wrap;
+        font: 14px/1.2 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, sans-serif; }
+      .legend .title { margin-right:.25rem; }
+      .legend .item { display:inline-flex; align-items:center; gap:.35rem; margin-right:.75rem; }
+      .legend .swatch { width:14px; height:14px; display:inline-block; border-radius:2px; border:1px solid rgba(0,0,0,.2); }
+    
+      #viz-container { flex:3; height: 70vh; min-height: 620px; border:1px solid #ccc; position:relative; }
+      @media (min-width: 1200px) { #viz-container { height: 1200px; } }
+      @media (max-height: 600px) { #viz-container { height: 60vh; } }
+    
+      .node { cursor:grab; }
+      .node:active { cursor:grabbing; }
+      .node.selected circle { stroke:#111; stroke-width:1px; }
+      .dimmed { opacity:0.15; }
+    
+      .label { font: 5px/1.2 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, sans-serif; pointer-events:none; }
+      .edge-label { font-size: 3px; line-height: 1; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, sans-serif; fill:#555; }
+      .edge { stroke:#aaa; stroke-opacity:0.85; }
+      .edge.highlight { stroke:#333; }
+      .hidden { display:none !important; }
+    
+      /* Ellipsis + tooltip nas tabelas (aplicado quando Tabulator monta) */
+      #tabela-vertices .tabulator-cell,
+      #tabela-arestas  .tabulator-cell {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    </style>
+    
+    <div class="viz-wrap">
+      <div style="flex:3; display:flex; flex-direction:column;">
+        <div class="toolbar">
+          <div id="legend" class="legend">
+            <span class="title">As cores representam os seguintes rótulos:</span>
+          </div>
+          <button id="btnToggleLabels" title="Mostrar/ocultar rótulos (vértices e arestas)">Ocultar rótulos</button>
+          <input id="searchBox" type="text" placeholder="Buscar pesquisador (nome ou ID)..." />
+          <button id="btnSearch">Buscar</button>
+          <button id="btnClear">Limpar seleção</button>
+        </div>
+    
+        <div id="viz-container">
+          <svg id="viz" width="100%" height="100%"></svg>
+        </div>
+      </div>
+    
+      <div id="info-pane">
+        <h4>Informação do Pesquisador</h4>
+        <p>Clique em um nó (ou use a busca) para ver detalhes aqui.</p>
+      </div>
+    </div>
+    
+    <p>Você pode baixar o grafo em formato GEXF:
+      <a href="grafo_de_colaboracoes.gexf" download="grafo_de_colaboracoes.gexf">grafo_de_colaboracoes.gexf</a>
+    </p>
+    
+    <!-- D3 global (sem módulos) -->
+    <script src="js/d3.min.js"></script>
+    
+    <script>
+      // ======= dados =======
+      var graphData = {"directed": false, "multigraph": false, "graph": {}, "nodes": [{"label": "Jorge Lima de Magalhães", "url": "http://lattes.cnpq.br/9829199474735249", "publicacoesEmCoautoria": 21, "atualizacaoCV": "28/08/2026", "resumo": "Possui pós-doutorado pela Aix Marseille Université, France (Laboratoire IRSIC EA4262 - Institut de Recherche en Sciences de l'Information et de la Communication) em Inteligência Competitiva para saúde pública (2013). É detentor dos títulos de Doutor em Ciências pelo Programa de Pós-graduação em Tecnologia de Processos Químicos e Bioquímicos da EQ/UFRJ - área de concentração Gestão e Inovação Tecnológica (2010) e Mestre em Ciências pelo mesmo programa (2007). Tem especialização em Administração e Gerência Empresarial pelas Faculdades Simonsen (1998) e é Químico Industrial com Licenciatura Plena pela Faculdade de Filosofia Ciências e Letras Souza Marques (1996). Possui mais de 30 anos de vivência em Gestão estratégica nas Operações Industriais farmacêuticas. Dedica-se nos últimos 25 anos à P,DI na área da Saúde Pública na FIOCRUZ onde possui 06 livros publicados, 45 capítulos de livros e diversos artigos em revistas indexadas e revisadas por pares. Atua em Gestão e Inovação Tecnológica no Núcleo de Inovação Tecnológica (NIT-FAR) do Instituto de Tecnologia em Fármacos de Farmanguinhos/FIOCRUZ. É lider de Grupo de Pesquisas do CNPq - Gestão do Conhecimento e Prospecção em Saúde da FIOCRUZ, participa do GP Sistema de Informação sobre Indústria Química - SIQUIM da UFRJ e do INPI - Prospecção Tecnológica em Propriedade Intelectual. É pesquisador convidado do Global Health and Tropical Medicine (GHMT) do Instituto de Higiene e Medicina Tropical (IHMT) da Universidade NOVA de Lisboa. A ênfase de suas pesquisas permeiam a identificação, extração e análise da informação essencial no universo da Diplomacia em Saúde e do ''Big data'' que envolve a Gestão e Inovação Tecnológica. Os temas cobertos são inerentes a Saúde Global, o setor farmacêutico, química fina e a saúde pública. As investigações são realizadas através da elaboração de cenários prospectivos e tecnológicos com ferramentas da ciência da informação, a inteligência Competitiva e Gestão do Conhecimento para Saúde Global e ''One Health''. Neste contexto, a análise estratégia de negócios na área farmacêutica, Saúde Digital, Tendências Tecnológicas, Mercadológicas, Patentes e Translação do Conhecimento para a saúde pública. (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências da Saúde", "nomePrimeiraArea": "Farmácia", "instituicao": "Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos, Farmanguinhos", "enderecoProfissional": "Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos, Farmanguinhos. Rua Sizenando Nabuco, 100 Manguinhos 21041180 - Rio de Janeiro, RJ - Brasil Telefone: (21) 39772440 URL da Homepage: http://www.fiocruz.br", "artigosPeriodicos": 74, "artigosEventos": 4, "capitulosDeLivros": 48, "livros": 6, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 4, "x": -0.0034424421302760365, "y": -0.1423220071730945, "size": 5, "id": 0}, {"label": "Carla Cristina de Freitas da Silveira", "url": "http://lattes.cnpq.br/0896415734552449", "publicacoesEmCoautoria": 10, "atualizacaoCV": "04/12/2025", "resumo": "Doutora em Saúde Coletiva - Instituto de Medicina Social (IMS) da Universidade do Estado do Rio de Janeiro - UERJ (2016). Pós-graduada em Gestão de Organizações de Ciência e Tecnologia em Saúde - Escola Nacional de Saúde Pública (ENSP) da Fiocruz (2014). Pós-graduada em Direito Civil e Processo Civil - Universidade Gama Filho (2010). Bacharel em Direito - Universidade Estácio de Sá (2008). Mestre em Ciência - Química Orgânica - Universidade Federal do Rio de Janeiro - UFRJ (1998). Bacharel em Química com Atribuições Tecnológicas (1992) e Licenciada em Química (1991) - Faculdade de Humanidades Pedro II. Atualmente é Analista de Gestão em Saúde em Farmanguinhos, onde atua como Coordenadora do Núcleo de Inovação Tecnológica (NIT-FAR) do Instituto de Tecnologia em Fármacos - FARMANGUINHOS/FIOCRUZ e Docente da Secretaria de Estado de Educação do Rio de Janeiro (SEEDUC), onde leciona a disciplina de Química. Atuou como: Consultora em Propriedade Intelectual no CENPES/PETROBRAS (2005-2009); Consultora Técnica na área de Propriedade Industrial de Produtos e Processos Farmacêuticos na Coordenação de Propriedade Intelectual (COOPI) da Agência Nacional de Vigilância Sanitária - ANVISA (2001-2005); Analista de Patentes no Instituto Nacional da Propriedade Industrial - INPI (1998-2000); Membro da equipe responsável pela estruturação de um Banco de Dados de Patentes na área de Química Fina (Projeto: ALERTA PATENTES) na Associação Brasileira das Indústrias de Química Fina - ABIFINA (1993-1994). Tem experiência na área de Química e Medicamentos com ênfase em Propriedade Industrial. Perita judicial: 9, 13, 17, 25 e 31 VFRJ; 1 Vara Empresarial e Conflitos de Arbitragem da Comarca da Capital - São Paulo. (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Sociais Aplicadas", "nomePrimeiraArea": "Direito", "instituicao": "Fundação Oswaldo Cruz, Farmanguinhos - Complexo Tecnológico de Medicamentos, Farmanguinhos", "enderecoProfissional": "Fundação Oswaldo Cruz, Farmanguinhos - Complexo Tecnológico de Medicamentos, Farmanguinhos. Avenida Comandante Guaranys, 447 Jacarepaguá 22775903 - Rio de Janeiro, RJ - Brasil Telefone: (21) 39772445 Ramal: 2445 URL da Homepage: http://www.far.fiocruz.br", "artigosPeriodicos": 12, "artigosEventos": 2, "capitulosDeLivros": 4, "livros": 2, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 4, "x": -0.01414320586260641, "y": -0.14521351816217823, "size": 5, "id": 1}, {"label": "Renata Oliveira Fagundes", "url": "http://lattes.cnpq.br/4854637109722444", "publicacoesEmCoautoria": 4, "atualizacaoCV": "20/02/2026", "resumo": "Doutora em Gestão, Pesquisa e Desenvolvimento na Indústria Farmacêutica pela Fiocruz (FARMANGUINHOS), com mestrado na mesma área e especialização em Engenharia de Produção (Qualidade e Produtividade) pela UFRJ, onde também se graduou em Farmácia Industrial.Desde 2008, atua como Tecnologista em Saúde Pública na Fundação Oswaldo Cruz, integrando atualmente o Núcleo de Inovação Tecnológica (NIT) de Farmanguinhos. Possui sólida experiência em Assuntos Regulatórios (Saneantes e Medicamentos) e em Gestão de Projetos de PDI, com foco em Gestão Tecnológica na Indústria Farmoquímica e Farmacêutica. (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências da Saúde", "nomePrimeiraArea": "Farmácia", "instituicao": "Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos", "enderecoProfissional": "Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos. Av. Comandante Guaranys, 447 Jacarepaguá 22775903 - Rio de Janeiro, RJ - Brasil Telefone: (021) 33485013 URL da Homepage: www.far.fiocruz.br/", "artigosPeriodicos": 3, "artigosEventos": 0, "capitulosDeLivros": 2, "livros": 0, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 3, "x": -0.021248747881185658, "y": -0.13008354943759912, "size": 4, "id": 2}, {"label": "Henrique Koch Chaves", "url": "http://lattes.cnpq.br/2605608269201041", "publicacoesEmCoautoria": 17, "atualizacaoCV": "04/08/2026", "resumo": "Atualmente trabalho como Analista de Pesquisa Desenvolvimento, onde realizo pesquisas na área de Gestão e Inovação Científica, Tecnológica e Mercadológica no Núcleo de Inovação Tecnológica (NIT) do Instituto de Tecnologia em Fármacos de Farmanguinhos/FIOCRUZ. A ênfase das pesquisas permeiam a identificação, extração e análise da informação essencial dentro do ''Big data'' em Saúde no que tange a Gestão e Inovação Tecnológica. As investigações são realizadas através da elaboração de cenários prospectivos e tecnológicos com ferramentas da ciência da informação, inteligência Competitiva e Gestão do Conhecimento para Saúde Global. Inclui-se neste contexto a análise do Big Data em saúde, estratégia negócios, área farmacêutica, Tendências Tecnológicas, Mercadológica, Patentes e Análises Bibliométricas. Realizei o meu pós-doutorado na Fiocruz, atuando na área de Inovação Científica, Tecnológica e Mercadológica de oncológicos para terapia e diagnóstico. No nomento estou fazendo o Mestrado Profissional em Avaliação em Tecnologias em Saúde (ATS) no Instituto Nacional de Cardiologia (INC). Possuo mestrado e doutorado em Química Analítica e Inorgânica pela Universidade de São Paulo (USP), tendo experiência nos seguintes temas: 1) compostos organometálicos, complexos de rutênio para catálise homogênea, polímeros, metátese de olefinas; 2) complexo de rênio e tecnécio para aplicações farmacológicas e medicinais, incluindo aplicações como agentes antitumorais. Graduado em Química pela Universidade Estadual de Santa Cruz (UESC). (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Química", "instituicao": "Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos", "enderecoProfissional": "Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos. Rua Sizenando Nabuco, 100, Núcleo de Inovação Tecnológica (NIT-FAR) Manguinhos 21041250 - Rio de Janeiro, RJ - Brasil Telefone: (21) 39772440 URL da Homepage: https://www.far.fiocruz.br/pesquisa-e-inovacao/inovacao-tecnologica/", "artigosPeriodicos": 13, "artigosEventos": 0, "capitulosDeLivros": 6, "livros": 0, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 4, "x": -0.006681721206454988, "y": -0.13348118142969137, "size": 5, "id": 3}, {"label": "Edson Ferreira da Silva", "url": "http://lattes.cnpq.br/1471443262299422", "publicacoesEmCoautoria": 0, "atualizacaoCV": "10/09/2026", "resumo": "Edson Ferreira da Silva é Químico Industrial formado pela Faculdade Reunidas Professor Nuno Lisbôa. Obteve o título de Mestre em Química Orgânica (com ênfase em Química Medicinal) pelo Instituto de Química (IQ) da UFRJ. Obteve também o título de Doutor em Química Orgânica (com ênfase em Síntese de Fase Estacionária Quiral para Cromatografia Gasosa) pelo Instituto de Química (IQ) da UFRJ. É Pesquisador em Saúde Pública da Fundação Oswaldo Cruz FIOCRUZ (Servidor Público), onde atuou por vinte e cinco anos na área de Pesquisa de Fármacos e Medicamentos e, também, na área de Transferência Tecnológica de Processos Produtivos de Insumos Farmacêuticos Ativos (IFAs). Atuou como coorientador dos Programas de Pós-Graduação em Química do IQ da UFRJ e de Pós-Graduação em Farmacologia e Química Medicinal do ICB da UFRJ, por onde coorientou Dissertações de Mestrado e Teses de Doutorado na área da Química Medicinal. Desde dezembro de 2021, está lotado no Núcleo de Inovação Tecnológica NIT da Fundação Oswaldo Cruz, atuando nas áreas de viabilidade patentária, classificação dos Projetos Institucionais de Pesquisa, utilizando a ferramenta conhecida como Nível de Maturidade Tecnológica [Technology Readiness Levels (TRL)]. Contribuiu como autor de artigos científicos, em periódicos internacionais indexados. (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Química", "instituicao": "Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos, Farmanguinhos", "enderecoProfissional": "Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos, Farmanguinhos. Rua Sizenando Nabuco 100, laboratório de síntese IV Manguinhos 21041250 - Rio de Janeiro, RJ - Brasil Telefone: (21) 39772424 Ramal: 2462 Fax: (21) 25602518", "artigosPeriodicos": 42, "artigosEventos": 24, "capitulosDeLivros": 1, "livros": 0, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 0, "x": 0.7, "y": 0.30810294522145854, "size": 2, "id": 4}, {"label": "Denize Gomes Maranhão", "url": "http://lattes.cnpq.br/1795725319151820", "publicacoesEmCoautoria": 0, "atualizacaoCV": "21/07/2026", "resumo": "Possui graduação em Arquivologia pela Universidade Federal do Estado do Rio de Janeiro (UNIRIO), graduação em Farmácia pelo Centro Universitário Augusto Motta (UNISUAM) e Bacharelado em Psicologia pelo Centro Universitário Celso Lisboa.Atua como Analista de Organização e Administração no Núcleo de Inovação Tecnológica de Farmanguinhos (NIT-FAR/Fiocruz), onde exerce funções estratégicas no suporte à gestão tecnológica e administrativa. Possui expertise na elaboração de relatórios gerenciais, monitoramento de processos via sistema SEI e suporte técnico em Propriedade Intelectual (patentes). É responsável pelo acompanhamento de parcerias institucionais nacionais e internacionais com destaque para missões em Portugal , além da gestão de recursos e suporte administrativo a bolsistas de iniciação científica (PROVOC, PIBIT e PIBIC).Atua como Psicóloga Clínica em modalidade remota, fundamentando sua prática na Terapia Cognitivo-Comportamental (TCC) e na Terapia Focada em Esquemas. Especialista no manejo de perdas e lutos, ansiedade, depressão e baixa autoestima, integra conhecimentos de Neurociência Terapêutica Aplicada e Neurobiologia das Emoções à prática clínica. Possui capacitação em intervenção em crises e prevenção do comportamento suicida. Sua trajetória é pautada pela interface entre a gestão em Ciência e Tecnologia em Saúde e o cuidado clínico baseado em evidências. (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "[sem-grandeArea]", "nomePrimeiraArea": "[sem-area]", "instituicao": "", "enderecoProfissional": "", "artigosPeriodicos": 0, "artigosEventos": 0, "capitulosDeLivros": 0, "livros": 0, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 0, "x": -0.6648913456984682, "y": 0.39600431209326, "size": 2, "id": 5}, {"label": "Carlos Eduardo Collazo Pontes", "url": "http://lattes.cnpq.br/0359870978393939", "publicacoesEmCoautoria": 4, "atualizacaoCV": "09/09/2026", "resumo": "Possui graduação em Farmácia pela Universidade Federal do Rio de Janeiro (2004), especialização em Saúde Pública pelo Centro Universitário Celso Lisboa (2008), mestrado em Gestão, Pesquisa e Desenvolvimento na Indústria Farmacêutica pela Fundação Oswaldo Cruz (2016) e MBA em Gestão Estratégica de Inovação Tecnológica (2015).Atualmente, atua na área de Propriedade Industrial, mais especificamente com patentes farmacêuticas, projetos de transferência de tecnologia, prospecção tecnológica, inteligência competitiva e acesso ao patrimônio genético (CGEN).Tem também experiência em desenvolvimento galênico, com ênfase em coordenação da manipulação e controle em processo de formulações semi-sólidas e líquidas, incluindo bases galênicas em larga escala, e em Farmácia Comercial, com ênfase em treinamento de funcionários, visando qualidade e eficiência no atendimento e correta dispensação dos medicamentos, assistência farmacêutica qualificada e controle dos medicamentos sujeitos a controle especial. Aluno de doutorado do Programa de Pós-Graduação Profissional em Gestão, Pesquisa e Desenvolvimento na Indústria Farmacêutica, de Farmanguinhos, Fiocruz. (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências da Saúde", "nomePrimeiraArea": "Farmácia", "instituicao": "Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos", "enderecoProfissional": "Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos. Av. Comandante Guaranys, 447 Curicica 22775903 - Rio de Janeiro, RJ - Brasil Telefone: (21) 33485050 URL da Homepage: www.far.fiocruz.br", "artigosPeriodicos": 10, "artigosEventos": 0, "capitulosDeLivros": 4, "livros": 0, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 3, "x": 0.010407462778991282, "y": -0.15300700111215537, "size": 4, "id": 6}], "links": [{"weight": 10.0, "source": 0, "target": 1}, {"weight": 3.0, "source": 0, "target": 2}, {"weight": 16.0, "source": 0, "target": 3}, {"weight": 4.0, "source": 0, "target": 6}, {"weight": 3.0, "source": 1, "target": 2}, {"weight": 7.0, "source": 1, "target": 3}, {"weight": 1.0, "source": 1, "target": 6}, {"weight": 4.0, "source": 2, "target": 3}, {"weight": 1.0, "source": 3, "target": 6}]};
+      var nodes = graphData.nodes.map(function(n,i){
+        return {
+          id: (n.id != null ? n.id : String(i)),
+          label: (n.label != null ? n.label : (n.id != null ? n.id : String(i))),
+          size: (n.size != null ? n.size : (4 + (n.degree || 0) * 0.6)),
+          color: (n.color != null ? n.color : "#1f77b4"),
+          instituicao: n.instituicao,
+          url: n.url,
+          atualizacaoCV: n.atualizacaoCV,
+          periodo: n.periodo,
+          rotulo: n.rotulo,
+          nomePrimeiraGrandeArea: n.nomePrimeiraGrandeArea,
+          nomePrimeiraArea: n.nomePrimeiraArea,
+          publicacoesEmCoautoria: n.publicacoesEmCoautoria,
+          degree: n.degree,
+          artigosPeriodicos: n.artigosPeriodicos,
+          artigosEventos: n.artigosEventos,
+          capitulosDeLivros: n.capitulosDeLivros,
+          livros: n.livros,
+          enderecoProfissional: n.enderecoProfissional
+        };
+      });
+      var links = graphData.links.map(function(e){
+        return { source:e.source, target:e.target, weight:(e.weight||1), color:(e.color||"#aaa") };
+      });
+    
+      // ======= dados para a TABELA (vértices) =======
+      window.__VERTEX_TABLE_DATA__ = nodes.map(function(n){
+        var m = (n.atualizacaoCV||"").toString().match(/(\d{2})\/(\d{2})\/(\d{4})/);
+        var ymd = m ? (parseInt(m[3])*10000 + parseInt(m[2]) * 100 + parseInt(m[1])) : 0;
+        return {
+          id: n.id,
+          nome: n.label,
+          instituicao: n.instituicao || "",
+          url: n.url || "",
+          atualizacao: n.atualizacaoCV || "",
+          atualizacao_num: ymd,
+          periodo: n.periodo || "",
+          rotulo: n.rotulo || "",
+          grande_area: n.nomePrimeiraGrandeArea || "",
+          area: n.nomePrimeiraArea || "",
+          publicacoesEmCoautoria: +n.publicacoesEmCoautoria || 0,
+          degree: +n.degree || 0,
+          artigosPeriodicos: +n.artigosPeriodicos || 0,
+          artigosEventos: +n.artigosEventos || 0,
+          capitulosDeLivros: +n.capitulosDeLivros || 0,
+          livros: +n.livros || 0,
+          enderecoProfissional: n.enderecoProfissional || ""
+        };
+      });
+    
+      // ======= TABELA (arestas) – pares de membros (únicos, peso >= 1) =======
+      (function buildEdgeTableData(){
+        var byId = new Map(nodes.map(function(n){ return [String(n.id), n]; }));
+        function normId(x){ return (typeof x === "object" && x !== null) ? String(x.id) : String(x); }
+    
+        // vizinhanças
+        var neigh = new Map();
+        nodes.forEach(function(n){ neigh.set(String(n.id), new Set()); });
+        links.forEach(function(e){
+          var s = normId(e.source), t = normId(e.target);
+          if (!neigh.has(s)) neigh.set(s, new Set());
+          if (!neigh.has(t)) neigh.set(t, new Set());
+          neigh.get(s).add(t); neigh.get(t).add(s);
+        });
+    
+        var seen = new Set();
+        var rows = [];
+        links.forEach(function(e){
+          var s = normId(e.source), t = normId(e.target);
+          var w = +e.weight || 0;
+          if (w < 1) return;
+          var a = s < t ? s : t, b = s < t ? t : s; // par único
+          var key = a + "||" + b;
+          if (seen.has(key)) return;
+          seen.add(key);
+    
+          var nA = byId.get(a), nB = byId.get(b);
+          if (!nA || !nB) return;
+    
+          // colaboradores em comum (interseção, excluindo o próprio par)
+          var neighA = new Set(neigh.get(a) || []);
+          var neighB = new Set(neigh.get(b) || []);
+          var comuns = 0;
+          neighA.forEach(function(x){
+            if (x === a || x === b) return;
+            if (neighB.has(x)) comuns += 1;
+          });
+    
+          rows.push({
+            aresta: [nA.label, nB.label].sort(function(x,y){ return String(x).localeCompare(String(y)); }).join(", "),
+            colabs:  w,
+            comuns:  comuns
+          });
+        });
+    
+        // ordena: colabs desc, comuns desc, aresta asc
+        rows.sort(function(r1, r2){
+          if (r2.colabs !== r1.colabs) return r2.colabs - r1.colabs;
+          if (r2.comuns !== r1.comuns) return r2.comuns - r1.comuns;
+          return r1.aresta.localeCompare(r2.aresta);
+        });
+    
+        window.__EDGE_TABLE_DATA__ = rows;
+      })();
+    
+      // ======= D3: simulação/zoom/legenda =======
+      var svg = d3.select("#viz"),
+          g = svg.append("g"),
+          zoom = d3.zoom().scaleExtent([0.2, 5]).on("zoom", function(ev){ g.attr("transform", ev.transform); });
+      svg.call(zoom);
+    
+      function getBox() { return document.getElementById("viz-container").getBoundingClientRect(); }
+      var box = getBox();
+      var width = box.width, height = box.height;
+    
+      var weights = links.map(function(d){ return +d.weight || 0; });
+      var minW = d3.min(weights), maxW = d3.max(weights);
+      var edgeWidth = d3.scaleLinear().domain([minW, maxW]).range([1.2, 10]).clamp(true);
+      var edgeOpacity = d3.scaleLinear().domain([minW, maxW]).range([0.56,0.79]).clamp(true);
+    
+      var degrees = nodes.map(function(d){ return +d.degree || 0; });
+      var minD = d3.min(degrees) || 0;
+      var maxD = d3.max(degrees) || 1;
+      var nodeRadius = d3.scaleSqrt().domain([minD, maxD]).range([6, 11]).clamp(true);
+      function R(d){ return nodeRadius(+d.degree || 0); }
+    
+      var edgeLayer = g.append("g").attr("class","edges");
+      var nodeLayer = g.append("g").attr("class","nodes");
+      var labelLayer = g.append("g").attr("class","labels");
+      var edgeLabelLayer = g.append("g").attr("class","edge-labels");
+    
+      var edge = edgeLayer.selectAll("path")
+        .data(links).join("path")
+        .attr("class","edge")
+        .attr("id", function(_,i){ return "e"+i; })
+        .attr("stroke", function(d){ return d.color; })
+        .attr("stroke-width", function(d){ return edgeWidth(+d.weight || 0); })
+        .attr("fill","none")
+        .attr("stroke-opacity", function(d){ return edgeOpacity(+d.weight || 0); });
+    
+      var edgeLabels = edgeLabelLayer.selectAll("text")
+        .data(links).join("text")
+        .attr("class","edge-label")
+        .append("textPath")
+        .attr("href", function(_,i){ return "#e"+i; })
+        .attr("startOffset","50%")
+        .attr("text-anchor","middle")
+        .text(function(d){ return d.weight ? String(d.weight) : ""; });
+    
+      var node = nodeLayer.selectAll("g.node")
+        .data(nodes, function(d){ return d.id; })
+        .join(function(enter){
+          var g = enter.append("g").attr("class","node");
+          g.append("circle")
+            .attr("r", function(d){ return R(d); })
+            .attr("fill", function(d){ return d.color; })
+            .attr("stroke", "#333")
+            .attr("stroke-width", 0.17);
+          return g;
+        });
+    
+      var labels = labelLayer.selectAll("text")
+        .data(nodes, function(d){ return d.id; })
+        .join("text")
+        .attr("class","label")
+        .attr("text-anchor","middle")
+        .attr("dy","-0.05em")
+        .text(function(d){ return d.label; });
+    
+      var centerForce = d3.forceCenter(width/2, height/2);
+      var sim = d3.forceSimulation(nodes)
+        .force("link", d3.forceLink(links).id(function(d){return d.id;}).distance(40).strength(0.6))
+        .force("charge", d3.forceManyBody().strength(-60))
+        .force("collide", d3.forceCollide().radius(function(d){ return R(d)+6; }).iterations(2))
+        .force("center", centerForce)
+        .on("tick", ticked)
+        .on("end", maybeFit);
+    
+      var fitted = false, fitTimeout = setTimeout(function(){ maybeFit(); }, 1000);
+    
+      function ticked(){
+        edge.attr("d", function(d){ return "M"+d.source.x+","+d.source.y+" L"+d.target.x+","+d.target.y; });
+        node.attr("transform", function(d){ return "translate("+d.x+", "+d.y+")"; });
+        labels.attr("x", function(d){ return d.x; }).attr("y", function(d){ return d.y; });
+      }
+    
+      function maybeFit(){
+        if (fitted) return;
+        fitted = true; clearTimeout(fitTimeout);
+        var xs = nodes.map(function(d){ return d.x; }), ys = nodes.map(function(d){ return d.y; });
+        var minX = Math.min.apply(null, xs), maxX = Math.max.apply(null, xs);
+        var minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
+        var w = Math.max(1, maxX - minX), h = Math.max(1, maxY - minY);
+        var margin = 40;
+        var kx = (width  - margin*2) / w;
+        var ky = (height - margin*2) / h;
+        var scale = Math.max(0.2, Math.min(3, Math.min(kx, ky)));
+        var tx = (width  - scale*(minX + maxX)) / 2;
+        var ty = (height - scale*(minY + maxY)) / 2;
+        svg.transition().duration(600)
+          .call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
+      }
+    
+      node.call(d3.drag()
+        .on("start", function(ev, d){ if (!ev.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+        .on("drag",  function(ev, d){ d.fx = ev.x; d.fy = ev.y; })
+        .on("end",   function(ev, d){ if (!ev.active) sim.alphaTarget(0); d.fx = null; d.fy = null; })
+      );
+    
+      var selectedId = null;
+      function neighborSet(id){
+        var nei = new Set([id]);
+        links.forEach(function(e){
+          var s = (typeof e.source === 'object') ? e.source.id : e.source;
+          var t = (typeof e.target === 'object') ? e.target.id : e.target;
+          if (s === id) nei.add(t);
+          if (t === id) nei.add(s);
+        });
+        return nei;
+      }
+    
+      function renderSelection(){
+        if (!selectedId){
+          node.classed("selected", false);
+          node.classed("dimmed", false);
+          labels.classed("dimmed", false);
+          edge.classed("highlight", false).classed("dimmed", false);
+          edgeLabels.classed("dimmed", false);
+          return;
+        }
+        var keep = neighborSet(selectedId);
+        node.classed("selected", function(d){ return d.id === selectedId; })
+            .classed("dimmed", function(d){ return !keep.has(d.id); });
+        labels.classed("dimmed", function(d){ return !keep.has(d.id); });
+        edge.classed("highlight", function(d){
+              var s = (typeof d.source === 'object') ? d.source.id : d.source;
+              var t = (typeof d.target === 'object') ? d.target.id : d.target;
+              return s === selectedId || t === selectedId;
+            })
+            .classed("dimmed", function(d){
+              var s = (typeof d.source === 'object') ? d.source.id : d.source;
+              var t = (typeof d.target === 'object') ? d.target.id : d.target;
+              return !(s === selectedId || t === selectedId);
+            });
+        edgeLabels.classed("dimmed", function(d){
+          var s = (typeof d.source === 'object') ? d.source.id : d.source;
+          var t = (typeof d.target === 'object') ? d.target.id : d.target;
+          return !(s === selectedId || t === selectedId);
+        });
+      }
+    
+      function fillInfo(d){
+        var pane = document.getElementById("info-pane");
+        var campos = {
+          "Nome": d.label,
+          "Instituição": d.instituicao,
+          "CV": d.url,
+          "Atualização do CV": d.atualizacaoCV,
+          "Período": d.periodo,
+          "Rótulo": d.rotulo,
+          "Primeira Grande Área": d.nomePrimeiraGrandeArea,
+          "Primeira Área": d.nomePrimeiraArea,
+          "Publicações em coautoria": d.publicacoesEmCoautoria,
+          "Número de colaboradores": d.degree,
+          "Artigos em periódicos": d.artigosPeriodicos,
+          "Artigos em eventos": d.artigosEventos,
+          "Capítulos de livro": d.capitulosDeLivros,
+          "Livros": d.livros,
+          "Endereço": d.enderecoProfissional
+        };
+        var html = "<h4>"+(d.label || d.id)+"</h4><ul>";
+        Object.keys(campos).forEach(function(k){
+          var v = campos[k];
+          if (v === undefined || v === null || v === "") return;
+          if (k === "CV"){
+            html += "<li><strong>"+k+":</strong> <a href=\""+v+"\" target=\"_blank\" rel=\"noopener\">"+v+"</a></li>";
+          } else {
+            html += "<li><strong>"+k+":</strong> "+v+"</li>";
+          }
+        });
+        html += "</ul>";
+        pane.innerHTML = html;
+      }
+    
+      function selectNodeById(id){
+        var d = nodes.find(function(n){ return n.id === id; });
+        if (!d) return;
+        selectedId = d.id; fillInfo(d); renderSelection();
+        var t = d3.zoomTransform(svg.node());
+        var scale = Math.max(1.2, t.k);
+        var x = width/2 - d.x * scale;
+        var y = height/2 - d.y * scale;
+        svg.transition().duration(600).call(zoom.transform, d3.zoomIdentity.translate(x, y).scale(scale));
+      }
+      node.on("click", function(_, d){ selectNodeById(d.id); });
+    
+      function norm(s){ return (s||"").toString().normalize("NFD").replace(/\p{Diacritic}/gu,"").toLowerCase().trim(); }
+      function searchAndSelect(q){
+        var nq = norm(q); if (!nq) return;
+        var hit = nodes.find(function(n){ return norm(n.label) === nq || norm(n.id) === nq; });
+        if (!hit) hit = nodes.find(function(n){ return norm(n.label).indexOf(nq) >= 0; });
+        if (hit) selectNodeById(hit.id);
+      }
+      document.getElementById("btnSearch").addEventListener("click", function(){
+        searchAndSelect(document.getElementById("searchBox").value);
+      });
+      document.getElementById("searchBox").addEventListener("keydown", function(ev){
+        if (ev.key === "Enter") searchAndSelect(ev.target.value);
+      });
+      document.getElementById("btnClear").addEventListener("click", function(){
+        selectedId = null; renderSelection();
+        document.getElementById("info-pane").innerHTML =
+          "<h4>Informação do Pesquisador</h4><p>Clique em um nó (ou use a busca) para ver detalhes aqui.</p>";
+      });
+    
+      var labelsVisible = true;
+      var btnToggle = document.getElementById("btnToggleLabels");
+      function applyLabelsVisibility(){
+        labelLayer.classed("hidden", !labelsVisible);
+        d3.select(".edge-labels").classed("hidden", !labelsVisible);
+      }
+      btnToggle.addEventListener("click", function(){
+        labelsVisible = !labelsVisible;
+        btnToggle.textContent = labelsVisible ? "Ocultar rótulos" : "Mostrar rótulos";
+        applyLabelsVisibility();
+      });
+      applyLabelsVisibility();
+    
+      // legenda (cores por rótulo)
+      var byRotulo = d3.rollup(nodes, function(v){ return v[0].color; }, function(d){ return d.rotulo || "Sem rótulo"; });
+      var legendData = Array.from(byRotulo, function(entry){ return {rotulo: entry[0], color: entry[1]}; });
+      var legend = d3.select("#legend");
+      legend.selectAll("span.item")
+        .data(legendData)
+        .join("span")
+        .attr("class","item")
+        .html(function(d){ return '<span class="swatch" style="background:'+d.color+'"></span>'+d.rotulo; });
+    
+      // refit ao redimensionar
+      var ro = new ResizeObserver(function(){
+        var b = getBox();
+        width = b.width; height = b.height;
+        centerForce = d3.forceCenter(width/2, height/2);
+        sim.force("center", centerForce).alpha(0.05).restart();
+        fitted = false; maybeFit();
+      });
+      ro.observe(document.getElementById("viz-container"));
+    </script>
+    
+    <hr style="margin:1.25rem 0">
+    
+    <h3>Vértices</h3>
+    <p>Esta tabela lista todos os atributos usados para compor os vértices do grafo acima.</p>
+    <div class="sl-controls">
+      <button id="vert-csv">⬇️ CSV</button>
+      <button id="vert-xlsx">⬇️ XLSX</button>
+    </div>
+    <div id="tabela-vertices" class="sl-tabela"></div>
+    
+    <h3 style="margin-top:1.5rem;">Arestas (pares de membros)</h3>
+    <p>Veja quais pares de membros mais colaboram e quantos colaboradores em comum possuem.</p>
+    <div class="sl-controls">
+      <button id="edge-csv">⬇️ CSV</button>
+      <button id="edge-xlsx">⬇️ XLSX</button>
+    </div>
+    <div id="tabela-arestas" class="sl-tabela"></div>
+    
+    <!-- Tabulator -->
+    <link href="css/tabulator_site.min.css" rel="stylesheet" />
+    <link href="css/tabulator-scriplattes.css" rel="stylesheet" />
+    <script src="js/tabulator.min.js"></script>
+    <script src="js/xlsx.full.min.js"></script>
+    
+    <script>
+      // Dados vindos dos blocos anteriores
+      var DATA_VERT  = (window.__VERTEX_TABLE_DATA__ || []);
+      var DATA_EDGES = (window.__EDGE_TABLE_DATA__  || []);
+    
+      // Heurística de altura (evita rolagem infinita)
+      function heightFor(n){
+        if (n <= 12) return "auto";
+        if (n <= 60) return "40vh";
+        return "60vh";
+      }
+      var HEIGHT_VERT = heightFor(DATA_VERT.length);
+      var HEIGHT_EDG  = heightFor(DATA_EDGES.length);
+    
+      const LANG_PT = {
+        "pt-br": {
+          "pagination": {
+            "first":"«","first_title":"Primeira",
+            "last":"»","last_title":"Última",
+            "prev":"‹","prev_title":"Anterior",
+            "next":"›","next_title":"Próxima"
+          },
+          "headerFilters": { "default":"⎯ Filtrar ⎯" }
+        }
+      };
+    
+      // Ordenação por data BR via campo auxiliar yyyymmdd
+      function sortDateBR(a, b, aRow, bRow) {
+        var av = (aRow && aRow.getData && aRow.getData().atualizacao_num) || 0;
+        var bv = (bRow && bRow.getData && bRow.getData().atualizacao_num) || 0;
+        return av - bv;
+      }
+    
+      // Formatter de link com title (tooltip no <a>) — usado na coluna "Nome" dos vértices
+      function linkWithTitle(cell) {
+        const data = cell.getData();
+        const url = String(data.url || "#");
+        const label = String(cell.getValue() ?? "");
+        const a = document.createElement("a");
+        a.href = url; a.textContent = label; a.target = "_blank"; a.rel = "noopener"; a.title = label;
+        return a;
+      }
+    
+      // Helper para criar Tabulator com tooltips + ellipsis
+      function createTable(el, data, columns, initialSort, height){
+        const base = {
+          data,
+          layout: "fitColumns",
+          responsiveLayout: "collapse",
+          pagination: "local",
+          paginationSize: 50,
+          paginationSizeSelector: [10, 25, 50, 100, 200, 500],
+          movableColumns: true,
+          initialSort,
+          headerFilterLiveFilter: true,
+          columns,
+          locale: true, langs: LANG_PT, locale: "pt-br",
+          tooltips: true
+        };
+        if (height !== "auto") base.height = height;
+        return new Tabulator(el, base);
+      }
+    
+      // === VÉRTICES ===
+      (function(){
+        const columns = [
+          { title:"ID", field:"id", headerFilter:"input", tooltip:true },
+          { title:"Nome", field:"nome", formatter: linkWithTitle,
+            headerFilter:"input", widthGrow:2, tooltip:true },
+          { title:"Instituição", field:"instituicao", headerFilter:"input", tooltip:true },
+          { title:"Atualização CV", field:"atualizacao", headerFilter:"input", sorter: sortDateBR, tooltip:true },
+          { title:"Período", field:"periodo", headerFilter:"input", tooltip:true },
+          { title:"Rótulo", field:"rotulo", headerFilter:"input", tooltip:true },
+          { title:"Grande área", field:"grande_area", headerFilter:"input", tooltip:true },
+          { title:"Área", field:"area", headerFilter:"input", tooltip:true },
+          { title:"Publicações em coautoria", field:"publicacoesEmCoautoria", hozAlign:"right", sorter:"number", headerFilter:"input", tooltip:true },
+          { title:"Nº colaboradores (grau)", field:"degree", hozAlign:"right", sorter:"number", headerFilter:"input", tooltip:true },
+          { title:"Artigos em periódicos", field:"artigosPeriodicos", hozAlign:"right", sorter:"number", headerFilter:"input", tooltip:true },
+          { title:"Artigos em eventos", field:"artigosEventos", hozAlign:"right", sorter:"number", headerFilter:"input", tooltip:true },
+          { title:"Capítulos de livro", field:"capitulosDeLivros", hozAlign:"right", sorter:"number", headerFilter:"input", tooltip:true },
+          { title:"Livros", field:"livros", hozAlign:"right", sorter:"number", headerFilter:"input", tooltip:true },
+          { title:"Endereço", field:"enderecoProfissional", headerFilter:"input", widthGrow:2, tooltip:true }
+        ];
+        const sort = [{ column:"degree", dir:"desc" }];
+        const t = createTable("#tabela-vertices", DATA_VERT, columns, sort, HEIGHT_VERT);
+        document.getElementById("vert-csv").onclick  = () => t.download("csv",  "vertices_campos.csv", { bom:true });
+        document.getElementById("vert-xlsx").onclick = () => t.download("xlsx", "vertices_campos.xlsx", { sheetName:"Vértices" });
+      })();
+    
+      // === ARESTAS (coluna única "Aresta") ===
+      (function(){
+        const columns = [
+          { title:"Aresta", field:"aresta", headerFilter:"input", widthGrow:3, tooltip:true },
+          { title:"Número de colaborações", field:"colabs", hozAlign:"right", sorter:"number", headerFilter:"input", tooltip:true },
+          { title:"Nº de colaboradores em comum", field:"comuns", hozAlign:"right", sorter:"number", headerFilter:"input", tooltip:true }
+        ];
+        const sort = [{ column:"colabs", dir:"desc" }, { column:"comuns", dir:"desc" }];
+        const t = createTable("#tabela-arestas", DATA_EDGES, columns, sort, HEIGHT_EDG);
+        document.getElementById("edge-csv").onclick  = () => t.download("csv",  "arestas_colaboracoes.csv", { bom:true });
+        document.getElementById("edge-xlsx").onclick = () => t.download("xlsx", "arestas_colaboracoes.xlsx", { sheetName:"Arestas" });
+      })();
+    </script>
+    <br><p><br>(*) Relatório criado com produções desde 1900 até 2026
+<br>Data de processamento: 20/09/2026 23:49:57<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V.2025.09</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:admin@email.com">admin@email.com</a>         </div> </body></html>

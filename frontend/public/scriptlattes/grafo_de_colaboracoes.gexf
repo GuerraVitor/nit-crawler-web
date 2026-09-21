@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-09-20">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="url" type="string" />
+      <attribute id="1" title="publicacoesEmCoautoria" type="long" />
+      <attribute id="2" title="atualizacaoCV" type="string" />
+      <attribute id="3" title="resumo" type="string" />
+      <attribute id="4" title="rotulo" type="string" />
+      <attribute id="5" title="periodo" type="string" />
+      <attribute id="6" title="nomePrimeiraGrandeArea" type="string" />
+      <attribute id="7" title="nomePrimeiraArea" type="string" />
+      <attribute id="8" title="instituicao" type="string" />
+      <attribute id="9" title="enderecoProfissional" type="string" />
+      <attribute id="10" title="artigosPeriodicos" type="long" />
+      <attribute id="11" title="artigosEventos" type="long" />
+      <attribute id="12" title="capitulosDeLivros" type="long" />
+      <attribute id="13" title="livros" type="long" />
+      <attribute id="14" title="color" type="string" />
+      <attribute id="15" title="fontColor" type="string" />
+      <attribute id="16" title="degree" type="long" />
+      <attribute id="17" title="x" type="double" />
+      <attribute id="18" title="y" type="double" />
+      <attribute id="19" title="size" type="long" />
+    </attributes>
+    <nodes>
+      <node id="0" label="Jorge Lima de Magalhães">
+        <viz:color r="51" g="160" b="44" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/9829199474735249" />
+          <attvalue for="1" value="21" />
+          <attvalue for="2" value="28/08/2026" />
+          <attvalue for="3" value="Possui pós-doutorado pela Aix Marseille Université, France (Laboratoire IRSIC EA4262 - Institut de Recherche en Sciences de l'Information et de la Communication) em Inteligência Competitiva para saúde pública (2013). É detentor dos títulos de Doutor em Ciências pelo Programa de Pós-graduação em Tecnologia de Processos Químicos e Bioquímicos da EQ/UFRJ - área de concentração Gestão e Inovação Tecnológica (2010) e Mestre em Ciências pelo mesmo programa (2007). Tem especialização em Administração e Gerência Empresarial pelas Faculdades Simonsen (1998) e é Químico Industrial com Licenciatura Plena pela Faculdade de Filosofia Ciências e Letras Souza Marques (1996). Possui mais de 30 anos de vivência em Gestão estratégica nas Operações Industriais farmacêuticas. Dedica-se nos últimos 25 anos à P,DI na área da Saúde Pública na FIOCRUZ onde possui 06 livros publicados, 45 capítulos de livros e diversos artigos em revistas indexadas e revisadas por pares. Atua em Gestão e Inovação Tecnológica no Núcleo de Inovação Tecnológica (NIT-FAR) do Instituto de Tecnologia em Fármacos de Farmanguinhos/FIOCRUZ. É lider de Grupo de Pesquisas do CNPq - Gestão do Conhecimento e Prospecção em Saúde da FIOCRUZ, participa do GP Sistema de Informação sobre Indústria Química - SIQUIM da UFRJ e do INPI - Prospecção Tecnológica em Propriedade Intelectual. É pesquisador convidado do Global Health and Tropical Medicine (GHMT) do Instituto de Higiene e Medicina Tropical (IHMT) da Universidade NOVA de Lisboa. A ênfase de suas pesquisas permeiam a identificação, extração e análise da informação essencial no universo da Diplomacia em Saúde e do ''Big data'' que envolve a Gestão e Inovação Tecnológica. Os temas cobertos são inerentes a Saúde Global, o setor farmacêutico, química fina e a saúde pública. As investigações são realizadas através da elaboração de cenários prospectivos e tecnológicos com ferramentas da ciência da informação, a inteligência Competitiva e Gestão do Conhecimento para Saúde Global e ''One Health''. Neste contexto, a análise estratégia de negócios na área farmacêutica, Saúde Digital, Tendências Tecnológicas, Mercadológicas, Patentes e Translação do Conhecimento para a saúde pública. (Texto informado pelo autor)" />
+          <attvalue for="4" value="* Sem rótulo" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="Ciências da Saúde" />
+          <attvalue for="7" value="Farmácia" />
+          <attvalue for="8" value="Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos, Farmanguinhos" />
+          <attvalue for="9" value="Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos, Farmanguinhos. Rua Sizenando Nabuco, 100 Manguinhos 21041180 - Rio de Janeiro, RJ - Brasil Telefone: (21) 39772440 URL da Homepage: http://www.fiocruz.br" />
+          <attvalue for="10" value="74" />
+          <attvalue for="11" value="4" />
+          <attvalue for="12" value="48" />
+          <attvalue for="13" value="6" />
+          <attvalue for="14" value="#33a02c" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="4" />
+          <attvalue for="17" value="-0.0034424421302760365" />
+          <attvalue for="18" value="-0.1423220071730945" />
+          <attvalue for="19" value="5" />
+        </attvalues>
+      </node>
+      <node id="1" label="Carla Cristina de Freitas da Silveira">
+        <viz:color r="51" g="160" b="44" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/0896415734552449" />
+          <attvalue for="1" value="10" />
+          <attvalue for="2" value="04/12/2025" />
+          <attvalue for="3" value="Doutora em Saúde Coletiva - Instituto de Medicina Social (IMS) da Universidade do Estado do Rio de Janeiro - UERJ (2016). Pós-graduada em Gestão de Organizações de Ciência e Tecnologia em Saúde - Escola Nacional de Saúde Pública (ENSP) da Fiocruz (2014). Pós-graduada em Direito Civil e Processo Civil - Universidade Gama Filho (2010). Bacharel em Direito - Universidade Estácio de Sá (2008). Mestre em Ciência - Química Orgânica - Universidade Federal do Rio de Janeiro - UFRJ (1998). Bacharel em Química com Atribuições Tecnológicas (1992) e Licenciada em Química (1991) - Faculdade de Humanidades Pedro II. Atualmente é Analista de Gestão em Saúde em Farmanguinhos, onde atua como Coordenadora do Núcleo de Inovação Tecnológica (NIT-FAR) do Instituto de Tecnologia em Fármacos - FARMANGUINHOS/FIOCRUZ e Docente da Secretaria de Estado de Educação do Rio de Janeiro (SEEDUC), onde leciona a disciplina de Química. Atuou como: Consultora em Propriedade Intelectual no CENPES/PETROBRAS (2005-2009); Consultora Técnica na área de Propriedade Industrial de Produtos e Processos Farmacêuticos na Coordenação de Propriedade Intelectual (COOPI) da Agência Nacional de Vigilância Sanitária - ANVISA (2001-2005); Analista de Patentes no Instituto Nacional da Propriedade Industrial - INPI (1998-2000); Membro da equipe responsável pela estruturação de um Banco de Dados de Patentes na área de Química Fina (Projeto: ALERTA PATENTES) na Associação Brasileira das Indústrias de Química Fina - ABIFINA (1993-1994). Tem experiência na área de Química e Medicamentos com ênfase em Propriedade Industrial. Perita judicial: 9, 13, 17, 25 e 31 VFRJ; 1 Vara Empresarial e Conflitos de Arbitragem da Comarca da Capital - São Paulo. (Texto informado pelo autor)" />
+          <attvalue for="4" value="* Sem rótulo" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="Ciências Sociais Aplicadas" />
+          <attvalue for="7" value="Direito" />
+          <attvalue for="8" value="Fundação Oswaldo Cruz, Farmanguinhos - Complexo Tecnológico de Medicamentos, Farmanguinhos" />
+          <attvalue for="9" value="Fundação Oswaldo Cruz, Farmanguinhos - Complexo Tecnológico de Medicamentos, Farmanguinhos. Avenida Comandante Guaranys, 447 Jacarepaguá 22775903 - Rio de Janeiro, RJ - Brasil Telefone: (21) 39772445 Ramal: 2445 URL da Homepage: http://www.far.fiocruz.br" />
+          <attvalue for="10" value="12" />
+          <attvalue for="11" value="2" />
+          <attvalue for="12" value="4" />
+          <attvalue for="13" value="2" />
+          <attvalue for="14" value="#33a02c" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="4" />
+          <attvalue for="17" value="-0.01414320586260641" />
+          <attvalue for="18" value="-0.14521351816217823" />
+          <attvalue for="19" value="5" />
+        </attvalues>
+      </node>
+      <node id="2" label="Renata Oliveira Fagundes">
+        <viz:color r="51" g="160" b="44" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/4854637109722444" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="20/02/2026" />
+          <attvalue for="3" value="Doutora em Gestão, Pesquisa e Desenvolvimento na Indústria Farmacêutica pela Fiocruz (FARMANGUINHOS), com mestrado na mesma área e especialização em Engenharia de Produção (Qualidade e Produtividade) pela UFRJ, onde também se graduou em Farmácia Industrial.Desde 2008, atua como Tecnologista em Saúde Pública na Fundação Oswaldo Cruz, integrando atualmente o Núcleo de Inovação Tecnológica (NIT) de Farmanguinhos. Possui sólida experiência em Assuntos Regulatórios (Saneantes e Medicamentos) e em Gestão de Projetos de PDI, com foco em Gestão Tecnológica na Indústria Farmoquímica e Farmacêutica. (Texto informado pelo autor)" />
+          <attvalue for="4" value="* Sem rótulo" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="Ciências da Saúde" />
+          <attvalue for="7" value="Farmácia" />
+          <attvalue for="8" value="Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos" />
+          <attvalue for="9" value="Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos. Av. Comandante Guaranys, 447 Jacarepaguá 22775903 - Rio de Janeiro, RJ - Brasil Telefone: (021) 33485013 URL da Homepage: www.far.fiocruz.br/" />
+          <attvalue for="10" value="3" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#33a02c" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="3" />
+          <attvalue for="17" value="-0.021248747881185658" />
+          <attvalue for="18" value="-0.13008354943759912" />
+          <attvalue for="19" value="4" />
+        </attvalues>
+      </node>
+      <node id="3" label="Henrique Koch Chaves">
+        <viz:color r="51" g="160" b="44" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/2605608269201041" />
+          <attvalue for="1" value="17" />
+          <attvalue for="2" value="04/08/2026" />
+          <attvalue for="3" value="Atualmente trabalho como Analista de Pesquisa Desenvolvimento, onde realizo pesquisas na área de Gestão e Inovação Científica, Tecnológica e Mercadológica no Núcleo de Inovação Tecnológica (NIT) do Instituto de Tecnologia em Fármacos de Farmanguinhos/FIOCRUZ. A ênfase das pesquisas permeiam a identificação, extração e análise da informação essencial dentro do ''Big data'' em Saúde no que tange a Gestão e Inovação Tecnológica. As investigações são realizadas através da elaboração de cenários prospectivos e tecnológicos com ferramentas da ciência da informação, inteligência Competitiva e Gestão do Conhecimento para Saúde Global. Inclui-se neste contexto a análise do Big Data em saúde, estratégia negócios, área farmacêutica, Tendências Tecnológicas, Mercadológica, Patentes e Análises Bibliométricas. Realizei o meu pós-doutorado na Fiocruz, atuando na área de Inovação Científica, Tecnológica e Mercadológica de oncológicos para terapia e diagnóstico. No nomento estou fazendo o Mestrado Profissional em Avaliação em Tecnologias em Saúde (ATS) no Instituto Nacional de Cardiologia (INC). Possuo mestrado e doutorado em Química Analítica e Inorgânica pela Universidade de São Paulo (USP), tendo experiência nos seguintes temas: 1) compostos organometálicos, complexos de rutênio para catálise homogênea, polímeros, metátese de olefinas; 2) complexo de rênio e tecnécio para aplicações farmacológicas e medicinais, incluindo aplicações como agentes antitumorais. Graduado em Química pela Universidade Estadual de Santa Cruz (UESC). (Texto informado pelo autor)" />
+          <attvalue for="4" value="* Sem rótulo" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Química" />
+          <attvalue for="8" value="Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos" />
+          <attvalue for="9" value="Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos. Rua Sizenando Nabuco, 100, Núcleo de Inovação Tecnológica (NIT-FAR) Manguinhos 21041250 - Rio de Janeiro, RJ - Brasil Telefone: (21) 39772440 URL da Homepage: https://www.far.fiocruz.br/pesquisa-e-inovacao/inovacao-tecnologica/" />
+          <attvalue for="10" value="13" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="6" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#33a02c" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="4" />
+          <attvalue for="17" value="-0.006681721206454988" />
+          <attvalue for="18" value="-0.13348118142969137" />
+          <attvalue for="19" value="5" />
+        </attvalues>
+      </node>
+      <node id="4" label="Edson Ferreira da Silva">
+        <viz:color r="51" g="160" b="44" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/1471443262299422" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="10/09/2026" />
+          <attvalue for="3" value="Edson Ferreira da Silva é Químico Industrial formado pela Faculdade Reunidas Professor Nuno Lisbôa. Obteve o título de Mestre em Química Orgânica (com ênfase em Química Medicinal) pelo Instituto de Química (IQ) da UFRJ. Obteve também o título de Doutor em Química Orgânica (com ênfase em Síntese de Fase Estacionária Quiral para Cromatografia Gasosa) pelo Instituto de Química (IQ) da UFRJ. É Pesquisador em Saúde Pública da Fundação Oswaldo Cruz FIOCRUZ (Servidor Público), onde atuou por vinte e cinco anos na área de Pesquisa de Fármacos e Medicamentos e, também, na área de Transferência Tecnológica de Processos Produtivos de Insumos Farmacêuticos Ativos (IFAs). Atuou como coorientador dos Programas de Pós-Graduação em Química do IQ da UFRJ e de Pós-Graduação em Farmacologia e Química Medicinal do ICB da UFRJ, por onde coorientou Dissertações de Mestrado e Teses de Doutorado na área da Química Medicinal. Desde dezembro de 2021, está lotado no Núcleo de Inovação Tecnológica NIT da Fundação Oswaldo Cruz, atuando nas áreas de viabilidade patentária, classificação dos Projetos Institucionais de Pesquisa, utilizando a ferramenta conhecida como Nível de Maturidade Tecnológica [Technology Readiness Levels (TRL)]. Contribuiu como autor de artigos científicos, em periódicos internacionais indexados. (Texto informado pelo autor)" />
+          <attvalue for="4" value="* Sem rótulo" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Química" />
+          <attvalue for="8" value="Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos, Farmanguinhos" />
+          <attvalue for="9" value="Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos, Farmanguinhos. Rua Sizenando Nabuco 100, laboratório de síntese IV Manguinhos 21041250 - Rio de Janeiro, RJ - Brasil Telefone: (21) 39772424 Ramal: 2462 Fax: (21) 25602518" />
+          <attvalue for="10" value="42" />
+          <attvalue for="11" value="24" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#33a02c" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="0" />
+          <attvalue for="17" value="0.7" />
+          <attvalue for="18" value="0.30810294522145854" />
+          <attvalue for="19" value="2" />
+        </attvalues>
+      </node>
+      <node id="5" label="Denize Gomes Maranhão">
+        <viz:color r="51" g="160" b="44" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/1795725319151820" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="21/07/2026" />
+          <attvalue for="3" value="Possui graduação em Arquivologia pela Universidade Federal do Estado do Rio de Janeiro (UNIRIO), graduação em Farmácia pelo Centro Universitário Augusto Motta (UNISUAM) e Bacharelado em Psicologia pelo Centro Universitário Celso Lisboa.Atua como Analista de Organização e Administração no Núcleo de Inovação Tecnológica de Farmanguinhos (NIT-FAR/Fiocruz), onde exerce funções estratégicas no suporte à gestão tecnológica e administrativa. Possui expertise na elaboração de relatórios gerenciais, monitoramento de processos via sistema SEI e suporte técnico em Propriedade Intelectual (patentes). É responsável pelo acompanhamento de parcerias institucionais nacionais e internacionais com destaque para missões em Portugal , além da gestão de recursos e suporte administrativo a bolsistas de iniciação científica (PROVOC, PIBIT e PIBIC).Atua como Psicóloga Clínica em modalidade remota, fundamentando sua prática na Terapia Cognitivo-Comportamental (TCC) e na Terapia Focada em Esquemas. Especialista no manejo de perdas e lutos, ansiedade, depressão e baixa autoestima, integra conhecimentos de Neurociência Terapêutica Aplicada e Neurobiologia das Emoções à prática clínica. Possui capacitação em intervenção em crises e prevenção do comportamento suicida. Sua trajetória é pautada pela interface entre a gestão em Ciência e Tecnologia em Saúde e o cuidado clínico baseado em evidências. (Texto informado pelo autor)" />
+          <attvalue for="4" value="* Sem rótulo" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="[sem-grandeArea]" />
+          <attvalue for="7" value="[sem-area]" />
+          <attvalue for="8" value="" />
+          <attvalue for="9" value="" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#33a02c" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="0" />
+          <attvalue for="17" value="-0.6648913456984682" />
+          <attvalue for="18" value="0.39600431209326" />
+          <attvalue for="19" value="2" />
+        </attvalues>
+      </node>
+      <node id="6" label="Carlos Eduardo Collazo Pontes">
+        <viz:color r="51" g="160" b="44" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/0359870978393939" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="09/09/2026" />
+          <attvalue for="3" value="Possui graduação em Farmácia pela Universidade Federal do Rio de Janeiro (2004), especialização em Saúde Pública pelo Centro Universitário Celso Lisboa (2008), mestrado em Gestão, Pesquisa e Desenvolvimento na Indústria Farmacêutica pela Fundação Oswaldo Cruz (2016) e MBA em Gestão Estratégica de Inovação Tecnológica (2015).Atualmente, atua na área de Propriedade Industrial, mais especificamente com patentes farmacêuticas, projetos de transferência de tecnologia, prospecção tecnológica, inteligência competitiva e acesso ao patrimônio genético (CGEN).Tem também experiência em desenvolvimento galênico, com ênfase em coordenação da manipulação e controle em processo de formulações semi-sólidas e líquidas, incluindo bases galênicas em larga escala, e em Farmácia Comercial, com ênfase em treinamento de funcionários, visando qualidade e eficiência no atendimento e correta dispensação dos medicamentos, assistência farmacêutica qualificada e controle dos medicamentos sujeitos a controle especial. Aluno de doutorado do Programa de Pós-Graduação Profissional em Gestão, Pesquisa e Desenvolvimento na Indústria Farmacêutica, de Farmanguinhos, Fiocruz. (Texto informado pelo autor)" />
+          <attvalue for="4" value="* Sem rótulo" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="Ciências da Saúde" />
+          <attvalue for="7" value="Farmácia" />
+          <attvalue for="8" value="Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos" />
+          <attvalue for="9" value="Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos. Av. Comandante Guaranys, 447 Curicica 22775903 - Rio de Janeiro, RJ - Brasil Telefone: (21) 33485050 URL da Homepage: www.far.fiocruz.br" />
+          <attvalue for="10" value="10" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="4" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#33a02c" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="3" />
+          <attvalue for="17" value="0.010407462778991282" />
+          <attvalue for="18" value="-0.15300700111215537" />
+          <attvalue for="19" value="4" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="0" target="1" id="0" weight="10.0" />
+      <edge source="0" target="2" id="1" weight="3.0" />
+      <edge source="0" target="3" id="2" weight="16.0" />
+      <edge source="0" target="6" id="3" weight="4.0" />
+      <edge source="1" target="2" id="4" weight="3.0" />
+      <edge source="1" target="3" id="5" weight="7.0" />
+      <edge source="1" target="6" id="6" weight="1.0" />
+      <edge source="2" target="3" id="7" weight="4.0" />
+      <edge source="3" target="6" id="8" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

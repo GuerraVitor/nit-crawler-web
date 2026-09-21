@@ -1,0 +1,97 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>NIT-Far</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>NIT-Far</h2></div>
+    <link href="css/tabulator_site.min.css" rel="stylesheet" />
+    <link href="css/tabulator-scriplattes.css" rel="stylesheet" />
+    <script src="js/tabulator.min.js"></script>
+    <script src="js/xlsx.full.min.js"></script>
+    
+    <style>
+    /* ellipsis em todas as células */
+    #tabela-publicacoes .tabulator-cell {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    </style>
+    
+    <h3>Total de organização de eventos</h3><br>
+    
+        <div id="grafico-producoes" style="width:100%; margin:1em auto;"></div>
+        <!-- script src="https://code.highcharts.com/highcharts.js"></script -->
+        <script src="./js/highcharts.js"></script>
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            Highcharts.chart('grafico-producoes', {"chart": {"type": "column", "height": 250}, "title": {"text": ""}, "xAxis": {"categories": ["0", "2010", "2015", "2017", "2019", "2021", "2022", "2023", "2025", "2026"], "type": "category"}, "yAxis": {"title": {"text": "Quantidade"}}, "legend": {"enabled": false}, "plotOptions": {"column": {"color": "#4A4A4A", "borderRadius": 2, "pointPadding": 0.1, "groupPadding": 0.1}}, "series": [{"name": "Total", "data": [5, 1, 3, 1, 2, 1, 2, 1, 2, 1]}], "credits": {"enabled": false}});
+          });
+        </script>
+        
+    Número total de itens: 19<br>
+    
+    
+    <div class="sl-controls" style="margin-top:.5rem">
+      <button id="pubs-csv">⬇️ CSV</button>
+      <button id="pubs-xlsx">⬇️ XLSX</button>
+    </div>
+    <div id="tabela-publicacoes" class="sl-tabela"></div>
+    
+    <script>
+    const DATA = [{"ano": 2026, "autores": "MAGALHÃES, J.L.; SACHETTI, C. ; CESSE, EDUARDA", "evento": "5º Seminário Internacional SISTEMAS DE SAÚDE NO BRASIL E PORTUGAL - O ECOSSISTEMA DE SAÚDE E O ACESSO A MEDICAMENTOS", "natureza": "Outro"}, {"ano": 2025, "autores": "MAGALHÃES, J.L.; A.L. Viçosa ; VITORINO, C. S. P.", "evento": "Gestão do conhecimento estratégico para (Bio)impressão 3D centrada nas necessidades do usuário", "natureza": "Outro"}, {"ano": 2025, "autores": "MAGALHÃES, J.L.; RITO, P. N. ; FIGUEIREDO, C.", "evento": "Desenvolvimento, Regulação e Gestão de Fármacos e Medicamentos: Desafios e oportunidades nos Países de Língua Portuguesa", "natureza": "Outro"}, {"ano": 2023, "autores": "MAGALHÃES, J.L.; CESSE, E.", "evento": "Sistemas de Saúde Pública no Brasil e em Portugal: seus desafios e oportunidades na promoção e acesso à saúde", "natureza": "Outro"}, {"ano": 2022, "autores": "MAGALHÃES, J.L.; GUILAM, M. C. R. ; SANTOS, I. ; BOECHAT, N. ; SILVEIRA, C. C. F. ; ARAUJO, I. ; MARQUES, J. ; NEVES, M. ; CARVALHO, A. ; OLIVEIRA, B. N. L.", "evento": "Mesa-Redonda: Estudos de Caso sobre novas Abordagens do Ensino e a Propriedade Industrial como Base nos Pilares da Educação em Saúde", "natureza": "Outro"}, {"ano": 2022, "autores": "MAGALHÃES, J.L.; SILVEIRA, C. C. F. ; CARVALHO, A.", "evento": "Curso: Novas abordagens para gestão de projetos e propriedade industrial em saúde", "natureza": "Outro"}, {"ano": 2021, "autores": "Magalhaes, J. L.; GUILAM, M. C. R. ; OLIVEIRA, B. N. L. ; DUARTE, R. ; VALENTE, R. ; CORDEIRO, J. ; MATTA, G.", "evento": "Symposium: Pandemic or Syndemic? A critical approach to planetary health", "natureza": "Outro"}, {"ano": 2019, "autores": "MAGALHÃES, J.L.; FARLOW, A.", "evento": "Challenges in Global Health: global disease mapping techniques", "natureza": "Outro"}, {"ano": 2019, "autores": "MAGALHÃES, J.L.; FARLOW, A.", "evento": "Overview for Experts in Challenges in Global Health: global disease mapping techniques", "natureza": "Outro"}, {"ano": 2017, "autores": "SAMPAIO, A. L. F. ; TABAK, D. ; CARVALHO, E. M. ; SOUSA, E. G. R. ; MAGALHÃES, J.L. ; CORONHA, M. ; CASTRO, R. R.", "evento": "4th International Symposium on Challenges and New Technologies in Drugs Discovery & Pharmaceutical Production", "natureza": "Outro"}, {"ano": 2015, "autores": "CAMPINO, L. ; FERRINHO, P. L. G. M. ; HARTZ, Z. M. A. ; MAGALHÃES, J.L.", "evento": "3º Congresso Nacional de Medicina Tropical e 1º Congresso Lusófono de Doenças Transmitidas por Vetores", "natureza": "Congresso"}, {"ano": 2015, "autores": "HARTZ, Z. M. A. ; MARTINS, M. R. O. ; FERRINHO, P. L. G. M. ; MAGALHÃES, J.L.", "evento": "I Encontro Luso-brasileiro de Avaliação em Saúde e Gestão do Conhecimento", "natureza": "Outro"}, {"ano": 2015, "autores": "SAMPAIO, A. L. F. ; TABAK, D. ; MOREIRA, D. L. ; CARVALHO, E. M. ; MEDINA, F. ; ROCHA, H. V. A. ; COSTA, Jorge ; MAGALHÃES, J.L. ; MAZZEI, J. L. ; SILVA, L. L. C. ; SEITO, L. ; NORA, M. V. ; FERRARA, M. A. ; BEHRENS, M. ; FIGUEIREDO, M. R. ; SOUZA, M. C. ; BOECHAT, N. ; LOPEZ, R. E. S. ; RODRIGUES, S. A. C. P.", "evento": "3rd International Symposium on Challenges and New Technologies in Drugs Discovery & Pharmaceutical Production", "natureza": "Congresso"}, {"ano": 2010, "autores": "SILVEIRA, Carla Cristina de Freitas da; Wanise Barroso", "evento": "Ciclo de Palestras do Núcleo de Inovação Tecnológica de Farmanguinhos (NIT-FAR)", "natureza": "Outro"}, {"ano": 0, "autores": "MAGALHÃES, J.L.. 4º ENIFarMed - Encontro Nacional de Inovaçao em Fármacos e Medicamentos - comissao executiva. 2010. (Outro).", "evento": null, "natureza": null}, {"ano": 0, "autores": "MAGALHÃES, J.L.. 5º ENIFarMed - Encontro Nacional de Fármacos e Medicamentos. 2011. (Outro).", "evento": null, "natureza": null}, {"ano": 0, "autores": "MAGALHÃES, J.L.. Gestão do Conhecimento em Teranóstica ? O Futuro da Medicina Personalizada. 2025. (Outro).", "evento": null, "natureza": null}, {"ano": 0, "autores": "MAGALHÃES, J.L.. Simpósio Perspectivas & Desafios para Enfrentamentos das Doenças que Perpetuam a Pobreza: Doenças negligenciadas. 2012. (Outro).", "evento": null, "natureza": null}, {"ano": 0, "autores": "PONTES, C. E. C.. Palestra Acesso ao Patrimônio Genético: nova legislação e seu impacto nas atividades da Fiocruz. 2017. (Outro).", "evento": null, "natureza": null}];
+    const COLUMNS = [{"title": "Ano", "field": "ano", "hozAlign": "center", "sorter": "number", "headerFilter": "input", "headerFilterParams": {"values": true}, "width": 110, "formatter": "fmtAno", "tooltip": true, "resizable": true, "widthGrow": 0}, {"title": "Autores", "field": "autores", "hozAlign": "left", "sorter": "string", "headerFilter": "input", "tooltip": true, "resizable": true, "minWidth": 200, "widthGrow": 2}, {"title": "Evento", "field": "evento", "hozAlign": "left", "sorter": "string", "headerFilter": "input", "tooltip": true, "resizable": true, "minWidth": 200, "widthGrow": 2}, {"title": "Natureza", "field": "natureza", "hozAlign": "left", "sorter": "string", "headerFilter": "input", "tooltip": true, "resizable": true, "minWidth": 100, "widthGrow": 0, "width": 120}];
+    
+    const LANG_PT = {
+      "pt-br": {
+        "pagination": {
+          "first":"«","first_title":"Primeira",
+          "last":"»","last_title":"Última",
+          "prev":"‹","prev_title":"Anterior",
+          "next":"›","next_title":"Próxima"
+        },
+        "headerFilters": { "default":"⎯ Filtrar ⎯" }
+      }
+    };
+    
+    // Ano: mostra "—" quando 0
+    function fmtAno(cell) {
+      const v = cell.getValue() || 0;
+      return v === 0 ? "—" : v;
+    }
+    
+    // DOI → link clicável (aceita "10.xxxx/..." ou "doi:10...." ou já com http/https)
+    function fmtDOI(cell) {
+      let v = cell.getValue();
+      if (!v) return "";
+      v = String(v).trim();
+      let href = v;
+      if (!/^https?:/i.test(v)) {
+        v = v.replace(/^doi:\s*/i, "");
+        href = "https://doi.org/" + v;
+      }
+      const esc = (t) => String(t).replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[m]);
+      return `<a href="${esc(href)}" target="_blank" rel="noopener">${esc(v)}</a>`;
+    }
+    
+    // aplica formatter customizado quando marcado como "fmtDOI" em Python
+    COLUMNS.forEach(col => {
+      if (col.formatter === "fmtDOI") col.formatter = fmtDOI;
+    });
+    
+    document.addEventListener("DOMContentLoaded", function(){
+      const table = new Tabulator("#tabela-publicacoes", {
+        data: DATA,
+        layout: "fitColumns",
+        height: (DATA.length < 30 ? "45vh" : "70vh"),
+        responsiveLayout: "collapse",
+        pagination: "local",
+        paginationSize: 100,
+        paginationSizeSelector: [50, 100, 200, 500, 1000],
+        movableColumns: true,
+        headerFilterLiveFilter: true,
+        columns: COLUMNS,
+        locale: true, langs: LANG_PT, locale: "pt-br",
+      });
+    
+      document.getElementById("pubs-csv").onclick  = () => table.download("csv",  "publicacoes.csv",  { bom:true });
+      document.getElementById("pubs-xlsx").onclick = () => table.download("xlsx", "publicacoes.xlsx", { sheetName:"Publicações" });
+    });
+    </script>
+    <br><p><br>(*) Relatório criado com produções desde 1900 até 2026
+<br>Data de processamento: 20/09/2026 23:49:57<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V.2025.09</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:admin@email.com">admin@email.com</a>         </div> </body></html>

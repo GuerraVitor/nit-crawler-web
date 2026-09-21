@@ -38,6 +38,14 @@ const AboutUs: React.FC = () => {
           e monitorar parcerias, transferir tecnologia e promover a inovação
           em saúde.
         </p>
+        <LinkButton
+          href="/scriptlattes/index.html"
+          target="_blank"
+          rel="noreferrer"
+          style={{ background: "#ca680d", display: "inline-flex" }}
+        >
+          <span>Produção científica da equipe (scriptLattes)</span>
+        </LinkButton>
       </Content>
 
       <ProfileGrid>

@@ -1,0 +1,2537 @@
+{
+  "informacoes_pessoais": {
+    "id_lattes": "1471443262299422",
+    "nome_completo": "Edson Ferreira da Silva",
+    "nome_citacoes": "Edson F. da Silva;da Silva, Edson F.;Silva, Edson F. da;da Silva, E. F.;DA SILVA, EDSON FERREIRA;SILVA, EDSON",
+    "sexo": "Masculino",
+    "rotulo": "* Sem rótulo",
+    "periodo": "",
+    "bolsa_produtividade": "",
+    "endereco_profissional": "Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos, Farmanguinhos. Rua Sizenando Nabuco 100, laboratório de síntese IV Manguinhos 21041250 - Rio de Janeiro, RJ - Brasil Telefone: (21) 39772424 Ramal: 2462 Fax: (21) 25602518",
+    "atualizacao_cv": "10/09/2026",
+    "url": "http://lattes.cnpq.br/1471443262299422",
+    "texto_resumo": "Edson Ferreira da Silva é Químico Industrial formado pela Faculdade Reunidas Professor Nuno Lisbôa. Obteve o título de Mestre em Química Orgânica (com ênfase em Química Medicinal) pelo Instituto de Química (IQ) da UFRJ. Obteve também o título de Doutor em Química Orgânica (com ênfase em Síntese de Fase Estacionária Quiral para Cromatografia Gasosa) pelo Instituto de Química (IQ) da UFRJ. É Pesquisador em Saúde Pública da Fundação Oswaldo Cruz FIOCRUZ (Servidor Público), onde atuou por vinte e cinco anos na área de Pesquisa de Fármacos e Medicamentos e, também, na área de Transferência Tecnológica de Processos Produtivos de Insumos Farmacêuticos Ativos (IFAs). Atuou como coorientador dos Programas de Pós-Graduação em Química do IQ da UFRJ e de Pós-Graduação em Farmacologia e Química Medicinal do ICB da UFRJ, por onde coorientou Dissertações de Mestrado e Teses de Doutorado na área da Química Medicinal. Desde dezembro de 2021, está lotado no Núcleo de Inovação Tecnológica NIT da Fundação Oswaldo Cruz, atuando nas áreas de viabilidade patentária, classificação dos Projetos Institucionais de Pesquisa, utilizando a ferramenta conhecida como Nível de Maturidade Tecnológica [Technology Readiness Levels (TRL)]. Contribuiu como autor de artigos científicos, em periódicos internacionais indexados. (Texto informado pelo autor)"
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado em Química",
+      "nome_instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil",
+      "ano_inicio": "1992",
+      "ano_conclusao": "1996",
+      "descricao": "Título: Utilização de derivados de beta-ciclodextrina como fase estacionária quiral em cromatografia gasosa de alta resolução, Ano de obtenção: 1996. Orientador: Francisco Radler de Aquino Neto. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Ciclodextrinas; Cromatografia quiral; Enantiômeros. Grande área: Ciências Exatas e da Terra / Área: Química / Subárea: Química Orgânica / Especialidade: Síntese Orgânica. Setores de atividade: Fabricação de Produtos Farmacêuticos; Fabricação de Produtos Químicos."
+    },
+    {
+      "tipo": "Mestrado em Química",
+      "nome_instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil",
+      "ano_inicio": "1990",
+      "ano_conclusao": "1992",
+      "descricao": "Título: Síntese e Avaliação da Atividade Antiinflamatória de Novos Análogos do Etodolac, Ano de Obtenção: 1992. Orientador: Eliezer Jesus de Lacerda Barreiro. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: atividade antiinflamatória; safrol; etodolac; cetoésteres. Grande área: Ciências da Saúde / Área: Farmácia. Grande Área: Ciências Biológicas / Área: Farmacologia. Grande Área: Ciências Exatas e da Terra / Área: Química / Subárea: Química Orgânica. Setores de atividade: Fabricação de Produtos Químicos."
+    }
+  ],
+  "atuacao_profissional": [
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil.",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2011 - Atual",
+      "ano_inicio": "2011",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": "Tecnologista em Saúde Pública",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": "01/2000 - Atual",
+      "ano_inicio": "2000",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Instituto de Tecnologia em Fármacos."
+      ]
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": "02/1997 - Atual",
+      "ano_inicio": "1997",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Instituto de Tecnologia em Fármacos."
+      ]
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": "02/1996 - Atual",
+      "ano_inicio": "1996",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Instituto de Tecnologia em Fármacos."
+      ]
+    },
+    {
+      "instituicao": "Universidade do Grande Rio, UNIGRANRIO, Brasil.",
+      "instituicao_nome": "Universidade do Grande Rio",
+      "instituicao_sigla": "UNIGRANRIO",
+      "instituicao_pais": "Brasil",
+      "periodo": "1997 - 2020",
+      "ano_inicio": "1997",
+      "ano_fim": "2020",
+      "vinculo": "Celetista",
+      "enquadramento": "Professor Adjunto Doutor I",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade do Grande Rio, UNIGRANRIO, Brasil",
+      "instituicao_nome": "Universidade do Grande Rio",
+      "instituicao_sigla": "UNIGRANRIO",
+      "instituicao_pais": "Brasil",
+      "periodo": "02/1997 - Atual",
+      "ano_inicio": "1997",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade do Grande Rio, UNIGRANRIO, Brasil",
+      "instituicao_nome": "Universidade do Grande Rio",
+      "instituicao_sigla": "UNIGRANRIO",
+      "instituicao_pais": "Brasil",
+      "periodo": "02/1997 - Atual",
+      "ano_inicio": "1997",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    }
+  ],
+  "projetos_pesquisa": [
+    {
+      "nome": "Síntese em escala de multigramas, toxicidade e avaliação biológica ?in vivo? dos novos derivados N-Acilidrazônicos cinâmicos, planejados como potencial atividade antichagásica",
+      "ano_inicio": "2014",
+      "ano_conclusao": "2016",
+      "descricao": [
+        "Descrição: Edital: E_10/2014 - Apoio ao Estudo de Doenças Negligenciadas e Reemergentes ? 2014. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (2) . Integrantes: Edson Ferreira da Silva - Integrante / Carlos Alberto Manssour Fraga - Integrante / Kelly Salomão - Integrante / Solange M.S.V. Wardell - Integrante / James L. Wardell - Integrante / Samir Aquino Carvalho - Integrante / Salvatore Giovanni De Simone - Coordenador. Financiador(es): Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ - Auxílio financeiro. Número de produções C, T & A: 1"
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Edson Ferreira da Silva",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Carlos Alberto Manssour Fraga",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Kelly Salomão",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Solange M",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "Aplicação do Conceito de Química limpa nas Aulas práticas de Química Orgânica",
+      "ano_inicio": "2013",
+      "ano_conclusao": "2016",
+      "descricao": [
+        "Descrição: Buscar reagentes, solventes e condições reacionais alternativas que possam substituir as condições experimentais que são agressivas ao meio ambiente. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Edson Ferreira da Silva - Coordenador."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Edson Ferreira da Silva",
+          "papel": "Coordenador"
+        }
+      ]
+    },
+    {
+      "nome": "Mecanismo de ação, eficácia e seletividade de compostos tripanocidas sobre o Trypanosoma cruzi",
+      "ano_inicio": "2009",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Serão realizados estudos in vitro e in vivo. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Edson Ferreira da Silva - Integrante / Maria de Nazaré Correia Soeiro - Coordenador."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Edson Ferreira da Silva",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Maria de Nazaré Correia Soeiro",
+          "papel": "Coordenador"
+        }
+      ]
+    },
+    {
+      "nome": "Planejamento, síntese e avaliação farmacológica de novos análogos da Pentamidina com potencial atividade leishmanicida",
+      "ano_inicio": "2008",
+      "ano_conclusao": "2011",
+      "descricao": [
+        "Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Edson Ferreira da Silva - Coordenador / CLAUDIO DUTRA FIGUEIRA - Integrante / Priscilla Silva de Paula - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Edson Ferreira da Silva",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "CLAUDIO DUTRA FIGUEIRA",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Priscilla Silva de Paula",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Síntese e avaliação biológica de novos compostos com potencial atividade contra tripanossomatídeos.",
+      "ano_inicio": "2008",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: No âmbito de uma linha de pesquisa que visa obter novos padrões moleculares úteis na terapia de doenças tropicais, este projeto tem como objetivos principal sintetizar e avaliar a atividade contra protozoários da família tripanossomatídae desses derivados.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Mestrado acadêmico: (3) . Integrantes: Edson Ferreira da Silva - Coordenador / Solange M.S.V. Wardell - Integrante / Carlos A.M. Fraga - Integrante / James L. Wardell - Integrante / Carvalho, S. A. - Integrante / de Castro, Solange L. - Integrante / Trossini, Gustavo H.G. - Integrante / Giulianna Pereira de Alcântara - Integrante / Mayara Salles Silva do Nascimento - Integrante / Camila Capelini Câmara - Integrante / Yuri Campelo Dias de Araújo - Integrante / Felipe Lopes Nunes da Silva - Integrante / Vitória Regina Fontes Câmara - Integrante. Número de produções C, T & A: 7"
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Edson Ferreira da Silva",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Solange M",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Planejamento, síntese e avaliação das atividades tripanomicida e toxicológica de novos derivados N-arilidrazônicos do megazol e de seus complexos de inclusão com beta-ciclodextrin as, candidatos a fármacos ant i-chagásicos. PDTIS-RMB-24",
+      "ano_inicio": "2007",
+      "ano_conclusao": "2011",
+      "descricao": [
+        "Descrição: Este projeto faz parte do PROGRAMA DE DESENVOLVIMENTO TECNOLÓGICO EM INSUMOS PARA A SAÚDE e tem como objetivo selecionar um protótipo que possa servir de suporte no planejamento de um composto para ser utilizado no combate à Doença de Chagas.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Doutorado: (1) . Integrantes: Edson Ferreira da Silva - Coordenador. Financiador(es): Fundação Oswaldo Cruz - Auxílio financeiro. Número de produções C, T & A: 11"
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Edson Ferreira da Silva",
+          "papel": "Coordenador"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Fundação Oswaldo Cruz",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "Desenvolvimento de metodologia de preparação em escala pré-piloto do fármaco DIDANOSINA",
+      "ano_inicio": "2007",
+      "ano_conclusao": "2007",
+      "descricao": [
+        "Descrição: Este projeto foi desenvolvido mediante através de uma parceria entre Farmanguinhos/Nortec Química, visando a transferência de tecnologia. Situação: Desativado; Natureza: Pesquisa. Integrantes: Edson Ferreira da Silva - Coordenador / Rosilene R. Riente - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Edson Ferreira da Silva",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Rosilene R",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Desenvolvimento de metodologia de preparação em escala pré-piloto do fármaco TAMIFLU.",
+      "ano_inicio": "2005",
+      "ano_conclusao": "2006",
+      "descricao": [
+        "Descrição: Este projeto foi desenvolvido mediante através de uma parceria entre Farmanguinhos/Nortec Química, visando a transferência de tecnologia. Situação: Desativado; Natureza: Pesquisa. Integrantes: Edson Ferreira da Silva - Coordenador / Rosilene R. Riente - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Edson Ferreira da Silva",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Rosilene R",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Desenvolvimento de metodologia de preparação em escala pré-piloto do fármaco ENALAPRIL.",
+      "ano_inicio": "2005",
+      "ano_conclusao": "2006",
+      "descricao": [
+        "Descrição: Este projeto foi desenvolvido mediante através de uma parceria entre Farmanguinhos/Nortec Química, visando a transferência de tecnologia. Situação: Desativado; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (1) . Integrantes: Edson Ferreira da Silva - Coordenador / Paulo Sérigio Bergo de Lacerda - Integrante. Financiador(es): Nortec Química S.A. - Cooperação."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Edson Ferreira da Silva",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Paulo Sérigio Bergo de Lacerda",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Nortec Química S",
+          "tipo_apoio": "Financiamento"
+        }
+      ]
+    },
+    {
+      "nome": "Síntese de novos derivados e análogos do protótipo Megazol.",
+      "ano_inicio": "1996",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Os novos derivados e análogos do Megazol, foram planejados estruturalmente, explorando a estrutura padrão do megazol e diversos grupos farmacofóricos.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Edson Ferreira da Silva - Coordenador."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Edson Ferreira da Silva",
+          "papel": "Coordenador"
+        }
+      ]
+    }
+  ],
+  "projetos_extensao": [],
+  "projetos_desenvolvimento": [
+    {
+      "nome": "Desenvolvimento de metodologia de preparação em escala pré-piloto do fármaco CAPTOPRIL",
+      "ano_inicio": "2004",
+      "ano_conclusao": "2006",
+      "descricao": [
+        "Descrição: Este projeto foi desenvolvido mediante através de uma parceria entre Farmanguinhos/Nortec Química, visando a transferência de tecnologia. Situação: Concluído; Natureza: Desenvolvimento. Integrantes: Edson Ferreira da Silva - Coordenador / Rosilene R. Riente - Integrante. Financiador(es): Nortec Química S.A. - Cooperação."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Edson Ferreira da Silva",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Rosilene R",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Nortec Química S",
+          "tipo_apoio": "Financiamento"
+        }
+      ]
+    },
+    {
+      "nome": "Desenvolvimento de metodologia de preparação em escala pré-piloto do fármaco LAMOTRIGINA.",
+      "ano_inicio": "2003",
+      "ano_conclusao": "2005",
+      "descricao": [
+        "Descrição: Este projeto foi desenvolvido mediante através de uma parceria entre Farmanguinhos/Nortec Química, visando a transferência de tecnologia. Situação: Desativado; Natureza: Desenvolvimento. Alunos envolvidos: Especialização: (2) / Mestrado acadêmico: (1) . Integrantes: Edson Ferreira da Silva - Coordenador / Aline Guerra Manssour Fraga - Integrante / Rosilene R. Riente - Integrante / V.P.Souza - Integrante. Financiador(es): Nortec Química S.A. - Cooperação."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Edson Ferreira da Silva",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Aline Guerra Manssour Fraga",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Rosilene R",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Nortec Química S",
+          "tipo_apoio": "Financiamento"
+        }
+      ]
+    },
+    {
+      "nome": "Desenvolvimento de metodologia de preparação em escala pr-e-piloto do fármaco HALOPERIDOL.",
+      "ano_inicio": "2000",
+      "ano_conclusao": "2001",
+      "descricao": [
+        "Descrição: Este projeto foi desenvolvido mediante através de uma parceria entre Farmanguinhos/Nortec Química, visando a transferência de tecnologia. Situação: Concluído; Natureza: Desenvolvimento. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) . Integrantes: Edson Ferreira da Silva - Coordenador / Leandro Silva Barbosa - Integrante / Paulo Sérigio Bergo de Lacerda - Integrante. Financiador(es): Nortec Química S.A. - Cooperação."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Edson Ferreira da Silva",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Leandro Silva Barbosa",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Paulo Sérigio Bergo de Lacerda",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Nortec Química S",
+          "tipo_apoio": "Financiamento"
+        }
+      ]
+    },
+    {
+      "nome": "Desenvolvimento de metodologia de preparação em escala pré-piloto do fármaco CARBAMAZEPINA.",
+      "ano_inicio": "1998",
+      "ano_conclusao": "1999",
+      "descricao": [
+        "Descrição: Este projeto foi desenvolvido mediante através de uma parceria entre Farmanguinhos/Nortec Química, visando a transferência de tecnologia. Situação: Concluído; Natureza: Desenvolvimento. Integrantes: Edson Ferreira da Silva - Coordenador. Financiador(es): Nortec Química S.A. - Cooperação."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Edson Ferreira da Silva",
+          "papel": "Coordenador"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Nortec Química S",
+          "tipo_apoio": "Financiamento"
+        }
+      ]
+    }
+  ],
+  "areas_de_atuacao": [
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Química",
+      "subarea": "",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Química."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Química",
+      "subarea": "Química Orgânica",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Química / Subárea: Química Orgânica."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Química",
+      "subarea": "Química Orgânica",
+      "especialidade": "química medicinal",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Química / Subárea: Química Orgânica/Especialidade: química medicinal."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Química",
+      "subarea": "Química Orgânica",
+      "especialidade": "Síntese Orgânica",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Química / Subárea: Química Orgânica/Especialidade: Síntese Orgânica."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Química",
+      "subarea": "Química Analítica",
+      "especialidade": "Processos Cromatográficos",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Química / Subárea: Química Analítica/Especialidade: Processos Cromatográficos."
+    },
+    {
+      "grande_area": "Ciências da Saúde",
+      "area": "Farmácia",
+      "subarea": "",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências da Saúde / Área: Farmácia."
+    }
+  ],
+  "idiomas": [
+    {
+      "nome": "Inglês",
+      "compreende": "Bem",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    },
+    {
+      "nome": "Espanhol",
+      "compreende": "Bem",
+      "fala": "Razoavelmente",
+      "le": "Bem",
+      "escreve": "Pouco",
+      "proficiencia_completa": "Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Pouco."
+    }
+  ],
+  "premios_titulos": [
+    {
+      "descricao": "Melhor tese de doutorado, sob minha coorientação, do Program de Pós-Graduação em Química do IQ/UFRJ, PPGQQu/UFRJ.",
+      "ano": 2012
+    }
+  ],
+  "linhas_de_pesquisa": [
+    {
+      "nome": "DESENVOLVIMENTO DE METODOLOGIA DE PREPARAÇÃO EM ESCALA PRÉ-PILOTO DE FÁRMACOS",
+      "objetivo": ""
+    },
+    {
+      "nome": "PLANEJAMENTO, SÍNTESE E AVALIAÇÃO DA ATIVIDADE BIOLÓGICA DE NOVAS MOLÉCULAS COM POTENCIAL ATIVIDADE ANTI-PARASITÁRIA",
+      "objetivo": "Planejar, sintetizar e avaliar biologicamente protótipos que possam ser usados no combate à doenças parasitárias.. Grande área: Ciências Exatas e da Terra / Área: Química / Subárea: Química Orgânica / Especialidade: química medicinal. Grande Área: Ciências Exatas e da Terra / Área: Química / Subárea: Química Orgânica / Especialidade: Síntese Orgânica. Grande Área: Ciências da Saúde / Área: Farmácia / Subárea: Química Farmacêutica Medicinal. Setores de atividade: Fabricação de produtos farmoquímicos e farmacêuticos; Fabricação de produtos químicos. Palavras-chave: atividade tripanocida; benznidazole; Chagas' disease; Hidrazonas; N-acilidrazonas."
+    },
+    {
+      "nome": "DESENVOLVIMENTO DE METODOLOGIA PARA SEPARAÇÕES EM CROMATOGRAFIA GASOSA QUIRAL",
+      "objetivo": "metodologias de separações quirais, utilizando cromatografia em fase gasosa de alta resolução nas separações de enantiômeros.. Grande área: Ciências Exatas e da Terra / Área: Química / Subárea: Química Analítica / Especialidade: Processos Cromatográficos. Setores de atividade: Pesquisa e desenvolvimento científico. Palavras-chave: Ciclodextrinas; Complexo de Inclusão; Enantiômeros."
+    }
+  ],
+  "producao_bibliografica": {
+    "artigos_periodicos": [
+      {
+        "titulo": "Crystal structure, Hirshfeld surface analysis, and computational insights into phenoxyacetohydrazones: Hydrogen-bonded dimers and p-stacking interactions",
+        "ano": 2025,
+        "autores": "CAPELINI, CAMILA ; Carvalho, Samir A. ; LIMA, CAMILO HENRIQUE DA SILVA ; MACHADO, SÉRGIO DE PAULA ; RAMOS, LAÍS G. ; da Silva, Edson F. ; DA SILVA, EVERTON TOMAZ ; DA SILVA, TALIS UELISSON ; DE SOUZA, KÁTIA R. ; Wardell, James L. ; WARDELL, SOLANGE M.S.V.",
+        "revista": "JOURNAL OF MOLECULAR STRUCTURE",
+        "volume": "1333",
+        "numero": "",
+        "paginas": "141752",
+        "issn": "0022-2860",
+        "doi": "http://dx.doi.org/10.1016/j.molstruc.2025.141752",
+        "qualis": ""
+      },
+      {
+        "titulo": "New 4-nitro-imidazole-N-glycinyl-hydrazones Designed as TrypanocidalAnalogues of Benznidazole",
+        "ano": 2023,
+        "autores": "Fraga, Carlos A.M. ; DE ALCÂNTARA, GIULIANNA P. ; BARBOSA, JULIANA M.C. ; Salomão, Kelly ; de Castro, Solange L. ; Wardell, James L. ; LOW, JOHN N. ; WARDELL, SOLANGE M.S.V. ; Carvalho, Samir A. ; da Silva, Edson F.",
+        "revista": "Letters in Drug Design & Discovery",
+        "volume": "20",
+        "numero": "",
+        "paginas": "488-497",
+        "issn": "1570-1808",
+        "doi": "http://dx.doi.org/10.2174/1570180819666220512121029",
+        "qualis": ""
+      },
+      {
+        "titulo": "Phenoxyacetohydrazones againstTrypanosoma cruzy",
+        "ano": 2021,
+        "autores": "CAPELINI, CAMILA ; Katia de Souza ; BARBOSA, JULIANA M. C. ; Kelly Salomão ; Policarpo Junior ; Silvane Murta ; Solange Wardell ; James L. Wardell ; da Silva, E. F. ; Carvalho, S.A.",
+        "revista": "MEDICINAL CHEMISTRY RESEARCH",
+        "volume": "30",
+        "numero": "",
+        "paginas": "1703-1712",
+        "issn": "1054-2523",
+        "doi": "http://dx.doi.org/10.1007/s00044-021-02768-9",
+        "qualis": ""
+      },
+      {
+        "titulo": "Synthesis, Antitrypanosomal and Antimycobacterial Activities of Coumarin N-acylhydrazonic Derivatives",
+        "ano": 2021,
+        "autores": "CAPELINI, C. ; CAMARA, V. R. F. ; Figueroa-Villar, J.D. ; BARBOSA, J. M. C. ; Kelly Salomão ; CASTRO, S. L. ; Policarpo Junior ; Silvane Murta ; COUTO, T. B. ; Maria C.S. Lourenço ; James L. Wardell ; LOW, J. N. ; Edson F. da Silva ; CARVALHO, S. A.",
+        "revista": "Medicinal Chemistry",
+        "volume": "17",
+        "numero": "",
+        "paginas": "630-637",
+        "issn": "1573-4064",
+        "doi": "http://dx.doi.org/10.2174/15734016416666200121105215",
+        "qualis": ""
+      },
+      {
+        "titulo": "Synthesis and trypanocidal activity of novel pyridinyl-1,3,4-thiadiazole derivatives",
+        "ano": 2020,
+        "autores": "FREITAS, R. H. C. N. ; BARBOSA, J. M. C. ; BERNARDINO, P. ; SANTIAGO, V. S. ; Solange Wardell ; James L. Wardell ; DECOTE-RICARDO, D. ; MELO, T. G. ; da Silva, Edson F. ; Kelly Salomão ; CASTRO, S. L. ; FRAGA, C. A. M.",
+        "revista": "BIOMEDICINE & PHARMACOTHERAPY",
+        "volume": "127",
+        "numero": "",
+        "paginas": "110162",
+        "issn": "0753-3322",
+        "doi": "http://dx.doi.org/10.1016/j.biopha.2020.110162",
+        "qualis": ""
+      },
+      {
+        "titulo": "Identification of novel functionalized carbohydrazonamides designed as Chagas disease drug candidates",
+        "ano": 2019,
+        "autores": "DO NASCIMENTO, MAYARA SALLES SOUZA ; CÂMARA, VITÓRIA REGINA FONTES ; DA COSTA, JULIANA SILVA ; BARBOSA, JULIANA M. CHAVES ; LINS, ALESSANDRA SILVA MAIA ; Salomão, Kelly ; DE CASTRO, SOLANGE LISBOA ; CARVALHO, SAMIR AQUINO ; DA SILVA, EDSON FERREIRA ; FRAGA, CARLOS ALBERTO MANSSOUR",
+        "revista": "Medicinal Chemistry",
+        "volume": "15",
+        "numero": "",
+        "paginas": "000-000",
+        "issn": "1573-4064",
+        "doi": "http://dx.doi.org/10.2174/1573406415666190627103013",
+        "qualis": ""
+      },
+      {
+        "titulo": "Synthesis and Antitrypanosomal Profile of Novel Hydrazonoyl Derivatives",
+        "ano": 2019,
+        "autores": "SANTIAGO, N. N. ; ALCANTARA, G. P. ; COSTA, J. S. ; CARVALHO, S. A. ; BARBOSA, J. M. C. ; Kelly Salomão ; De Castro, S. L. ; PEREIRA, H. M. G. ; da Silva, E. F.",
+        "revista": "Medicinal Chemistry",
+        "volume": "15",
+        "numero": "",
+        "paginas": "000-000",
+        "issn": "1573-4064",
+        "doi": "http://dx.doi.org/10.2174/1573406415666190712115237",
+        "qualis": ""
+      },
+      {
+        "titulo": "Crystal structures and Hirshfeld surface analyses of ( E</i> )- N</i> --benzylidene-2-oxo-2 H</i> -chromene-3-carbohydrazide and the disordered hemi-DMSO solvate of ( E</i> )-2-oxo- N</i> --(3,4,5-trimethoxybenzylidene)-2 H</i> -chromene-3-carbohydrazide: lattice energy and intermolecular interaction energy c",
+        "ano": 2019,
+        "autores": "GOMES, LIGIA R. ; LOW, JOHN NICOLSON ; Wardell, James L. ; CAPELINI, CAMIOLA ; CÂMARA, VITORIA R.F. ; Silva, Edson F. da ; Carvalho, Samir A.",
+        "revista": "ACTA CRYSTALLOGRAPHICA SECTION E, CRYSTALLOGRAPHIC COMMUNICATIONS",
+        "volume": "75",
+        "numero": "",
+        "paginas": "1403-1410",
+        "issn": "2056-9890",
+        "doi": "http://dx.doi.org/10.1107/s2056989019012015",
+        "qualis": ""
+      },
+      {
+        "titulo": "Different molecular conformations in the crystal structures of three 5-nitroimidazolyl derivatives",
+        "ano": 2018,
+        "autores": "OSORIO, LUIS F. B. ; Carvalho, Samir A. ; Silva, Edson F. da ; Fraga, Carlos A. M. ; Wardell, Solange M. S. V. ; MILNE, BRUCE F. ; Wardell, James L. ; Harrison, William T. A.",
+        "revista": "ACTA CRYSTALLOGRAPHICA SECTION E, CRYSTALLOGRAPHIC COMMUNICATIONS",
+        "volume": "74",
+        "numero": "",
+        "paginas": "380-384",
+        "issn": "2056-9890",
+        "doi": "http://dx.doi.org/10.1107/s2056989018002876",
+        "qualis": ""
+      },
+      {
+        "titulo": "Design, sybthesia and trypanocidal activity of 5-nitroimidazolyl-O-benzyloxime ethers",
+        "ano": 2017,
+        "autores": "CARVALHO, S. A. ; OSORIO, L. F. B. ; Kelly Salomão ; De Castro, S. L. ; Solange Wardell ; James L. Wardell ; da Silva, E. F. ; Carlos A.M. Fraga",
+        "revista": "JOURNAL OF HETEROCYCLIC CHEMISTRY",
+        "volume": "54",
+        "numero": "",
+        "paginas": "3626-3631",
+        "issn": "0022-152X",
+        "doi": "http://dx.doi.org/10.1002/jhet.2989",
+        "qualis": ""
+      },
+      {
+        "titulo": "Identificação de agrotóxicos organohalogenados em morango, por cromatografia gasosa acoplada à espectrometria de massas",
+        "ano": 2016,
+        "autores": "SANTOS, A. L. M. ; SOUZA, J. V. ; SANTANA, E. B. ; CARVALHO, S. A. ; Edson F. da Silva",
+        "revista": "ALMANAQUE MULTIDISCIPLINAR DE PESQUISA",
+        "volume": "1",
+        "numero": "",
+        "paginas": "167-179",
+        "issn": "2359-6651",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Complexos de platina e rutênio candidatos ao tratamento da doença de Chagas",
+        "ano": 2016,
+        "autores": "Câmara, C.C. ; SILVA, R. T. ; S.A. Carvalho ; da Silva, E. F. ; Figueroa-Villar, J.D.",
+        "revista": "Almanaque Multidisciplinar de Pesquisa",
+        "volume": "1",
+        "numero": "",
+        "paginas": "51-67",
+        "issn": "2359-6651",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Catálise Enzimática: uma estratégia promissora na produção de biodiesel",
+        "ano": 2015,
+        "autores": "SOUSA, G. S. ; BORGES, G. A. ; S.A. Carvalho ; da Silva, E. F.",
+        "revista": "Almanaque Multidisciplinar de Pesquisa",
+        "volume": "1",
+        "numero": "",
+        "paginas": "159-169",
+        "issn": "2359-6651",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Crystal structures of 1-hydroxylimidazole and imidazole 1-oxide derivatives",
+        "ano": 2014,
+        "autores": "DA SILVA, RAMON BORGES ; DA SILVA, EDSON FERREIRA ; CARVALHO, SAMIR AQUINO ; FRAGA, CARLOS ALBERTO MANSSOUR ; WARDELL, SOLANGE M.S.V. ; Wardell, James L.",
+        "revista": "Zeitschrift für Kristallographie",
+        "volume": "229",
+        "numero": "",
+        "paginas": "709-722",
+        "issn": "2196-7105",
+        "doi": "http://dx.doi.org/10.1515/zkri-2014-1766",
+        "qualis": ""
+      },
+      {
+        "titulo": "Antiprotozoal Activity of (E)-Cinnamic N-Acylhydrazone Derivatives",
+        "ano": 2014,
+        "autores": "CARVALHO, SAMIR ; Kaiser, Marcel ; Brun, Reto ; SILVA, EDSON ; FRAGA, CARLOS",
+        "revista": "MOLECULES",
+        "volume": "19",
+        "numero": "",
+        "paginas": "20374-20381",
+        "issn": "1420-3049",
+        "doi": "http://dx.doi.org/10.3390/molecules191220374",
+        "qualis": ""
+      },
+      {
+        "titulo": "Synthesis and Trypanocidal Activity of Novel 2,4,5-Triaryl-N-Hydroxylimidazole",
+        "ano": 2013,
+        "autores": "SILVA, R. B. ; loback, V.B. ; Kelly Salomão ; CASTRO, S. L. ; James L. Wardell ; Solange Wardell ; Costa, Thadeu E.M. M. ; PENIDO, C. ; HENRIQUES, M. G. M. O. ; S.A. Carvalho ; da Silva, E. F. ; FRAGA, C. A. M.",
+        "revista": "Molecules (Basel. Online)",
+        "volume": "18",
+        "numero": "",
+        "paginas": "3445-3457",
+        "issn": "1420-3049",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Design and synthesis of new (E)-Cinnamic N-Acylhydrazones as potent Antitrypanosomal agents",
+        "ano": 2012,
+        "autores": "Carvalho, Samir A. ; Feitosa, Larisse O. ; Soares, Márcio ; Costa, Thadeu E.M. M. ; Henriques, Maria G. ; Salomão, Kelly ; de Castro, Solange L. ; Kaiser, Marcel ; Brun, Reto ; Wardell, James L. ; Wardell, Solange M.S. V. ; Trossini, Gustavo H.G. ; Andricopulo, Adriano D. ; da Silva, Edson F. ; Fraga, Carlos A.M.",
+        "revista": "European Journal of Medicinal Chemistry",
+        "volume": "54",
+        "numero": "",
+        "paginas": "512-521",
+        "issn": "0223-5234",
+        "doi": "http://dx.doi.org/10.1016/j.ejmech.2012.05.041",
+        "qualis": ""
+      },
+      {
+        "titulo": "(2 )- ¿-[( )-Benzylidene]-3-phenylprop-2-enohydrazide from synchrotron radiation",
+        "ano": 2012,
+        "autores": "Carvalho, Samir A. ; Silva, Edson F. da ; Fraga, Carlos A. M. ; Wardell, Solange M. S. V. ; Wardell, James L. ; Tiekink, Edward R. T.",
+        "revista": "Acta Crystallographica. Section E",
+        "volume": "68",
+        "numero": "",
+        "paginas": "o2255-o2256",
+        "issn": "1600-5368",
+        "doi": "http://dx.doi.org/10.1107/S1600536812028504",
+        "qualis": ""
+      },
+      {
+        "titulo": "(2 )- ¿-[( )-2-Hydroxybenzylidene]-3-phenylprop-2-enohydrazide",
+        "ano": 2012,
+        "autores": "Carvalho, Samir A. ; Silva, Edson F. da ; Fraga, Carlos A. M. ; Wardell, Solange M. S. V. ; Wardell, James L. ; Tiekink, Edward R. T.",
+        "revista": "Acta Crystallographica. Section E",
+        "volume": "68",
+        "numero": "",
+        "paginas": "o2253-o2254",
+        "issn": "1600-5368",
+        "doi": "http://dx.doi.org/10.1107/S1600536812028516",
+        "qualis": ""
+      },
+      {
+        "titulo": "Synthesis and antitubercular activity of new L-serinyl hydrazone",
+        "ano": 2011,
+        "autores": "Alessandra Campbell Pinheiro ; Carlos Roland Kaiser ; Thaís Cristina Mendonça ; Carvalho, Samir A. ; da Silva, E. F. ; HENRIQUES, M. G. M. O. ; André Luís peixoto Candéa ; Maria cristina Silva Lourenço ; Souza, Marcus V. N. de",
+        "revista": "Medicinal Chemistry (Hilversum)",
+        "volume": "7",
+        "numero": "",
+        "paginas": "611-623",
+        "issn": "1573-4064",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "(2              E</i>              )-              N</i>              ¿-Benzoyl-3-(4-nitrophenyl)prop-2-enohydrazide",
+        "ano": 2010,
+        "autores": "Carvalho, Samir A. ; Silva, Edson F. da ; Souza, Marcus V. N. de ; Tiekink, Edward R. T. ; Wardell, James L. ; Wardell, Solange M. S. V.",
+        "revista": "Acta Crystallographica. Section E",
+        "volume": "66",
+        "numero": "",
+        "paginas": "o150-o151",
+        "issn": "1600-5368",
+        "doi": "http://dx.doi.org/10.1107/S1600536809053379",
+        "qualis": ""
+      },
+      {
+        "titulo": "In Vitro and In Vivo Activities of 1,3,4-Thiadiazole-2-Arylhydrazone Derivatives of Megazol against Trypanosoma cruzi",
+        "ano": 2010,
+        "autores": "Salomao, K. ; de Souza, E. M. ; Carvalho, S. A. ; da Silva, E. F. ; FRAGA, C. A. M. ; Barbosa, H. S. ; de Castro, S. L.",
+        "revista": "Antimicrobial Agents and Chemotherapy (Print)",
+        "volume": "54",
+        "numero": "",
+        "paginas": "2023-2031",
+        "issn": "0066-4804",
+        "doi": "http://dx.doi.org/10.1128/AAC.01241-09",
+        "qualis": ""
+      },
+      {
+        "titulo": "Antimycobacterial Profile of 5-phenyl-1,3,4-thiadiazole-2arylhydrazone Derivatives",
+        "ano": 2010,
+        "autores": "Samir de Aquino Carvalho ; Edson F. da Silva ; Maria C.S. Lourenço ; Marcus Vinicius ; Carlos A.M. Fraga",
+        "revista": "Letters in Drug Design & Discovery",
+        "volume": "7",
+        "numero": "",
+        "paginas": "606-607",
+        "issn": "1570-1808",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "(2 )- ?-[( )-4-Chlorobenzylidene]-3-phenylprop-2-enohydrazide monohydrate",
+        "ano": 2010,
+        "autores": "Carvalho, Samir A. ; Silva, Edson F. da ; Fraga, Carlos A. M. ; Wardell, Solange M. S. V. ; Wardell, James L. ; Tiekink, Edward R. T.",
+        "revista": "Acta Crystallographica. Section E",
+        "volume": "66",
+        "numero": "",
+        "paginas": "o2410-o2411",
+        "issn": "1600-5368",
+        "doi": "http://dx.doi.org/10.1107/S160053681003388X",
+        "qualis": ""
+      },
+      {
+        "titulo": "Leishmanicidal Activity of New Megazol Derivatives",
+        "ano": 2009,
+        "autores": "RIENTE, R. R. ; V.P. Souza ; S.A. Carvalho ; M.Kaiser ; R.Brun ; Edson F. da Silva",
+        "revista": "Medicinal Chemistry (Hilversum)",
+        "volume": "5",
+        "numero": "",
+        "paginas": "392-397",
+        "issn": "1573-4064",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "5-(3-Nitrobenzyl)-1,3,4-thiadiazol-2-amine",
+        "ano": 2009,
+        "autores": "Samir de Aquino Carvalho ; FEITOSA, L.O. ; Edson F. da Silva ; Edward R. T. Tiekink ; James L. Wardell ; Solange Wardell",
+        "revista": "Acta Crystallographica. Section E",
+        "volume": "E65",
+        "numero": "",
+        "paginas": "3200-3201",
+        "issn": "1600-5368",
+        "doi": "http://dx.doi.org/10.1107/S1600536809049654",
+        "qualis": ""
+      },
+      {
+        "titulo": "N'-[(2E)-3-Phenylprop-2-enoyl]benzohydrazide",
+        "ano": 2009,
+        "autores": "Samir de Aquino Carvalho ; Edson F. da Silva ; Edward R. T. Tiekink ; James L. Wardell ; Solange Wardell",
+        "revista": "Acta Crystallographica. Section E",
+        "volume": "E65",
+        "numero": "",
+        "paginas": "3118-3118",
+        "issn": "1600-5368",
+        "doi": "http://dx.doi.org/10.1107/S1600536809048156",
+        "qualis": ""
+      },
+      {
+        "titulo": "5-Phenyl-2-(benzalhydrazonyl)-1,3,4-thiadiazoles, potential trypanocidal agents: consistent dimer formation via N¿H · · · N intermolecular hydrogen bonds",
+        "ano": 2009,
+        "autores": "Carvalho, Samir A. ; Harrison, William T. A. ; Fraga, Carlos A. M. ; Edson F. da Silva ; Wardell, James L. ; Wardell, Solange M. S. V.",
+        "revista": "Zeitschrift für Kristallographie",
+        "volume": "224",
+        "numero": "",
+        "paginas": "598-606",
+        "issn": "0044-2968",
+        "doi": "http://dx.doi.org/10.1524/zkri.2009.1203",
+        "qualis": ""
+      },
+      {
+        "titulo": "Studies toward the structural optimization of new brazilozone-related trypanocidal 1,3,4-thiadiazole-2-arylhydrazone derivatives",
+        "ano": 2008,
+        "autores": "CARVALHO, S. D. ; Francisco Lopes ; Kelly Salomão ; Nelilma C. Romeiro ; Solange Wardell ; CASTRO, S. L. ; Edson F. da Silva ; FRAGA, C. A. M.",
+        "revista": "Bioorganic & Medicinal Chemistry Letters",
+        "volume": "16",
+        "numero": "",
+        "paginas": "413-421",
+        "issn": "0960-894X",
+        "doi": "http://dx.doi.org/10.1016/j.bmc.2007.09.027",
+        "qualis": ""
+      },
+      {
+        "titulo": "Synthesis and antimycobacterial evaluation of ew trans-cinnamic acid hydrazide derivatives",
+        "ano": 2008,
+        "autores": "CARVALHO, S. D. ; Edson F. da Silva ; Marcus Vinicius ; Maria Lourenço ; Felipe Vicente",
+        "revista": "Bioorganic & Medicinal Chemistry Letters",
+        "volume": "18",
+        "numero": "",
+        "paginas": "538-541",
+        "issn": "0960-894X",
+        "doi": "http://dx.doi.org/10.1016/j.bmc.2007.11.091",
+        "qualis": ""
+      },
+      {
+        "titulo": "Synthesis and Antitrypanosomal Profile of New Functionalyzed 1,3,4-Thiadiazole-2-Arylhydrazone Derivatives, Designed as Non-Mutagenic Megazol Analogues.",
+        "ano": 2004,
+        "autores": "CARVALHO, S. D. ; Edson F. da Silva ; CASTRO, S. L. ; SANTARITA, R. M. ; FRAGA, C. A. M.",
+        "revista": "Bioorganic & Medicinal Chemistry Letters",
+        "volume": "14",
+        "numero": "",
+        "paginas": "5967-5970",
+        "issn": "0960-894X",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Chiral Gas Chromatography analysis of 2-oxabicyclo[3.3.0] octane derivatives and synthetic precursors.",
+        "ano": 2000,
+        "autores": "Edson F. da Silva; FRAGA, C. A. M. ; AQUINO NETO, F. R.",
+        "revista": "Analytical Chemistry (Washington)",
+        "volume": "72",
+        "numero": "",
+        "paginas": "3056-3062",
+        "issn": "0003-2700",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "In vitro and in vivo Evaluation of trypanosomicid Activity of megazol analog",
+        "ano": 1999,
+        "autores": "NOGUEIRA, C. M. ; Edson F. da Silva ; GIBALDI, D. ; FERNANDES-FERREIRA, E. ; BOZZA, M. ; LIMA, E. L. S.",
+        "revista": "Memórias do Instituto Oswaldo Cruz",
+        "volume": "94",
+        "numero": "",
+        "paginas": "225-225",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Application of high temperature high resolution gas chromatograph to the analysis of Beta-cyclodextrin derivatives.",
+        "ano": 1998,
+        "autores": "Edson F. da Silva; PEREIRA, A. S. ; AQUINO NETO, F. R.",
+        "revista": "Journal Chromatography Science",
+        "volume": "36",
+        "numero": "",
+        "paginas": "91-96",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Evaluation of anti-trypanosomal activity of several analogous from megazol",
+        "ano": 1998,
+        "autores": "Edson F. da Silva; NOGUEIRA, C. M. ; LIMA, E. L. S. ; GIBALDI, D. ; FERNANDES-FERREIRA, E.",
+        "revista": "Memórias do Instituto Oswaldo Cruz",
+        "volume": "93",
+        "numero": "",
+        "paginas": "300-301",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Improvement of enantioselective synthesis and chiral high resolution gas chromatography analysis of (+)-2-alyl-2-carbethoxy cyclopentanol.",
+        "ano": 1997,
+        "autores": "Edson F. da Silva; RAPELLO, A. S. ; AQUINO NETO, F. R.",
+        "revista": "Chirality (New York)",
+        "volume": "09",
+        "numero": "",
+        "paginas": "321-324",
+        "issn": "0899-0042",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "HT-HRGC Analisys of Beta-Ciclodextrins derivatives.",
+        "ano": 1997,
+        "autores": "Edson F. da Silva; PEREIRA, A. S. ; AQUINO NETO, F. R.",
+        "revista": "Chromatography",
+        "volume": "",
+        "numero": "",
+        "paginas": "65",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Utilização de derivados das ciclodextrinas como fase estacionária quiral em cromatografia gasosa de alta resolução.",
+        "ano": 1996,
+        "autores": "Edson F. da Silva; RADLER, F.",
+        "revista": "Química Nova",
+        "volume": "19",
+        "numero": "05",
+        "paginas": "473-476",
+        "issn": "0100-4042",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Cromatografia Gasosa de Alta Temperatura: A nova fronteira de sua aplicação de análise de compostos de alto peso molecular.",
+        "ano": 1996,
+        "autores": "Edson F. da Silva; PEREIRA, A. S. ; AQUINO NETO, F. R.",
+        "revista": "Química Nova",
+        "volume": "19",
+        "numero": "06",
+        "paginas": "600-604",
+        "issn": "0100-4042",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Synthesis and pharmacological evaluation of isosteres of inhibitors of arachidonic acid cascade enzymes.",
+        "ano": 1994,
+        "autores": "Edson F. da Silva; FRAGA, C. A. M. ; BARREIRO, E. J.",
+        "revista": "Organic Synthesis In Brasil An Overview",
+        "volume": "01",
+        "numero": "",
+        "paginas": "251-260",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "The Synthesis and antiinflamatory activity of 1-alkil-isochroman-1-yl acetic acids derivates.",
+        "ano": 1993,
+        "autores": "Edson F. da Silva; BARREIRO, E. J.",
+        "revista": "Journal Of The Brazilian Chemical Society",
+        "volume": "04",
+        "numero": "01",
+        "paginas": "40-44",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Synthesis of new analogues of antiinflammator agents from Safrole.",
+        "ano": 1991,
+        "autores": "Edson F. da Silva; FRAGA, C. A. M. ; BARREIRO, E. J.",
+        "revista": "Cadernos de Farmácia",
+        "volume": "07",
+        "numero": "F4",
+        "paginas": "",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      }
+    ],
+    "livros_publicados": [],
+    "capitulos_livros": [
+      {
+        "titulo": "Novel Therapeutic strategies for Chagas' Disease. Drug Development - A Case Study Based Insight into modern Strategies. 1ed.Croácia",
+        "ano": 2011,
+        "autores": "FRAGA, C. A. M. ; Carvalho, S. A. ; da Silva, E. F. ; CASTRO, S. L. ; Rodrigues, I.A. ; Socorro, M.S.R. ; Amaral, A.C.F. ; Rodrigues, G.C. ; Vermelho, A.B.",
+        "titulo_livro": "",
+        "editora": "In Tech",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "1-654"
+      }
+    ],
+    "trabalhos_completos_congressos": [
+      {
+        "titulo": "Avaliação \"in vitro\" da Atividade Tripanomicida e Citotoxicidade de Derivados 2-Benzil-(sulfeto, sulfóxido e sulfona) do Megazol",
+        "ano": 2004,
+        "autores": "Edson F. da Silva; GIBALDI, D. ; o mesmo ; RIENTE, R. R. ; o mesmo ; RAMOS, M. C. K. V.",
+        "evento": "27a Reunião Anual da Sociedade Brasileira de Química/Federación Latinoamericana de Asociaciones Químicas (FLAQ)",
+        "cidade": "",
+        "paginas": "MD-82-MD-82",
+        "isbn": ""
+      },
+      {
+        "titulo": "Avaliação da Atividade Tripanomicida de Novos Isósteros do Megazol",
+        "ano": 2004,
+        "autores": "Edson F. da Silva; CARVALHO, S. D. ; o mesmo ; GIBALDI, D. ; o mesmo ; HENRIQUES, M. G. M. O. ; FRAGA, C. A. M.",
+        "evento": "27a Reunião Anual da Sociedade Brasileira de Química/Federacion Latinoamericana de Asociaciones Químicas (FLAQ)",
+        "cidade": "",
+        "paginas": "MD-83-MD-83",
+        "isbn": ""
+      },
+      {
+        "titulo": "In: 25a Reunião Anual da Sociedade Brasileira de Química, 2002, Poços de Caldas. Livros de Resumos da 25a Reunião Anual da Sociedade Brasileira de Química. São Paulo: Sociedade Brasileira de Química",
+        "ano": 2002,
+        "autores": "Edson F. da Silva. Avaliação \"in vitro\"da atividade tripanomicida de um derivado megazol",
+        "evento": "",
+        "cidade": "",
+        "paginas": "MD-54",
+        "isbn": ""
+      },
+      {
+        "titulo": "Síntese de um novo derivado pirazólico tricíclico, planejado como análogo da Olanzapina",
+        "ano": 2001,
+        "autores": "VELOSO, M. P. ; Edson F. da Silva ; FRAGA, C. A. M. ; BARREIRO, E. J.",
+        "evento": "Resumo da 24a. Reunião Anual da Sociedade Brasileira de Química",
+        "cidade": "",
+        "paginas": "QO-97",
+        "isbn": ""
+      },
+      {
+        "titulo": "Síntese de novos derivados 1,3,4-tiadiazólicos planejados como candidatos à agentes antitumorais análogos ao derivado 1043C",
+        "ano": 2001,
+        "autores": "FRAGA, A. G. M. ; CARVALHO, S. D. ; Edson F. da Silva ; FRAGA, C. A. M.",
+        "evento": "Resumos da 24a. Reunião Anual da Sociedade Brasileira de Química",
+        "cidade": "",
+        "paginas": "QO-98",
+        "isbn": ""
+      },
+      {
+        "titulo": "Síntese de um novo derivado do megazol com perfil anti-parasitário",
+        "ano": 2001,
+        "autores": "BARBOSA, L. S. ; CARVALHO, S. D. ; FERNANDES, R. C. ; Edson F. da Silva",
+        "evento": "Resumos da 24a. Reunião Anual da Sociedade Brasileira de Química",
+        "cidade": "",
+        "paginas": "QO111",
+        "isbn": ""
+      },
+      {
+        "titulo": "Investigação por DSC, RMN e IV da formação de complexo de inclusão entre o Megazol e a Beta-Ciclodextrina",
+        "ano": 2000,
+        "autores": "Edson F. da Silva; REBELLO, F. R.",
+        "evento": "XXIII Reunião Anual da Sociedade Brasileira de Química",
+        "cidade": "",
+        "paginas": "FQ-00",
+        "isbn": ""
+      },
+      {
+        "titulo": "Síntese de novos derivados 1,3,4-Tiadiazólicos planejados como Leishmanicidas análogos à Combrestatinas naturais",
+        "ano": 2000,
+        "autores": "Edson F. da Silva; FRAGA, A. G. M. ; FRAGA, C. A. M.",
+        "evento": "XXIII Reunião Anual da Sociedade Brasileira de Química",
+        "cidade": "",
+        "paginas": "MD-00",
+        "isbn": ""
+      },
+      {
+        "titulo": "Síntese e Avaliação in vitro da atividade antineoplásica de derivados do sistema 1,3,4-Tiadiazol",
+        "ano": 2000,
+        "autores": "Edson F. da Silva; MAMOUROS, C. ; NOGUEIRA, C. M.",
+        "evento": "XXIII Reunião Anual da Sociedade Brasileira de Química",
+        "cidade": "",
+        "paginas": "MD-00",
+        "isbn": ""
+      },
+      {
+        "titulo": "Síntese de novas tiosemicarbazonas com potencial atividade leishmanicida",
+        "ano": 2000,
+        "autores": "Edson F. da Silva; FRAGA, A. G. M. ; REBELLO, F. R.",
+        "evento": "II Bienal de Pesquisa da Fundação Oswaldo Cruz",
+        "cidade": "",
+        "paginas": "258",
+        "isbn": ""
+      },
+      {
+        "titulo": "Síntese one-pot do Tinidazol",
+        "ano": 1999,
+        "autores": "Edson F. da Silva; LIMA, E. L. S. ; FERNANDES, R. C.",
+        "evento": "I Bienal de Pesquisa da Fundação Oswaldo Cruz",
+        "cidade": "",
+        "paginas": "104",
+        "isbn": ""
+      },
+      {
+        "titulo": "Preparação do complexo de inclusão entre o Megazol e a Beta-ciclodextrina",
+        "ano": 1999,
+        "autores": "Edson F. da Silva; BAPTISTA, R. C.",
+        "evento": "VII Reunião Anual de Iniciação Científica da Fundação Oswaldo Cruz",
+        "cidade": "",
+        "paginas": "6",
+        "isbn": ""
+      },
+      {
+        "titulo": "In vitro and in vivo Evaluation of Tripanosomicid Activity of Megazol Analog",
+        "ano": 1999,
+        "autores": "Edson F. da Silva; NOGUEIRA, C. M. ; BOZZA, M.",
+        "evento": "XXVI Annual Meeting on Basic Research on Chagas Disease",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Evaluation of ant-trypanosomal activity of several analogous from megazol",
+        "ano": 1998,
+        "autores": "Edson F. da Silva; LIMA, E. L. S. ; NOGUEIRA, C. M.",
+        "evento": "XXV Annual Meeting on Basic Research in Chagas Disease",
+        "cidade": "",
+        "paginas": "300",
+        "isbn": ""
+      },
+      {
+        "titulo": "Derivados Beta-Ciclodextrinas. Avaliação enantioseletiva e uma contribuição para o estudo do mecanismo de separação quiral",
+        "ano": 1997,
+        "autores": "Edson F. da Silva; PEREIRA, A. S. ; BARREIRO, E. J.",
+        "evento": "Resumos da XX Reunião Anual da Sociedade Brasileira de Química",
+        "cidade": "",
+        "paginas": "QA-93",
+        "isbn": ""
+      },
+      {
+        "titulo": "Aplicação da cromatografia gasosa de alta temperatura na análise e acompanhamento de sínteses de derivados de Beta-Ciclodextrinas",
+        "ano": 1996,
+        "autores": "Edson F. da Silva; AQUINO NETO, F. R. ; PEREIRA, A. S.",
+        "evento": "Resumos da XIX Reunião Anual da Sociedade Brasileira de Química",
+        "cidade": "",
+        "paginas": "QA-00",
+        "isbn": ""
+      },
+      {
+        "titulo": "Análise por cromatografia gasosa quiral dos estereoisômeros do derivado 3-hidroximetil-5-carbetoxi-2-oxabiciclo[3.3.0]octano",
+        "ano": 1996,
+        "autores": "Edson F. da Silva; FRAGA, C. A. M. ; AQUINO NETO, F. R.",
+        "evento": "Resumos da XIX Reunião Anual da Sociedade Brasileira de Química",
+        "cidade": "",
+        "paginas": "QA138",
+        "isbn": ""
+      },
+      {
+        "titulo": "Ciclodextrinas modificadas como seletores quirais: Avaliação da qualidade de colunas de vidro",
+        "ano": 1995,
+        "autores": "Edson F. da Silva; RAMOS, M. C. K. V. ; AQUINO NETO, F. R.",
+        "evento": "Resumos da XVIII Reunião Anual da Sociedade Brasileira de Química",
+        "cidade": "",
+        "paginas": "QA-88",
+        "isbn": ""
+      },
+      {
+        "titulo": "Análises de derivados de beta-Ciclodextrinas por cromatografia gasosa de alta temperatura",
+        "ano": 1995,
+        "autores": "Edson F. da Silva; PEREIRA, A. S. ; RADLER, F.",
+        "evento": "Resumos da XVIII Reunião Anual da Sociedade Brasileira de Química",
+        "cidade": "",
+        "paginas": "QA-73",
+        "isbn": ""
+      },
+      {
+        "titulo": "Redução do Tempo de Análise, em CGAR, de Enantiômeros (limoneno e mentol) em Coluna de Comprimento Reduzido, com beta-ciclodextrina permetilada como fase estacionária",
+        "ano": 1994,
+        "autores": "Edson F. da Silva; PEREIRA, A. S. ; AQUINO NETO, F. R.",
+        "evento": "Resumos da XVII Reunião da Sociedade Brasileira de Química",
+        "cidade": "",
+        "paginas": "QA-89",
+        "isbn": ""
+      },
+      {
+        "titulo": "da Silva. Síntese de um novo protótipo de antiinflamatório não esteroidal a partir do safrol",
+        "ano": 1991,
+        "autores": "Edson F",
+        "evento": "Resumos da 14a. Reunião Anual da Sociedade Brasileira",
+        "cidade": "",
+        "paginas": "QO-05",
+        "isbn": ""
+      },
+      {
+        "titulo": "Síntese de derivados pirazólicos com potencial atividade inibitória da quimiotaxia de leucócitos",
+        "ano": 1987,
+        "autores": "Edson F. da Silva; FREITAS, A. C. C. ; BARREIRO, E. J.",
+        "evento": "II Encontro Brasileiro de Síntese Orgânica",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Derivados Pirazólicos com Potencial Atividade Inibidora de Tromboxana-sintetase",
+        "ano": 1987,
+        "autores": "Edson F. da Silva; FREITAS, A. C. C. ; BARREIRO, E. J.",
+        "evento": "II Encontro Brasileiro de Síntese Orgânica",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Síntese de Pirazóis Bioativos Inibidores da Lipooxigenase",
+        "ano": 1987,
+        "autores": "Edson F. da Silva; FREITAS, A. C. C. ; BARREIRO, E. J.",
+        "evento": "II Encontro de Química Orgânica do Nordeste",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      }
+    ],
+    "resumos_expandidos": [
+      {
+        "titulo": "Síntese e avaliação \"in vitro\" da atividade contra T. brucei e citotoxicidade de novos derivados sulfeto/sulfona do megazol",
+        "ano": 2007,
+        "autores": "RIENTE, R. R. ; CARVALHO, S. D. ; Edson F. da Silva",
+        "evento": "30 Reunião Anual da Sociedade Brasileira de Química, 2007, Águas de Lindóia, SP. 30 Reunião Anual da Sociedade Brasileira de Química. São Paulo: Sociedade Brasileira de Química",
+        "cidade": "",
+        "paginas": "126-126"
+      },
+      {
+        "titulo": "Estudos Bioeletroquímicos de Fármacos Híbridos: Nitroaromáticos Fenil-Hidrazônicos",
+        "ano": 2005,
+        "autores": "Edson F. da Silva; SOUZA, A. A. ; PAULA, F. S. ; GOULART, M. O. F. ; DUARTE, C. ; FRAGA, C. A. M. ; BARREIRO, E. J.",
+        "evento": "Simpósio Brasileiro de Eletroquímica e Eletroanalítica, 2005, Londrina - PR. Resumos do XV Simpósio Brasileiro de Eletroquímica e Eletroanalítica. Londrina: Editoração Eletrônica e Composição",
+        "cidade": "",
+        "paginas": "308-308"
+      }
+    ],
+    "resumos_congressos": [
+      {
+        "titulo": "Synthesis and Biological Evaluation of New Nitroimidazole-Chalcone Derivatives, Designed as Trypanocide Drug Candidates",
+        "ano": 2023,
+        "autores": "NASCIMENTO, M. S. S. ; BERNARDES, T. C. D. ; MARTINS, L. C. ; FERREIRA, R. S. ; CARDOSA, I. A. ; NONATO, M. C. ; S.A. Carvalho ; da Silva, E. F. ; FRAGA, C. A. M.",
+        "evento": "46a. Reunião Anual da SBQ, 2023, Águas de Lindóia. 46a. Reunião Anual da SBQ. São Paulo: Sociedade Brasileira de Química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Synthesis and evaluation of trypanocidal activity of novel functionalized carbohydrazonamides",
+        "ano": 2019,
+        "autores": "NASCIMENTO, M. S. S. ; COSTA, J. S. ; CAMARA, V. R. F. ; BARBOSA, J. M. C. ; MAIA, A. S. ; Kelly Salomão ; De Castro, S. L. ; S.A. Carvalho ; da Silva, E. F. ; FRAGA, C. A. M.",
+        "evento": "42 Reunião Anual da Sociedade Brasileira de Química, 2019, Joinville. 42 Reunião Anual da Sociedade Brasileira de Química. São Paulo: sociedade Brasileira de Química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Síntese e avaliação tripanocida de novas cumarinas N-acilidrazônicas planejadas como potenciais agentes antichagásicos",
+        "ano": 2019,
+        "autores": "CARVALHO, S. A. ; Câmara, C.C. ; CAMARA, V. R. F. ; Figueroa-Villar, J.D. ; BARBOSA, J. M. C. ; Kelly Salomão ; De Castro, S. L. ; da Silva, E. F.",
+        "evento": "42 Reunião Anual da Sociedade Brasileira de Química, 2019, Joinville. 42 Reunião Anual da Sociedade Brasileira de Química. São Paulo: Sociedade Brasileira de Química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Planejamento, síntese e avaliaão biológica de novos derivados carboidrazonamidas candidatos a protótipos tripanocidas",
+        "ano": 2018,
+        "autores": "NASCIMENTO, M. S. S. ; TEIXEIRA, R. L. ; Kelly Salomão ; De Castro, S. L. ; Carvalho, S.A. ; da Silva, E. F. ; FRAGA, C. A. M.",
+        "evento": "41 Reunião Anual da Sociedade Brasiileira, 2018, Fox do Iguaçu. 41 Reunião Anual da Sociedade Brasileira - Construindo o Amanhã",
+        "cidade": ""
+      },
+      {
+        "titulo": "Planejamento, síntese e avaliação biológica de novos derivados 4-nitroimidazólicos candidatos a agentes tripanocidas",
+        "ano": 2018,
+        "autores": "ALCANTARA, G. P. ; Kelly Salomão ; De Castro, S. L. ; Carvalho, S.A. ; da Silva, E. F. ; FRAGA, C. A. M.",
+        "evento": "41 Reunião Anual da Sociedade Brasileira de Química, 2018, Foz do Iguaçi. 41 Reunião Anual da Sociedade Brasileira de Química - Contruindo o Amanhã",
+        "cidade": ""
+      },
+      {
+        "titulo": "Design, Synthesis and Tripanocidal Evaluation of New Benznidazole Analogues",
+        "ano": 2017,
+        "autores": "ALCANTARA, G. P. ; SILVA, F. L. N. ; ARAUJO, Y. C. D. ; Kelly Salomão ; CARVALHO, S. A. ; da Silva, E. F. ; Carlos A.M. Fraga",
+        "evento": "46th World Chemistry Congress, 40a Reunião Anual da Sociedade Brasileira de Química, and IUPAC 49th General Assembly, 2017, São Paulo. 46th World Chemistry Congress, 40a Reunião Anual da Sociedade Brasileira de Química, and IUPAC 49th General Assembly. São Paulo: Sociedade Brasileira de Química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Design and synthesis of new carbohydrazinamide derivatives as potent trypanocidal agents",
+        "ano": 2017,
+        "autores": "NASCIMENTO, M. S. S. ; CAMARA, V. R. F. ; Câmara, C.C. ; CARVALHO, S. A. ; da Silva, E. F. ; Carlos A.M. Fraga",
+        "evento": "46th World Chemistry Congress, 40a Reunião Anual da Sociedade Brasileira de Química, and IUPAC 49th General Assembly, 2017, São Paulo. 46th World Chemistry Congress, 40a Reunião Anual da Sociedade Brasileira de Química, and IUPAC 49th General Assembly. São Paulo: Sociedade Brasileira de Química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Síntese e avaliação da atividade tripanocida de novos derivados hidrazonoil-imidazólicos",
+        "ano": 2016,
+        "autores": "SANTIAGO, N. N. ; GRILO, M. R. ; Kelly Salomão ; de Castro, S. L. ; CARVALHO, S. A. ; PEREIRA, H. M. G. ; da Silva, E. F.",
+        "evento": "39 Reunião Anual da Sociedade Brasileira de Química, 2016, Goiânia. 39 Reunião Anual da Sociedade Brasileira de Química. São Paulo: Sociedade Brasileira de Química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Avaliação da atividade antitumoral de novos derivados arilidrazonil-imidazólicos",
+        "ano": 2015,
+        "autores": "GRILO, M. R. ; SANTIAGO, N. N. ; ALCANTARA, G. P. ; CC, Lopes. ; SAMPAIO, A. ; Carvalho, S.A. ; da Silva, E. F.",
+        "evento": "38 Reunião Anual da Sociedade Brasileira de Química, 2015, águas de Lindóia. 38 Reunião Anual da Sociedade Brasileira de Química. São Paulo: sociedade brasileira de química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Síntese em escala multigrama dos novos derivados N-acilidrazônicos cinâmicos planejados como potenciais agentes antichagásicos",
+        "ano": 2015,
+        "autores": "MENEZES, J. P. ; da Silva, E. F. ; FRAGA, C. A. M. ; Carvalho, S.A.",
+        "evento": "38 Reunião Anual da Sociedade Brasileira de Química, 2015, São Paulo. 38 Reunião Anual da Sociedade Brasileira de Química. São Paulo: Sociedade Brasileira de Química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Avaliação in vitro das atividades leishmanicida e citotóxica de derivados cinamoil-N-acilidrazônicos funcionalizados",
+        "ano": 2014,
+        "autores": "Câmara, C.C. ; FAIOES, V. S. ; Santos, E.C. ; Carvalho, S.A. ; Edson F. da Silva ; Fraga, Carlos A. M.",
+        "evento": "37 Reunião Anual da Sociedade Brasileira de Química, 2014, Natal. 37 Reunião Anual da Sociedade Brasileira de Química. São Paulo: Sociedade Brasileira de Química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Planejamento, síntese e avaliação da atividade de novas N-arilidrazonas-1,3,4-tiadiazólicas derivadas do ácido cinâmico",
+        "ano": 2014,
+        "autores": "SILVA, R. T. ; Carvalho, S.A. ; da Silva, E. F.",
+        "evento": "37 Reunião Anual da Sociedade Brasileira de Química, 2014, Natal. 37 Reunião Anual da Sociedade Brasileira de Química. São Paulo: Sociedade Brasileira de Química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Investigação, in vitro, da atividade antimicobacteriana de derivados hidrazônicos funcionalizados",
+        "ano": 2014,
+        "autores": "NASCIMENTO, M. S. S. ; Maria C.S. Lourenço ; Carvalho, S.A. ; da Silva, E. F. ; FRAGA, C. A. M.",
+        "evento": "37 Reunião Anual da Sociedade Brasileira de Química, 2014, Natal. 37 Reunião Anual da Sociedade Brasileira de Química. São Paulo: Sociedade Brasileira de Química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Avaliação da atividade tuberculostática de derivados arilidrazônicos-1,2-diariletanona substituídos",
+        "ano": 2014,
+        "autores": "ALCANTARA, G. P. ; Maria cristina Silva Lourenço ; Carvalho, S.A. ; da Silva, Edson F.",
+        "evento": "37 Reunião Anual da Sociedade Brasileira de Química, 2014, Natal. 37 Reunião Anual da Sociedade Brasileira de Química. São Paulo: Sociedade Brasileira de Química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Implementação de uma aula prática de análise orgânica funcional, utilizando extrato aquoso de alho",
+        "ano": 2014,
+        "autores": "FONSECA, T. S. ; PEDRO, A. R. ; MESTOLO, G. ; da Silva, Edson F.",
+        "evento": "37 Reunião Anual da Sociedade Brasileira de Química, 2014, Natal. 37 Reunião Anual da Sociedade Brasileira de Química. São Paulo: Sociedade Brasileira de Química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Planejamento racional em CLAE: análise da conversão de N-acilidrazidas em N-acilidrazonas cinâmicas",
+        "ano": 2014,
+        "autores": "SOARES, M. ; MAZZEI, J. L. ; BANDINI, T. B. ; S.A. Carvalho ; Edson F. da Silva ; FRAGA, C. A. M.",
+        "evento": "SIMCRO - Simpósio Brasileiro de Cromatografia e Técnicas Afins, 2014, Campos do Jordão. SIMCRO - Simpósio Brasileiro de Cromatografia e Técnicas Afins",
+        "cidade": ""
+      },
+      {
+        "titulo": "Um processo verde para a aula experimental de análise orgânica funcional, utilizando extrato aquoso do alho",
+        "ano": 2014,
+        "autores": "ISIDORIO, N. C. M. ; Edson F. da Silva",
+        "evento": "Semana de iniciação científica da Unigranrio, 2014, Duque de Caxias. Semana de iniciação científica da Unigranrio",
+        "cidade": ""
+      },
+      {
+        "titulo": "Desenvolvimento de uma nova metodologia de síntese para a obtenção do megazol",
+        "ano": 2013,
+        "autores": "ALCANTARA, G. P. ; Carvalho, S. A. ; da Silva, E. F.",
+        "evento": "36a Reunião Anual da Sociedade Brasileira de Química, 2013, Águas de Lindóia. 36a Reunião Anual da Sociedade Brasileira de Quíica. São Paulo: Sociedade Brasileira de Química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Preparação da acetanilida na aula prática de laboratório, utilizando recíclo de solvente",
+        "ano": 2013,
+        "autores": "GUY, R. P. F. A. ; NASCIMENTO, M. S. S. ; NASCIMENTO, L. F. ; da Silva, E. F.",
+        "evento": "36a Reunião Anual da Sociedade Brasileira de Química, 2013, Águas de Lindóia. 36a Reunião Anual da Sociedade Brasileira de Quíica. São Paulo: Sociedade Brasileira de Química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Reação de Nitração da acetanilida em condições brandas",
+        "ano": 2013,
+        "autores": "GUY, R. P. F. A. ; NASCIMENTO, L. F. ; Edson F. da Silva",
+        "evento": "Semana de iniciação científica da Unigranrio, 2013, Duque de Caxias. Semana de iniciação científica da Unigranrio",
+        "cidade": ""
+      },
+      {
+        "titulo": "Síntese e avaliação das atividades tripanocida e citotóxica de novas cinamil-N-acillidrazonas funcionalizadas",
+        "ano": 2012,
+        "autores": "Carlos A.M. Fraga ; da Silva, Edson F. ; S.A. Carvalho ; FEITOSA, L.O. ; de Paula, P.S. ; Kaiser, Marcel ; Brun, Reto",
+        "evento": "35a Reunião Anual da Sociedade Brasileira de Química, 2012, Águas de Lindóia. 35a Reunião Anual da Sociedade Brasileira de Quíica. São Paulo: Sociedade Brasileira de Química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Síntese de novos derivados arilidrazonil-1,2-diariletanona substituídos candidatos a agentes antichagásicos",
+        "ano": 2012,
+        "autores": "loback, V.B. ; Carlos A.M. Fraga ; da Silva, E. F.",
+        "evento": "35a Reunião Anual da Sociedade Brasileira de Química, 2012, Águas de Lindóia. 35a Reunião Anual da Sociedade Brasileira de Quíica. São Paulo: Sociedade Brasileira de Química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Preparação de multigramas do intermediário de síntese 1-metil-2-ciano-5-nitroimidazol",
+        "ano": 2011,
+        "autores": "loback, V.B. ; de Paula, P.S. ; DUARTE, S. L. ; Carvalho, S. A. ; da Silva, E. F.",
+        "evento": "34 Reunião Anual da Sociedade Brasileira de Química, 2011, Florianópolis. 34 Reunião Anual da Sociedade Brasileira de Química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Síntese de novos derivados imidazólicos 2,4,5-trissubstituídos candidatos a protótipos tripanomicidas",
+        "ano": 2011,
+        "autores": "SILVA, R. B. ; da Silva, E. F. ; FRAGA, C. A. M.",
+        "evento": "34 Reunião Anual da Sociedade Brasileira de Química, 2011, Florianópolis. 34 Reunião Anual da Sociedade Brasileira de Química. São Paulo: Sociedade Brasileira de Química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Preparação do complexo de inclusão entre α e β-ciclodextrinas e a brazilizona A",
+        "ano": 2010,
+        "autores": "de Paula, P.S. ; S.A. Carvalho ; SEICEIRA, R. C. ; PITALUGA JR., A. ; FRAGA, C. A. M. ; da Silva, E. F.",
+        "evento": "33a. Reunião Anual da Sociedade Brasileira de Química, 2010, Águas de Lindóia. 33a. Reunião Anual da Sociedade Brasileira de Química. São Paulo: Sociedade Brasileira de Química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Preparação de um intermediário triazínico, visando a síntese de novas hidrazonas com potencial atividade contra T.cruzi",
+        "ano": 2010,
+        "autores": "loback, V.B. ; FIGUEIRA, C.D. ; da Silva, E. F.",
+        "evento": "33a. Reunião Anual da Sociedade Brasileira de Química, 2010, Águas de Lindóia. 33a. Reunião Anual da Sociedade Brasileira de Química. São Paulo: Sociedade brasileira de Química",
+        "cidade": ""
+      },
+      {
+        "titulo": "Síntese de novos derivados 2,4,5-triaril-N-hidroxiimidazol candidatos a agentes anti-parasitário e anti-TB",
+        "ano": 2009,
+        "autores": "loback, V.B. ; de Paula, P.S. ; SILVA, R. B. ; Carlos A.M. Fraga ; Edson F. da Silva",
+        "evento": "XII Encontro Regional da Sociedade Brasileira de Química - Rio de Janeiro, 2009, Rio de Janeiro. XII Encontro Regional da Sociedade Brasileira de Química - Rio de Janeiro",
+        "cidade": ""
+      },
+      {
+        "titulo": "Atividade tripanomicida de novas cinamil-N-acilidrazonas funcionalizadas",
+        "ano": 2009,
+        "autores": "Samir de Aquino Carvalho ; FEITOSA, L.O. ; Edson F. da Silva ; M.Kaiser ; R.Brun ; FRAGA, C. A. M.",
+        "evento": "XII Encontro Regional da Sociedade Brasileira de Química - Rio de Janeiro, 2009, Rio de janeiro. XII Encontro Regional da Sociedade Brasileira de Química - Rio de Janeiro",
+        "cidade": ""
+      },
+      {
+        "titulo": "Síntese de novos análogos da Furamidina com potencial atividade Leishmanicida",
+        "ano": 2008,
+        "autores": "FIGUEIRA, C.D. ; CARVALHO, S. D. ; Edson F. da Silva",
+        "evento": "XVI Reunião Anual de iniciação Científica - RAIC, 2008, Rio de janeiro. Jornada de iniciação Científica da FIOCRUZ",
+        "cidade": ""
+      },
+      {
+        "titulo": "Planejamento, síntese e avaliação \"in vitro\" da atividade contra T. brucei de novas N-arilidrazonas-1,3,4-tiadiazólicas",
+        "ano": 2008,
+        "autores": "FEITOSA, L.O. ; CARVALHO, S. D. ; Edson F. da Silva",
+        "evento": "XVI Reunião Anual de iniciação Científica - RAIC, 2008, Rio de janeiro. Jornada de Iniciação científica da FIOCRUZ",
+        "cidade": ""
+      },
+      {
+        "titulo": "Planejamento, síntese e avaliação anti-malarial de novas diaminoquinolinas planejadas como inbidores de proteases do plasmodium",
+        "ano": 2008,
+        "autores": "Santos, N.S. ; CARVALHO, S. D. ; Edson F. da Silva",
+        "evento": "XVI Reunião Anual de Iniciação Científica - RAIC, 2008, Rio de Janeiro. Jornada de Iniciação Científica da FIOCRUZ",
+        "cidade": ""
+      },
+      {
+        "titulo": "Desenvolvimento da metodologia de preparação em escala pré-piloto de novos derivados 1,3,4-tiadiazólicos-Narilidrazônicos, com potencial atividade tripanomicida",
+        "ano": 2008,
+        "autores": "SILVA, R. B. ; CARVALHO, S. D. ; Edson F. da Silva",
+        "evento": "XVI Reunião Anual de Iniciação Científica - RAIC, 2008, Rio de Janeiro. Jornada de Iniciação Científica da FIOCRUZ",
+        "cidade": ""
+      },
+      {
+        "titulo": "Antileishmanial activity of synthetic benzyl-nitroimidazoles derivatives from megazol",
+        "ano": 2007,
+        "autores": "COSTA ; Picienza ; FRAGA, C. A. M. ; Samir de Aquino Carvalho ; Edson F. da Silva ; BARTIRA",
+        "evento": "XXXIV Annual Meeting on basic Research in Chagas' Disease and XXIII Annual Meeting of the Brazilian Society of Protozoology, 2007, Caxambu - minas Gerais. XXXIV Annual Meeting on Basic Research in Chagas' Disease. São Paulo: Editora da USP",
+        "cidade": ""
+      },
+      {
+        "titulo": "Studies Toward the Structural optimization of New Brazilizone-Related Trypanocidal 1,3,4-Thiadiazole-2-Arylhydrazone Derivatives",
+        "ano": 2007,
+        "autores": "Figueiredo ; Samir de Aquino Carvalho ; Kelly Salomão ; Romeiro ; Solange Wardell ; CASTRO, S. L. ; Edson F. da Silva ; FRAGA, C. A. M.",
+        "evento": "XXXIV Annual Meeting on Basic Research in Chagas' Disease and XXIII Annual Meeting of the Brazilian Society of Protozoology, 2007, Caxambu - Minas Gerais. XXXIV Annual Meeting on Basic Research in Chagas' Disease. São Paulo: Editora da USP",
+        "cidade": ""
+      },
+      {
+        "titulo": "Beta-Cyclodextrin as a molecular carrier for megazol. A study performed by Molecular Dynamics Simulaion NMR spectroscopy",
+        "ano": 2007,
+        "autores": "Ernesto ; Edson F. da Silva ; REBELLO, F. R. ; Samir de Aquino Carvalho",
+        "evento": "XIV Simpósio Brasileiro de Química Teórica, 2007, Poços de caldas. XIV Simpósio Brasileiro de Química Teórica",
+        "cidade": ""
+      },
+      {
+        "titulo": "Avaliação da granulometria e cristalinidade do 1-(3-acetiltio-2D-metil-propanoil)-L-prolina",
+        "ano": 2004,
+        "autores": "Edson F. da Silva; DUARTE, S. L. ; SEICEIRA, R. C. ; PITALUGA JR., A. ; COSTA, J. C. S.",
+        "evento": "IV Congresso Brasileiro da Análise Térmica e Calorimétrica e II Congresso Pan-Americano de Análise Térmica e Calorimétrica, 2004, Poços de Caldas - MG. IN CBRATEC. rIO DE jANEIRO: ABRATEC",
+        "cidade": ""
+      },
+      {
+        "titulo": "Síntese de novos derivados 2-aril-(sulfeto, sulfóxido e sulfona) do megazol",
+        "ano": 2004,
+        "autores": "Edson F. da Silva; o mesmo",
+        "evento": "IV Bienal de Pesquisa, 2004, Rio de Janeiro. IV Bienal de Pesquisa. Rio de Janeiro: EditoraFIOCRUZ",
+        "cidade": ""
+      }
+    ],
+    "artigos_aceitos": [],
+    "apresentacoes_trabalhos": [
+      {
+        "titulo": "da Silva. Biodiesel: Da Pesquisa à produção",
+        "ano": 2008,
+        "autores": "Edson F",
+        "evento": ""
+      }
+    ],
+    "textos_jornais": [],
+    "outras_producoes": []
+  },
+  "producao_tecnica": {
+    "softwares_com_patente": [],
+    "softwares_sem_patente": [],
+    "produtos_tecnologicos": [
+      {
+        "titulo": "Novos compostos N-arilidrazônicos-1,3,4-tiadiazólicos, composição farmacêutica contendo os mesmos, respectivo uso e método de tratamento",
+        "ano": 2004,
+        "autores": "CARVALHO, S. D. ; Edson F. da Silva ; CASTRO, S. L. ; SANTARITA, R. M. ; FRAGA, C. A. M.",
+        "tipo": "Produto tecnológico",
+        "finalidade": ""
+      },
+      {
+        "titulo": "Transferência de tecnologia para a produção do fármaco Captopril",
+        "ano": 2002,
+        "autores": "Edson F. da Silva; RIENTE, R. R.",
+        "tipo": "Produto tecnológico",
+        "finalidade": ""
+      },
+      {
+        "titulo": "Transferência de tecnologia para a produção do fármaco Haloperidol",
+        "ano": 2000,
+        "autores": "Edson F. da Silva; LACERDA, P. S. B.",
+        "tipo": "Produto tecnológico",
+        "finalidade": ""
+      },
+      {
+        "titulo": "da Silva. Transferência de tecnologia para a produção do fármaco Carbamazepina",
+        "ano": 1998,
+        "autores": "Edson F",
+        "tipo": "Produto tecnológico",
+        "finalidade": ""
+      }
+    ],
+    "processos_tecnicas": [],
+    "trabalhos_tecnicos": [
+      {
+        "titulo": "Acompanhamento do processo de preparação, em escala industrial, do fármaco ZIDOVUDINA na Empresa NORTEC QUÍMICA S.A",
+        "ano": 2008,
+        "autores": "Edson F. da Silva; DUARTE, S. L.",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Acompanhamento do processo de preparação, em escala industrial, do fármaco EFAVIRENZ na Empresa NORTEC QUÍMICA S.A",
+        "ano": 2008,
+        "autores": "Edson F. da Silva; DUARTE, S. L.",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "da Silva. Acompanhamento do processo de preparação, em escala industrial, do fármaco PROPRANOLOL na Empresa GLOBE QUÍMICA",
+        "ano": 2007,
+        "autores": "Edson F",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Acompanhamento do processo de preparação, em escala industrial, do fármaco EFAVIRENZ na Empresa LABORATÓRIO CRI STÁLIA PRODUTOS QUÍMICOS FARMACÊUTICOS ltda",
+        "ano": 2007,
+        "autores": "Edson F. da Silva; DUARTE, S. L. ; Fonseca, R.",
+        "tipo": "Trabalho técnico"
+      }
+    ],
+    "outras_producoes_tecnicas": [
+      {
+        "titulo": "Cromatografia Gasosa",
+        "ano": 2019,
+        "autores": "da Silva, E. F",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "da Silva. Processo Industrial de obtenção do fármaco Efavirenz",
+        "ano": 2008,
+        "autores": "Edson F",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "da Silva. Processo industrial de obtenção do fármaco propranolol",
+        "ano": 2007,
+        "autores": "Edson F",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "da Silva. Processo industrial de obtenção do fármaco Lamivudina",
+        "ano": 2007,
+        "autores": "Edson F",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "da Silva. processo industrial de obtenção do fármaco Zidovudina",
+        "ano": 2007,
+        "autores": "Edson F",
+        "tipo": "Demais tipos de produção técnica"
+      }
+    ],
+    "entrevistas": []
+  },
+  "patentes_registros": {
+    "patentes": [],
+    "programas_computador": [],
+    "desenhos_industriais": []
+  },
+  "producao_artistica": [],
+  "orientacoes": {
+    "em_andamento": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "Síntese e avaliação biológica de novos derivados da melamina como potenciais agentes antichagásicos",
+          "ano_inicio": 2021,
+          "orientando": "Laís Gomes Ramos Vale",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Instituto Militar de Engenharia",
+          "curso": ""
+        },
+        {
+          "titulo": "Planejamento, síntese e avaliação biológica de novos compostos nitroimidazólicos candidatos a agentes tripanocidas",
+          "ano_inicio": 2019,
+          "orientando": "Mayara Salles Souza do Nascimento",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Planejamento, síntese e avaliação farmacológica de novos derivados 1,3,4-tiadiazólicos, inibidos da biossíntese do ergosterol",
+          "ano_inicio": 2013,
+          "orientando": "Rosana Helena Coimbra Nogueira de Freitas",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "Síntese e avaliação das atividades tripanociida e citotóxica de novas cinamil-N-acilidrazonas funcionalizadas",
+          "ano_inicio": 2016,
+          "orientando": "Camila Capelini Câmara",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Militar de Engenharia",
+          "curso": ""
+        },
+        {
+          "titulo": "Planejamento, síntese e avaliação biológica de novos derivados carboidrazonamidas candidatos a protótipos tripanocida",
+          "ano_inicio": 2016,
+          "orientando": "Mayara Salles Souza do Nascimento",
+          "tipo_trabalho": "",
+          "instituicao": "Dissertação (Mestrado em Ciências Biológicas (Farmacologia e Química Medicinal)) - Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Planejamento e Síntese da Atividade Tripanocida de novos análogos do benzonidazol",
+          "ano_inicio": 2016,
+          "orientando": "Giulianna Pereira de Alcântara",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Análise Quantitativa para Diagnóstico Neonatal em Plasma de Aminoacidopatias utilizando LC-MS/MS.",
+          "ano_inicio": 2015,
+          "orientando": "Beatriz Ferreira Moura",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Militar de Engenharia",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [
+        {
+          "titulo": "Planejamento, síntese e avaliação biológica de novos derivados carboidrazonamidas nitroimidazólicas candidatos a protótipos tripanocida",
+          "ano_inicio": 2017,
+          "orientando": "Juliana Silva da Costa",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Universidade do Grande Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Planejamento, síntese e avaliação biológica de novos derivados acilidrazônicos do eugenol, como potenciais agentes tripanocidas.",
+          "ano_inicio": 2016,
+          "orientando": "Raíssa Lamin Teixeira",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Universidade do Grande Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Síntese de novos análogos do miconazol, candidatos à agentes anti-chagásicos.",
+          "ano_inicio": 2015,
+          "orientando": "Yuri Campello Dias de Araújo",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Universidade do Grande Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Síntese de novos análogos do miconazol, candidatos à agentes anti-chagásicos",
+          "ano_inicio": 2015,
+          "orientando": "Felipe Lopes Nunes da Silva",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Instituto Federal de Educação, Ciência e Tecnologia do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Planejamento, síntese e avaliação biológica de novos derivados carboidrazonamidas candidatos a protótipos tripanocida",
+          "ano_inicio": 2015,
+          "orientando": "Vitória Regina Fontes Câmara",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Universidade do Grande Rio",
+          "curso": ""
+        }
+      ],
+      "outros": []
+    },
+    "concluidas": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "Síntese e avaliação tripanocida de novos derivados piridinil-1,3,4-tiadiazólicos",
+          "ano_inicio": 2018,
+          "ano_conclusao": 2018,
+          "orientando": "Rosana Helena Coimbra Nogueira de Freitas",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Síntese e avaliação do perfil tripanocida de N-acilidrazonas cinâmicas planejadas como potenciais agentes anti-chagásicos",
+          "ano_inicio": 2011,
+          "ano_conclusao": 2011,
+          "orientando": "Samir D'Aquino Carvalho",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "Planejamento, síntese e avaliação biológica de novos análogos do benznidazol, candidatos a protótipos tripanocida",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "Giulianna Pereira de Alcântara",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Planejamento, síntese e avaliação biológica de novos derivados carboidrazonamidas candidatos a protótipos tripanocida",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "Mayara Salles Souza do Nascimento",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Planejamento, síntese e avaliação biológica de novos derivados hidrazonoil substituídos com potencial atividade anti-chagásica",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Natália Nascimento Santiago",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Desenvolvimento e validação de metodologia de distribuição granulométrica por espalhamento de luz laser do insumo farmacêutico ativo efavirenz",
+          "ano_inicio": 2013,
+          "ano_conclusao": 2013,
+          "orientando": "Janine Boniatti",
+          "tipo_trabalho": "",
+          "instituicao": "na indústria Farmacêut.) - Instituto Tecnológico de Fármacos",
+          "curso": ""
+        },
+        {
+          "titulo": "Planejamento, síntese e avaliação da atividade tripanocida de novos derivados nitroimidazolil éteres de oxima substituídos como potenciais agentes antichagásicos",
+          "ano_inicio": 2013,
+          "ano_conclusao": 2013,
+          "orientando": "Luis Felipe Baumotte Osório",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Síntese e avaliação do perfil tripanocida dos novos derivados imidazólicos trissubstituídos planejados como potenciais agentes anti-chagásicos",
+          "ano_inicio": 2011,
+          "ano_conclusao": 2011,
+          "orientando": "Ramon Borges da Silva",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Planejamento, Síntese e Avaliação da Atividade Tripanomicida de Novas N-Aril-Hidrazonas-1,3,4-tiadiazólicas, Candidatas a Farmacos antichagásicos",
+          "ano_inicio": 2003,
+          "ano_conclusao": 2003,
+          "orientando": "Samir D'Aquino Carvalho",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [
+        {
+          "titulo": "Megazol, seus análodos e derivados: uma breve revisão da síntese e suas atividade antichagásicas",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "Felipe Lopes Nunes da Silva",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Instituto Federal de Educação",
+          "curso": ""
+        }
+      ],
+      "iniciacao_cientifica": [
+        {
+          "titulo": "Aplicação do Conceito de Química limpa nas Aulas práticas de Química Ofericidas pela Escola de Ciência e tecnologia da Unigranrio.",
+          "ano_inicio": 2016,
+          "ano_conclusao": 2016,
+          "orientando": "Patrícia Ferreira Vieira",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidade do Grande Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Planejamento, síntese e avaliação biológica de novos derivados carboidrazonamidas com potencial atividade leishmanicida",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Mayara Salles Souza do Nascimento",
+          "tipo_trabalho": "",
+          "instituicao": "Iniciação Científica - Fundação Oswaldo Cruz",
+          "curso": ""
+        },
+        {
+          "titulo": "Planejamento, síntese e avaliação da Atividade tripanomicida in vitro e in vivo de novos derivados hidrazonas nitroimidazólicas substituídos sobre o Trypanosoma cruzi",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Marianne Grilo Rezende",
+          "tipo_trabalho": "",
+          "instituicao": "Iniciação Científica - Fundação Oswaldo Cruz",
+          "curso": ""
+        },
+        {
+          "titulo": "Avaliação in vitro das atividades leishmanicida e citotóxica de derivados cinamoil-N-acilidrazônicos funcionalizados.",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Camila Capelini Câmara",
+          "tipo_trabalho": "",
+          "instituicao": "Iniciação Científica - Fundação Oswaldo Cruz",
+          "curso": ""
+        },
+        {
+          "titulo": "Planejamento, síntese e avaliação da Atividade tripanocida in vitro e in vivo de novos derivados hidrazonoil substituídos sobre o Trypanosoma cruzi",
+          "ano_inicio": 2014,
+          "ano_conclusao": 2014,
+          "orientando": "Giulianna Pereira de Alcântara",
+          "tipo_trabalho": "",
+          "instituicao": "Iniciação Científica - Fundação Oswaldo Cruz",
+          "curso": ""
+        },
+        {
+          "titulo": "APLICAÇÃO DO CONCEITO DE QUÍMICA LIMPA NAS AULAS PRÁTICAS DE QUÍMICA OFERECIDAS PELA ESCOLA DE CIÊNCIA E TECNOLOGIA DA UNIGRANRIO.",
+          "ano_inicio": 2013,
+          "ano_conclusao": 2013,
+          "orientando": "Rodrigo Pierre Freire de Araujo Gouy",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidade do Grande Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Preparação de complexos de inclusão entre derivados N-arilidrazônicos e a ciclodextrinas",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "Priscilla Silva de Paula",
+          "tipo_trabalho": "",
+          "instituicao": "Iniciação Científica - Fundação Oswaldo Cruz",
+          "curso": ""
+        },
+        {
+          "titulo": "Novos Derivados Sulfonamidas do Anti-Chagásico Megazol",
+          "ano_inicio": 2007,
+          "ano_conclusao": 2007,
+          "orientando": "Larisse de Oliveira Feitosa",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidade do Grande Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Planejamento, Síntese e Avaliação Farmacológica de novos Análogos da Furamidina com potencial Atividade leishmanicida",
+          "ano_inicio": 2007,
+          "ano_conclusao": 2007,
+          "orientando": "Claudio Dutra Figueira",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidade Federal Fluminense",
+          "curso": ""
+        },
+        {
+          "titulo": "Estudo de Aumento de Escala de Novos Derivados N-Arilidrazônicos do Megazol.",
+          "ano_inicio": 2007,
+          "ano_conclusao": 2007,
+          "orientando": "Ramon Borges da Silva",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidade Salgado de Oliveira",
+          "curso": ""
+        },
+        {
+          "titulo": "Obtenção do Complexo de Inclusão entre o Megazol e a Beta-ciclodextrinas",
+          "ano_inicio": 2001,
+          "ano_conclusao": 2001,
+          "orientando": "Fabiane Ramos Rebello",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Obtenção de complexos de inclusão, em ciclodextrinas, de potenciais agentes anti-chagas",
+          "ano_inicio": 1999,
+          "ano_conclusao": 1999,
+          "orientando": "Renata Cristina Freitas Baptista",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidade Federal Fluminense",
+          "curso": ""
+        }
+      ],
+      "outros": [
+        {
+          "titulo": "Planejamento e Síntese da Atividade Tripanocida de novas Narilidrazonas- 1,3,4-tiadiazólicas derivadas do ácido cinâmico",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Raiane Teixeira da Silva",
+          "tipo_trabalho": "",
+          "instituicao": "Orientação de outra natureza - Fundação Oswaldo Cruz",
+          "curso": ""
+        },
+        {
+          "titulo": "Iiciação no laboratório de pesquisa",
+          "ano_inicio": 2007,
+          "ano_conclusao": 2007,
+          "orientando": "Gabriela Almeida Franco",
+          "tipo_trabalho": "",
+          "instituicao": "Orientação de outra natureza - Colégio Pedro II",
+          "curso": ""
+        }
+      ]
+    }
+  },
+  "eventos": {
+    "participacoes": [
+      {
+        "evento": "37 Reunião Anual da Sociedade Brasileira de Química",
+        "apresentacao": null,
+        "ano": 2014,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "7 Brazilian Symposium on Medicinal Chemistry",
+        "apresentacao": null,
+        "ano": 2014,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "36a Reunião Anual da Sociedade Brasileira de Química",
+        "apresentacao": "Desenvolvimento de uma nova metodologia de síntese para a obtenção do megazol",
+        "ano": 2013,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "4 ciclo de Debates do Sistema Gestec - NIT",
+        "apresentacao": null,
+        "ano": 2013,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "35a Reunião Anual da Sociedade Brasileira de Química",
+        "apresentacao": "Síntese e avaliação das atividades tripanociida e citotóxica de novas cinamil-N-acilidrazonas funcionalizadas",
+        "ano": 2012,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "6th Brazilian Medicinal Chemistry Symposium",
+        "apresentacao": null,
+        "ano": 2012,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "34a Reunião Anual da Sociedade Brasileira de Química",
+        "apresentacao": "Síntese de novos derivados imidazólicos 2,4,5-trissubstituídos candidatos a protótipos tripanomicidas",
+        "ano": 2011,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "33a Reunião Anual da Sociedade Brasileira de Química",
+        "apresentacao": "Preparação do intermediário triazínico, visando a síntese de novas hidrazonas com potencial atividade contra T. cruzi",
+        "ano": 2010,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "32a Reunião Anual da Sociedade Brasileira de Química",
+        "apresentacao": null,
+        "ano": 2009,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "XXXII Reunião Anual da Sociedade Brasileira de Química",
+        "apresentacao": "QUÍMICOS para uma Potência Emergente",
+        "ano": 2009,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      }
+    ],
+    "organizacoes": []
+  },
+  "bancas": {
+    "mestrado": [
+      {
+        "descricao": "CASTRO, D. L.; da Silva, E. F.; RODRIGUES, G. C.. Participação em banca de Bruno Vieira Carvalho. Filtros solares: Um tema contextualizador para as aulas de química. 2019. Dissertação (Mestrado em Programa de pós-graduação em ensino de ciência) - Universidade do Grande Rio.",
+        "ano": 2019,
+        "tipo": "Mestrado",
+        "aluno": "Bruno Vieira Carvalho",
+        "membros_banca": [
+          "CASTRO, D. L.",
+          "da Silva, E. F.",
+          "RODRIGUES, G. C."
+        ],
+        "titulo_trabalho": "Filtros solares: Um tema contextualizador para as aulas de química",
+        "curso": "Dissertação (Mestrado em Programa de pós-graduação em ensino de ciência)",
+        "universidade": "Universidade do Grande Rio"
+      },
+      {
+        "descricao": "da Silva, Edson F.; Rodrigues, G.C.; MARTINS, H. G.; SOARES, D. A.; MENEZES, A. M. C.. Participação em banca de Andréia de Macedo Sá. Tenologias educacionais: uma proposta de formação continuada para professores de química na educação básica. 2017. Dissertação (Mestrado em Curso de Mestrado em Ensino das Ciências) - Universidade do Grande Rio.",
+        "ano": 2017,
+        "tipo": "Mestrado",
+        "aluno": "Andréia de Macedo Sá",
+        "membros_banca": [
+          "da Silva, Edson F.",
+          "Rodrigues, G.C.",
+          "MARTINS, H. G.",
+          "SOARES, D. A.",
+          "MENEZES, A. M. C."
+        ],
+        "titulo_trabalho": "Tenologias educacionais: uma proposta de formação continuada para professores de química na educação básica",
+        "curso": "Dissertação (Mestrado em Curso de Mestrado em Ensino das Ciências)",
+        "universidade": "Universidade do Grande Rio"
+      },
+      {
+        "descricao": "ANTUNES, O. A. C.; SILVA, J. F. C.; Edson F. da Silva. Participação em banca de Edson Rodrigo Fernandes dos Santos. Benzodiazepínicos: Processos de Produção Industrial e Calorimetria. 2006. Dissertação (Mestrado em Química) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2006,
+        "tipo": "Mestrado",
+        "aluno": "Edson Rodrigo Fernandes dos Santos",
+        "membros_banca": [
+          "ANTUNES, O. A. C.",
+          "SILVA, J. F. C.",
+          "Edson F. da Silva"
+        ],
+        "titulo_trabalho": "Benzodiazepínicos: Processos de Produção Industrial e Calorimetria",
+        "curso": "Dissertação (Mestrado em Química)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "Edson F. da Silva; GEMAL, A. L.; FEREZOU, J.. Participação em banca de Tatiana Claro da Silva. Estudos Iniciais visando a obtenção de an';alogos do etambutol. 2000. Dissertação (Mestrado em Química) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2000,
+        "tipo": "Mestrado",
+        "aluno": "Tatiana Claro da Silva",
+        "membros_banca": [
+          "Edson F. da Silva",
+          "GEMAL, A. L.",
+          "FEREZOU, J."
+        ],
+        "titulo_trabalho": "Estudos Iniciais visando a obtenção de an';alogos do etambutol",
+        "curso": "Dissertação (Mestrado em Química)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "Edson F. da Silva; CYNAMON, S. E.. Participação em banca de Welington Ferreira Chagas. Estudo de patógenos e metais em iodo digerido bruto e higienizado para fins agrícolas, das estaçoes de tratamento de esgotos da Ilha do Governador e da Penha, no Estado do Rio de Janeiro. 2000. Dissertação (Mestrado em Mestrado em Ciências em Saúde Pública) - Fundação Oswaldo Cruz - Escola Nacional de Saúde Pública.",
+        "ano": 2000,
+        "tipo": "Mestrado",
+        "aluno": "Welington Ferreira Chagas",
+        "membros_banca": [
+          "Edson F. da Silva",
+          "CYNAMON, S. E."
+        ],
+        "titulo_trabalho": "Estudo de patógenos e metais em iodo digerido bruto e higienizado para fins agrícolas, das estaçoes de tratamento de esgotos da Ilha do Governador e da Penha, no Estado do Rio de Janeiro",
+        "curso": "Dissertação (Mestrado em Mestrado em Ciências em Saúde Pública)",
+        "universidade": "Escola Nacional de Saúde Pública"
+      }
+    ],
+    "doutorado": [
+      {
+        "descricao": "DA SILVA, EDSON FERREIRA; Domingos, J.L.O.; SILVA JUNIOR, F. P.. Participação em banca de Marília oliva Gandi. Síntese de novos derivados triazolopirimidínicos hidrazonas como possíveis agentes anti-plasmodium e inibidores da enzima di-hidroorotato desidrogenase. 2020. Dissertação (Mestrado em Programa de Pós-Graduação em Farmacologia e Química Medicinal) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2020,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Marília oliva Gandi",
+        "membros_banca": [
+          "DA SILVA, EDSON FERREIRA",
+          "Domingos, J.L.O.",
+          "SILVA JUNIOR, F. P."
+        ],
+        "titulo_trabalho": "Síntese de novos derivados triazolopirimidínicos hidrazonas como possíveis agentes anti-plasmodium e inibidores da enzima di-hidroorotato desidrogenase",
+        "curso": "Dissertação (Mestrado em Programa de Pós-Graduação em Farmacologia e Química Medicinal)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "Carlos A.M. Fraga; Edson F. da Silva. Participação em banca de Renata Macedo dos Reis Januário da Silva. planejamento, síntese e atividade anti-plasmodium falciparum de novos compostos trifluormetilquinolínicos. 2015. Dissertação (Mestrado em Programa de Pós-graduação em Química) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2015,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Renata Macedo dos Reis Januário da Silva",
+        "membros_banca": [
+          "Carlos A.M. Fraga",
+          "Edson F. da Silva"
+        ],
+        "titulo_trabalho": "planejamento, síntese e atividade anti-plasmodium falciparum de novos compostos trifluormetilquinolínicos",
+        "curso": "Dissertação (Mestrado em Programa de Pós-graduação em Química)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "Edson F. da Silva; Lima, L.M.. Participação em banca de bRUNA mARIA cASTRO sALOMÃO qUARESMA. sÍNTESE E AVALIAÇÃO TRIPANOCIDA E MUTAGÊNICA DE NITROIMIDAZÓIS SUBSTITUÍDOS COM DIFERENTES ANÉIS AZÓLICOS. 2015. Dissertação (Mestrado em Programa de Pós-graduação em Química) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2015,
+        "tipo": "Tese de Doutorado",
+        "aluno": "bRUNA mARIA cASTRO sALOMÃO qUARESMA",
+        "membros_banca": [
+          "Edson F. da Silva",
+          "Lima, L.M."
+        ],
+        "titulo_trabalho": "sÍNTESE E AVALIAÇÃO TRIPANOCIDA E MUTAGÊNICA DE NITROIMIDAZÓIS SUBSTITUÍDOS COM DIFERENTES ANÉIS AZÓLICOS",
+        "curso": "Dissertação (Mestrado em Programa de Pós-graduação em Química)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "PINTO, A. C.; Boecht, N.; Aguiar, L.C.S.; da Silva, E. F.. Participação em banca de Karine Cristina de oliveira Nogueira. Síntese de novos derivados quinolínicos e sulfonamídicos com potencial atividade antimalárica e leishmanicida. 2011. Dissertação (Mestrado em Programa de Pós-graduação em Química) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2011,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Karine Cristina de oliveira Nogueira",
+        "membros_banca": [
+          "PINTO, A. C.",
+          "Boecht, N.",
+          "Aguiar, L.C.S.",
+          "da Silva, E. F."
+        ],
+        "titulo_trabalho": "Síntese de novos derivados quinolínicos e sulfonamídicos com potencial atividade antimalárica e leishmanicida",
+        "curso": "Dissertação (Mestrado em Programa de Pós-graduação em Química)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "Edson F. da Silva; FRAGA, C. A. M.; LIMA, E. L. S.; ECHEVARRIA, A.; VELOSO, M. P.; ALBUQUERQUE, M. G.. Participação em banca de Samir D'Aquino Carvalho. Planejamento, Síntese e avaliação da atividade tripanomicida de novas N-arilidrazona-1,3,4-tiadiazólicas, candidatas a fármacos anti-chagásicos. 2003. Dissertação (Mestrado em Química) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2003,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Samir D'Aquino Carvalho",
+        "membros_banca": [
+          "Edson F. da Silva",
+          "FRAGA, C. A. M.",
+          "LIMA, E. L. S.",
+          "ECHEVARRIA, A.",
+          "VELOSO, M. P.",
+          "ALBUQUERQUE, M. G."
+        ],
+        "titulo_trabalho": "Planejamento, Síntese e avaliação da atividade tripanomicida de novas N-arilidrazona-1,3,4-tiadiazólicas, candidatas a fármacos anti-chagásicos",
+        "curso": "Dissertação (Mestrado em Química)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "Edson F. da Silva; BARREIRO, E. J.; FRAGA, C. A. M.. Participação em banca de Luciana Stowinski Varandas da Silva. Planejamento, síntese e avaliação farmacológica de novos derivados 1,3,4-tiadiazólicos candidatos a novos inibidores seletivos de PGHS-2. 2002. Dissertação (Mestrado em Química) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2002,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Luciana Stowinski Varandas da Silva",
+        "membros_banca": [
+          "Edson F. da Silva",
+          "BARREIRO, E. J.",
+          "FRAGA, C. A. M."
+        ],
+        "titulo_trabalho": "Planejamento, síntese e avaliação farmacológica de novos derivados 1,3,4-tiadiazólicos candidatos a novos inibidores seletivos de PGHS-2",
+        "curso": "Dissertação (Mestrado em Química)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "Edson F. da Silva; BARREIRO, E. J.; FRAGA, C. A. M.; YUNES, R. A.; PINTO, A. C.. Participação em banca de Ricardo menegatti. Planejamento, síntese e avaliação farmacológica de novos candidatos a protótipos de agentes anti-psicóticos. 2001. Dissertação (Mestrado em Química) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2001,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Ricardo menegatti",
+        "membros_banca": [
+          "Edson F. da Silva",
+          "BARREIRO, E. J.",
+          "FRAGA, C. A. M.",
+          "YUNES, R. A.",
+          "PINTO, A. C."
+        ],
+        "titulo_trabalho": "Planejamento, síntese e avaliação farmacológica de novos candidatos a protótipos de agentes anti-psicóticos",
+        "curso": "Dissertação (Mestrado em Química)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "Edson F. da Silva; BARREIRO, E. J.; FRAGA, C. A. M.; YUNES, R. A.; PINTO, A. C.. Participação em banca de Ricardo menegatti. Planejamento, síntese e avaliação farmacológica de novos candidatos a protótipos de agentes anti-psicóticos. 2001. Dissertação (Mestrado em Química) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2001,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Ricardo menegatti",
+        "membros_banca": [
+          "Edson F. da Silva",
+          "BARREIRO, E. J.",
+          "FRAGA, C. A. M.",
+          "YUNES, R. A.",
+          "PINTO, A. C."
+        ],
+        "titulo_trabalho": "Planejamento, síntese e avaliação farmacológica de novos candidatos a protótipos de agentes anti-psicóticos",
+        "curso": "Dissertação (Mestrado em Química)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "Edson F. da Silva; PINTO, A. C.; FRAIZ JUNIOR, S. V.; ROMEIRO, G. A.. Participação em banca de Jussara Pinheiro Barbos. Síntese de halo-nitroimidazóis visando a obtenção de fluoroimidazóis, através da substituição nucleofílica aromática. 1998. Dissertação (Mestrado em Química) - Universidade Federal do Rio de Janeiro.",
+        "ano": 1998,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Jussara Pinheiro Barbos",
+        "membros_banca": [
+          "Edson F. da Silva",
+          "PINTO, A. C.",
+          "FRAIZ JUNIOR, S. V.",
+          "ROMEIRO, G. A."
+        ],
+        "titulo_trabalho": "Síntese de halo-nitroimidazóis visando a obtenção de fluoroimidazóis, através da substituição nucleofílica aromática",
+        "curso": "Dissertação (Mestrado em Química)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "Edson F. da Silva; PINTO, A. C.; FRAIZ JUNIOR, S. V.; ROMEIRO, G. A.. Participação em banca de Jussara Pinheiro Barbos. Síntese de halo-nitroimidazóis visando a obtenção de fluoroimidazóis, através da substituição nucleofílica aromática. 1998. Dissertação (Mestrado em Química) - Universidade Federal do Rio de Janeiro.",
+        "ano": 1998,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Jussara Pinheiro Barbos",
+        "membros_banca": [
+          "Edson F. da Silva",
+          "PINTO, A. C.",
+          "FRAIZ JUNIOR, S. V.",
+          "ROMEIRO, G. A."
+        ],
+        "titulo_trabalho": "Síntese de halo-nitroimidazóis visando a obtenção de fluoroimidazóis, através da substituição nucleofílica aromática",
+        "curso": "Dissertação (Mestrado em Química)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "LIMA, A. E. A. N.; GRAEBIN, C. S.; SANTOS, A. E. S.; FERREIRA, W. S.; PISSINATE, K.; SIMAS, A. B. C.; da Silva, E. F.. Participação em banca de Natália Drumond Lopes. Síntese e avaliação da atividade biológica de compostos mesoiônicos da classe dos 1,3,4-tiadiazólico-2-arilaminidas. 2018. Tese (Doutorado em Programa de Pós-Graduação em Química) - Universidade Federal Rural do Rio de Janeiro.",
+        "ano": 2018,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Natália Drumond Lopes",
+        "membros_banca": [
+          "LIMA, A. E. A. N.",
+          "GRAEBIN, C. S.",
+          "SANTOS, A. E. S.",
+          "FERREIRA, W. S.",
+          "PISSINATE, K.",
+          "SIMAS, A. B. C.",
+          "da Silva, E. F."
+        ],
+        "titulo_trabalho": "Síntese e avaliação da atividade biológica de compostos mesoiônicos da classe dos 1,3,4-tiadiazólico-2-arilaminidas",
+        "curso": "Tese (Doutorado em Programa de Pós-Graduação em Química)",
+        "universidade": "Universidade Federal Rural do Rio de Janeiro"
+      },
+      {
+        "descricao": "Carlos A.M. Fraga; TINOCO, L. W.; SILVA, B. V.; KUMMERLE, A. E.; da Silva, E. F.. Participação em banca de Miguel Divino da Rocha. Novos protótipos heteroaril N-acilidrazônicos planejados para o tratamento da hipertensão arterial pulmonar. 2017. Tese (Doutorado em Química) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2017,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Miguel Divino da Rocha",
+        "membros_banca": [
+          "Carlos A.M. Fraga",
+          "TINOCO, L. W.",
+          "SILVA, B. V.",
+          "KUMMERLE, A. E.",
+          "da Silva, E. F."
+        ],
+        "titulo_trabalho": "Novos protótipos heteroaril N-acilidrazônicos planejados para o tratamento da hipertensão arterial pulmonar",
+        "curso": "Tese (Doutorado em Química)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "SOUZA, M. V. N.; KAISER, C. R.; Silva, Edson F. da; FERREIRA, S. B.; ALBUQUERQUE, M. G.; VASCONCELOS, T. R. A.. Participação em banca de Thais cristina mendonça nogueira. Síntese de derivados quinoxalínicos com atividade antitumoral e aplicação do furfural na química verde para a obtenção de substâncias de alta complexidade estrutural. 2014. Tese (Doutorado em Química) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2014,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Thais cristina mendonça nogueira",
+        "membros_banca": [
+          "SOUZA, M. V. N.",
+          "KAISER, C. R.",
+          "Silva, Edson F. da",
+          "FERREIRA, S. B.",
+          "ALBUQUERQUE, M. G.",
+          "VASCONCELOS, T. R. A."
+        ],
+        "titulo_trabalho": "Síntese de derivados quinoxalínicos com atividade antitumoral e aplicação do furfural na química verde para a obtenção de substâncias de alta complexidade estrutural",
+        "curso": "Tese (Doutorado em Química)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "Edson F. da Silva; CORDEIRO, R. S. B.; RODRIGUES, C. R.; SILVA, J. F. C.; LIMA, M. C. R.. Participação em banca de Jorge Carlos Santos da Costa. Síntese e avaliação da atividade antiinflamatória e espasmolítica de análogos da lidocaína. 2005. Tese (Doutorado em Doutorado em Biologia Celular e Molecular) - Instituto Oswaldo Cruz.",
+        "ano": 2005,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Jorge Carlos Santos da Costa",
+        "membros_banca": [
+          "Edson F. da Silva",
+          "CORDEIRO, R. S. B.",
+          "RODRIGUES, C. R.",
+          "SILVA, J. F. C.",
+          "LIMA, M. C. R."
+        ],
+        "titulo_trabalho": "Síntese e avaliação da atividade antiinflamatória e espasmolítica de análogos da lidocaína",
+        "curso": "Tese (Doutorado em Doutorado em Biologia Celular e Molecular)",
+        "universidade": "Instituto Oswaldo Cruz"
+      },
+      {
+        "descricao": "Edson F. da Silva; LEITAO, G. G.; LOPES, R. C.; SCHRIPSEMA, J.; MIRANDA, A. L. P.; SANTOS, E. P.; TINOCO, L. W.. Participação em banca de Zenildo Buarque de Morais. Atividades fotoprotetora e antioxidante de extratos e constituintes químicos das partes aéreas de plantas da orla de Rio das Ostras. 2005. Tese (Doutorado em Química de Produtos Naturais) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2005,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Zenildo Buarque de Morais",
+        "membros_banca": [
+          "Edson F. da Silva",
+          "LEITAO, G. G.",
+          "LOPES, R. C.",
+          "SCHRIPSEMA, J.",
+          "MIRANDA, A. L. P.",
+          "SANTOS, E. P.",
+          "TINOCO, L. W."
+        ],
+        "titulo_trabalho": "Atividades fotoprotetora e antioxidante de extratos e constituintes químicos das partes aéreas de plantas da orla de Rio das Ostras",
+        "curso": "Tese (Doutorado em Química de Produtos Naturais)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "Edson F. da Silva; AQUINO NETO, F. R.. Participação em banca de Henrique Marcelo Gualberto Pereira. Desenvolvimento de método analítico para a detecção de glicocorticosteróides em urina humana. Avaliação do perfil endógeno de atletas brasileiro. 2004. Tese (Doutorado em Química) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2004,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Henrique Marcelo Gualberto Pereira",
+        "membros_banca": [
+          "Edson F. da Silva",
+          "AQUINO NETO, F. R."
+        ],
+        "titulo_trabalho": "Desenvolvimento de método analítico para a detecção de glicocorticosteróides em urina humana. Avaliação do perfil endógeno de atletas brasileiro",
+        "curso": "Tese (Doutorado em Química)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "Edson F. da Silva; AQUINO NETO, F. R.. Participação em banca de Alberto dos Santos Pereira. Contribuição ao estudo da composição química e atividade biológica da própolis brasileira. 2003. Tese (Doutorado em Química) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2003,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Alberto dos Santos Pereira",
+        "membros_banca": [
+          "Edson F. da Silva",
+          "AQUINO NETO, F. R."
+        ],
+        "titulo_trabalho": "Contribuição ao estudo da composição química e atividade biológica da própolis brasileira",
+        "curso": "Tese (Doutorado em Química)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "Edson F. da Silva; BARREIRO, E. J.; FRAGA, C. A. M.; BRAZ-FILHO, R.. Participação em banca de Margareth Rôse de Lima Santos. Estudos visando a síntese de delt-gama-lactonas e sistemas 2-oxabiciclos funcionalizados derivados de adição nucleofílica ao anel oxirana. 2001. Tese (Doutorado em Química) - Universidade Federal Rural do Rio de Janeiro.",
+        "ano": 2001,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Margareth Rôse de Lima Santos",
+        "membros_banca": [
+          "Edson F. da Silva",
+          "BARREIRO, E. J.",
+          "FRAGA, C. A. M.",
+          "BRAZ-FILHO, R."
+        ],
+        "titulo_trabalho": "Estudos visando a síntese de delt-gama-lactonas e sistemas 2-oxabiciclos funcionalizados derivados de adição nucleofílica ao anel oxirana",
+        "curso": "Tese (Doutorado em Química)",
+        "universidade": "Universidade Federal Rural do Rio de Janeiro"
+      },
+      {
+        "descricao": "Edson F. da Silva; ANTUNES, O. A. C.; GEMAL, A. L.; FERREIRA, V. F.; ALVES, A.; BERGTER, L.. Participação em banca de Humberto Ribeiro Bizzo. Estudos de métodos para a síntese de novas cefalosporinas: 1-azacefem. 2001. Tese (Doutorado em Química) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2001,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Humberto Ribeiro Bizzo",
+        "membros_banca": [
+          "Edson F. da Silva",
+          "ANTUNES, O. A. C.",
+          "GEMAL, A. L.",
+          "FERREIRA, V. F.",
+          "ALVES, A.",
+          "BERGTER, L."
+        ],
+        "titulo_trabalho": "Estudos de métodos para a síntese de novas cefalosporinas: 1-azacefem",
+        "curso": "Tese (Doutorado em Química)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "Edson F. da Silva; AQUINO NETO, F. R.; MARQUES, M. S.; SUAREZ-KURTZ, G.; FREITAS, A. C. C.; CARDOSO, J. N.. Participação em banca de Tânia Maria Monteiro. Monitoramento terapêutico do bussulfano em plasma de pacientes portadores de leucemia mielóide crônica submetidos ao transplante de medula óssea. 2000. Tese (Doutorado em Química) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2000,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Tânia Maria Monteiro",
+        "membros_banca": [
+          "Edson F. da Silva",
+          "AQUINO NETO, F. R.",
+          "MARQUES, M. S.",
+          "SUAREZ-KURTZ, G.",
+          "FREITAS, A. C. C.",
+          "CARDOSO, J. N."
+        ],
+        "titulo_trabalho": "Monitoramento terapêutico do bussulfano em plasma de pacientes portadores de leucemia mielóide crônica submetidos ao transplante de medula óssea",
+        "curso": "Tese (Doutorado em Química)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "Edson F. da Silva; BARREIRO, E. J.. Participação em banca de Gildásio Almeida Silva. Planejamento, síntese, avaliação farmacológica e modelagem molecular de novos derivados N-acilidrazônicos fenotiazínicos. 2000. Tese (Doutorado em Química de Produtos Naturais) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2000,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Gildásio Almeida Silva",
+        "membros_banca": [
+          "Edson F. da Silva",
+          "BARREIRO, E. J."
+        ],
+        "titulo_trabalho": "Planejamento, síntese, avaliação farmacológica e modelagem molecular de novos derivados N-acilidrazônicos fenotiazínicos",
+        "curso": "Tese (Doutorado em Química de Produtos Naturais)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "MAFRA, J. C. M.; MIRANDA, L. S. M. E.; ALBUQUERQUE, M. G.; da Silva, E. F.. Banca Examinadora para Avaliação do Exame Geral de Conhecimentos de Doutorado. 2017.",
+        "ano": 2017,
+        "tipo": "Tese de Doutorado",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "",
+        "universidade": ""
+      }
+    ],
+    "qualificacao_doutorado": [],
+    "qualificacao_mestrado": [],
+    "graduacao": [],
+    "outras": [
+      {
+        "descricao": "GEMAL, A. L.; MONTEIRO, T. M.; da Silva, E. F.. Presidente da Banco Examinadora do Concurso Público do cargo de Pesquisador em Saúde Pública. 2016. FIOCRUZ.",
+        "ano": 2016,
+        "tipo": "Participação em banca",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "FIOCRUZ.",
+        "universidade": ""
+      },
+      {
+        "descricao": "Silva, Edson F. da. Comitê Institucional de avaliação e seleção do Programa Institucional de bolsas de inciação científica (PIBIC) - Fiocruz/CNPq. 2014. Fundação Oswaldo Cruz.",
+        "ano": 2014,
+        "tipo": "Participação em banca",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Fundação Oswaldo Cruz.",
+        "universidade": ""
+      },
+      {
+        "descricao": "Marcele Moreth da Silva; Thais Cristina Mendonça Nogueira; Thais Flecher Barbosa; Thais Nogueira Barradas; Luana Cordeiro da Rocha; CARDOSO, L. N. F.; Karine Cristina de Oliveira Nogueira; Edson F. da Silva. Presidente da banca avaliadora da bolsa PIBIC/FIOCRUZ. 2007.",
+        "ano": 2007,
+        "tipo": "Participação em banca",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "",
+        "universidade": ""
+      }
+    ]
+  },
+  "estatisticas": {
+    "total_artigos_periodicos": 42,
+    "total_livros": 0,
+    "total_capitulos": 1,
+    "total_trabalhos_congressos": 24,
+    "total_projetos_pesquisa": 10,
+    "total_projetos_extensao": 0,
+    "total_projetos_desenvolvimento": 4,
+    "total_orientacoes_concluidas": 21,
+    "total_orientacoes_andamento": 12
+  }
+}

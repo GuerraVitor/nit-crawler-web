@@ -1,0 +1,1494 @@
+{
+  "informacoes_pessoais": {
+    "id_lattes": "0359870978393939",
+    "nome_completo": "Carlos Eduardo Collazo Pontes",
+    "nome_citacoes": "PONTES, C. E. C.;PONTES, CARLOS EDUARDO COLLAZO;Carlos Eduardo Collazo Pontes;PONTES, CARLOS;COLLAZO PONTES, C. E.;Collazo Pontes, Carlos Eduardo",
+    "sexo": "Masculino",
+    "rotulo": "* Sem rótulo",
+    "periodo": "",
+    "bolsa_produtividade": "",
+    "endereco_profissional": "Fundação Oswaldo Cruz, Instituto de Tecnologia em Fármacos. Av. Comandante Guaranys, 447 Curicica 22775903 - Rio de Janeiro, RJ - Brasil Telefone: (21) 33485050 URL da Homepage: www.far.fiocruz.br",
+    "atualizacao_cv": "09/09/2026",
+    "url": "http://lattes.cnpq.br/0359870978393939",
+    "texto_resumo": "Possui graduação em Farmácia pela Universidade Federal do Rio de Janeiro (2004), especialização em Saúde Pública pelo Centro Universitário Celso Lisboa (2008), mestrado em Gestão, Pesquisa e Desenvolvimento na Indústria Farmacêutica pela Fundação Oswaldo Cruz (2016) e MBA em Gestão Estratégica de Inovação Tecnológica (2015).Atualmente, atua na área de Propriedade Industrial, mais especificamente com patentes farmacêuticas, projetos de transferência de tecnologia, prospecção tecnológica, inteligência competitiva e acesso ao patrimônio genético (CGEN).Tem também experiência em desenvolvimento galênico, com ênfase em coordenação da manipulação e controle em processo de formulações semi-sólidas e líquidas, incluindo bases galênicas em larga escala, e em Farmácia Comercial, com ênfase em treinamento de funcionários, visando qualidade e eficiência no atendimento e correta dispensação dos medicamentos, assistência farmacêutica qualificada e controle dos medicamentos sujeitos a controle especial. Aluno de doutorado do Programa de Pós-Graduação Profissional em Gestão, Pesquisa e Desenvolvimento na Indústria Farmacêutica, de Farmanguinhos, Fiocruz. (Texto informado pelo autor)"
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado em andamento em Gestão, Pesquisa e Desenvolvimento na Indústria Farmacêutica",
+      "nome_instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil",
+      "ano_inicio": "2024",
+      "ano_conclusao": "",
+      "descricao": "Título: Modelo de estudo de futuro e gerenciamento tecnológico para monitoramento do cenário de hepatites virais no CEIS como fortalecimento e sustentabilidade do SUS Orientador: Jorge Lima de Magalhães."
+    },
+    {
+      "tipo": "Mestrado profissional em Gestão, Pesquisa e Desenvolv",
+      "nome_instituicao": "na Indústria Farmacê",
+      "ano_inicio": "2015",
+      "ano_conclusao": "2016",
+      "descricao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil. Título: Estudo mercadológico e patentário de medicamentos biotecnológicos: o caso da insulina, Ano de Obtenção: . Orientador: Wanise Borges Gouvea Barroso."
+    },
+    {
+      "tipo": "Especialização em MBA em Gestão Estratégica de Inovação Tecnológica",
+      "nome_instituicao": "(Carga Horária: 420h)",
+      "ano_inicio": "2014",
+      "ano_conclusao": "2015",
+      "descricao": "S B I, UCAM, Brasil. Título: Patentes de medicamentos e indústria nacional: estudo dos depósitos feitos no Brasil e exterior."
+    },
+    {
+      "tipo": "Especialização em Saúde Pública",
+      "nome_instituicao": "(Carga Horária: 360h)",
+      "ano_inicio": "2007",
+      "ano_conclusao": "2008",
+      "descricao": "Centro Universitário Celso Lisboa, CEUCEL, Brasil. Título: Intoxicação Medicamentosa em Crianças."
+    },
+    {
+      "tipo": "Graduação em Farmácia",
+      "nome_instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil",
+      "ano_inicio": "1999",
+      "ano_conclusao": "2003",
+      "descricao": ""
+    }
+  ],
+  "atuacao_profissional": [
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil.",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2010 - Atual",
+      "ano_inicio": "2010",
+      "ano_fim": "Atual",
+      "vinculo": "Celetista formal",
+      "enquadramento": "Analista de Informação Tecnológica",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil.",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2009 - 2010",
+      "ano_inicio": "2009",
+      "ano_fim": "2010",
+      "vinculo": "Bolsista",
+      "enquadramento": "Analista de Informação Tecnológica",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Secretaria Municipal de Saude, SMS - RJ, Brasil.",
+      "instituicao_nome": "Secretaria Municipal de Saude",
+      "instituicao_sigla": "SMS - RJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2007 - 2008",
+      "ano_inicio": "2007",
+      "ano_fim": "2008",
+      "vinculo": "Cooperativado",
+      "enquadramento": "Farmaceutico",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Secretaria Municipal de Saude, SMS - RJ, Brasil",
+      "instituicao_nome": "Secretaria Municipal de Saude",
+      "instituicao_sigla": "SMS - RJ",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil.",
+      "instituicao_nome": "Universidade Federal do Rio de Janeiro",
+      "instituicao_sigla": "UFRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2004 - 2005",
+      "ano_inicio": "2004",
+      "ano_fim": "2005",
+      "vinculo": "Bolsista",
+      "enquadramento": "Monitor Senior FU/UFRJ",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil",
+      "instituicao_nome": "Universidade Federal do Rio de Janeiro",
+      "instituicao_sigla": "UFRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil.",
+      "instituicao_nome": "Universidade Federal do Rio de Janeiro",
+      "instituicao_sigla": "UFRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2003 - 2004",
+      "ano_inicio": "2003",
+      "ano_fim": "2004",
+      "vinculo": "Bolsista",
+      "enquadramento": "Monitor Farmacia Universitaria",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil",
+      "instituicao_nome": "Universidade Federal do Rio de Janeiro",
+      "instituicao_sigla": "UFRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil.",
+      "instituicao_nome": "Universidade Federal do Rio de Janeiro",
+      "instituicao_sigla": "UFRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2002 - 2002",
+      "ano_inicio": "2002",
+      "ano_fim": "2002",
+      "vinculo": "Iniciacao Cientifica",
+      "enquadramento": "Aluno Iniciacao Cientifica",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil",
+      "instituicao_nome": "Universidade Federal do Rio de Janeiro",
+      "instituicao_sigla": "UFRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Drogaria POP, POP, Brasil.",
+      "instituicao_nome": "Drogaria POP",
+      "instituicao_sigla": "POP",
+      "instituicao_pais": "Brasil",
+      "periodo": "2008 - 2009",
+      "ano_inicio": "2008",
+      "ano_fim": "2009",
+      "vinculo": "Celetista formal",
+      "enquadramento": "Gerente / Farmacêutico",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Drogaria POP, POP, Brasil",
+      "instituicao_nome": "Drogaria POP",
+      "instituicao_sigla": "POP",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Drogaria POP, POP, Brasil.",
+      "instituicao_nome": "Drogaria POP",
+      "instituicao_sigla": "POP",
+      "instituicao_pais": "Brasil",
+      "periodo": "2006 - 2008",
+      "ano_inicio": "2006",
+      "ano_fim": "2008",
+      "vinculo": "Celetista formal",
+      "enquadramento": "Farmacêutico Responsável Técnico",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Drogaria POP, POP, Brasil",
+      "instituicao_nome": "Drogaria POP",
+      "instituicao_sigla": "POP",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Drogaria Onofre, ONOFRE, Brasil.",
+      "instituicao_nome": "Drogaria Onofre",
+      "instituicao_sigla": "ONOFRE",
+      "instituicao_pais": "Brasil",
+      "periodo": "2005 - 2006",
+      "ano_inicio": "2005",
+      "ano_fim": "2006",
+      "vinculo": "Celetista formal",
+      "enquadramento": "Farmaceutico Responsavel Tecnico",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Drogaria Onofre, ONOFRE, Brasil",
+      "instituicao_nome": "Drogaria Onofre",
+      "instituicao_sigla": "ONOFRE",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pharma Paz, PAZ, Brasil.",
+      "instituicao_nome": "Pharma Paz",
+      "instituicao_sigla": "PAZ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2005 - 2005",
+      "ano_inicio": "2005",
+      "ano_fim": "2005",
+      "vinculo": "Celetista formal",
+      "enquadramento": "Farmaceutico Responsavel Tecnico",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    }
+  ],
+  "projetos_pesquisa": [
+    {
+      "nome": "Matriz cruzada para Foresight em câncer como subsídio à inovação das Políticas Públicas nas dimensões do Complexo Econômico Industrial da Saúde",
+      "ano_inicio": "2024",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Caracterizado pela prospecção estratégica de cenários, intimamente atrelada a políticas públicas para atendimento das necessidades atuais e futuras da sociedade no Brasil e no mundo. Assim, buscará apresentar e executar um modelo de busca e metodologia de prospecção científica e tecnológica de tecnologias em saúde no Brasil e no mundo no cenário pré e pós-pandemia de COVID-19. Identifcar cenário científicos (Scientific Landscape) e tecnológico (Patent Landscape), ambos no Brasil e no mundo. Patentometria e cientometria permearão cada passo. Os estudos de Futuros possuem modelo de aprendizado combinado, em métodos colaborativos e de ferramentas virtuais prospectivas diante de cenários complexos.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Carlos Eduardo Collazo Pontes - Integrante / Adelaide Maria de Souza Antunes - Integrante / Suzana Borschiver - Integrante / Carla Cristina de Freitas da Silveira - Integrante / Flavia Maria Lins Mendes - Integrante / Priscila Nóbrega Rito - Integrante / Tatiana Aragão Figueiredo - Integrante / Henrique Koch Chaves - Integrante / Henrique Silveira - Integrante / Renata Oliveira Fagundes - Integrante / Jorge Lima de Magalhães - Coordenador.",
+        "Descrição: Caracterizado pela prospecção estratégica de cenários, intimamente atrelada a políticas públicaspara atendimento das necessidades atuais e futuras da sociedade no Brasil e no mundo. Assim, buscará apresentar e executar um modelo de busca e metodologia de prospecção científica e tecnológica de tecnologias em saúde no Brasil e no mundo no cenário pré e pós-pandemia de COVID-19. Identifcar cenário científicos (Scientific Landscape) e tecnológico (Patent Landscape), ambos no Brasil e no mundo. Patentometria e cientometria permearão cada passo.Os estudos de Futuros possuem modelo de aprendizado combinado, em métodos colaborativos e de ferramentas virtuais prospectivas diante de cenários complexos.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (1) / Mestrado profissional: (5) / Doutorado: (3) . Integrantes: Henrique Koch Chaves - Integrante / Renata Oliveira Fagundes - Integrante / CARLA CRISTINA DE FREIRAS DA SILVEIRA - Integrante / ADELAIDE MARIA DE SOUZA ANTUNES - Integrante / Jorge Lima de Magalhães - Coordenador / Flavia Maria Lins Mendes - Integrante / Suzana Borchiver - Integrante / Priscila Nóbrega Rito - Integrante / Tatiana Aragão Figueiredo - Integrante / Carlos Eduardo Collazo Pontes - Integrante. Financiador(es): Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ - Auxílio financeiro.",
+        "Descrição: caracterizado pela prospecção estratégica de cenários, intimamente atrelada a políticas públicaspara atendimento das necessidades atuais e futuras da sociedade no Brasil e no mundo. Assim, buscará apresentar e executar um modelo de busca e metodologia de prospecção científica e tecnológica de tecnologias em saúde no Brasil e no mundo no cenário pré e pós-pandemia de COVID-19. Identifcar cenário científicos (Scientific Landscape) e tecnológico (Patent Landscape), ambos no Brasil e no mundo. Patentometria e cientometria permearão cada passo.Os estudos de Futuros possuem modelo de aprendizado combinado, em métodos colaborativos e de ferramentas virtuais prospectivas diante de cenários complexos.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (1) / Mestrado profissional: (5) / Doutorado: (3) . Integrantes: Jorge Lima de Magalhães - Coordenador / Adelaide Maria de Souza Antunes - Integrante / Suzana Borschiver - Integrante / Carla Cristina de Freitas da Silveira - Integrante / Mendes, Flavia Maria Lins - Integrante / Priscila Nóbrega Rito - Integrante / Tatiana Aragão Figueiredo - Integrante / HENRIQUE KOCH CHAVES - Integrante / Henrique Silveira - Integrante / RENATA OLIVEIRA FAGUNDES - Integrante / Carlos Eduardo Collazo Pontes - Integrante. Financiador(es): Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ - Auxílio financeiro. Número de produções C, T & A: 9 / Número de orientações: 1"
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Carlos Eduardo Collazo Pontes",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Adelaide Maria de Souza Antunes",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Suzana Borschiver",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Carla Cristina de Freitas da Silveira",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Flavia Maria Lins Mendes",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Priscila Nóbrega Rito",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Tatiana Aragão Figueiredo",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Henrique Koch Chaves",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Henrique Silveira",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Renata Oliveira Fagundes",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Jorge Lima de Magalhães",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "CARLA CRISTINA DE FREIRAS DA SILVEIRA",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "ADELAIDE MARIA DE SOUZA ANTUNES",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Suzana Borchiver",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Mendes, Flavia Maria Lins",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "HENRIQUE KOCH CHAVES",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "RENATA OLIVEIRA FAGUNDES",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "Identificação de alvos de judicialização que viabilizem a produção dos medicamentos de interesse do Ministério da Saúde",
+      "ano_inicio": "2009",
+      "ano_conclusao": "2010",
+      "descricao": [
+        "Descrição: Busca e identificação de artigos científicos, pedidos de patentes e patentes que discorram sobre o insumo farmacêutico, o medicamento e as tecnologias envolvidas na produção destes, que pssam basear uma argumentação sólida contra a concessão indevida de outras patentes requeridas no Brasil.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Carlos Eduardo Collazo Pontes - Integrante / Tereza Cristina dos Santos - Coordenador."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Carlos Eduardo Collazo Pontes",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Tereza Cristina dos Santos",
+          "papel": "Coordenador"
+        }
+      ]
+    },
+    {
+      "nome": "Contribuição ao Estudo Farmacognóstico de Solanum jilo",
+      "ano_inicio": "2002",
+      "ano_conclusao": "2002",
+      "descricao": [
+        "Descrição: Participação como aluno de iniciação científica da dissertação de mestrado, desenvolvida no Laboratório de Farmacognosia - NPPN / UFRJ.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Carlos Eduardo Collazo Pontes - Coordenador."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Carlos Eduardo Collazo Pontes",
+          "papel": "Coordenador"
+        }
+      ]
+    }
+  ],
+  "projetos_extensao": [],
+  "projetos_desenvolvimento": [],
+  "areas_de_atuacao": [
+    {
+      "grande_area": "Ciências da Saúde",
+      "area": "Farmácia",
+      "subarea": "",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências da Saúde / Área: Farmácia."
+    },
+    {
+      "grande_area": "Ciências da Saúde",
+      "area": "Farmácia",
+      "subarea": "Farmacotécnica e tecnologia farmacêutica",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências da Saúde / Área: Farmácia / Subárea: Farmacotécnica e tecnologia farmacêutica."
+    },
+    {
+      "grande_area": "Ciências da Saúde",
+      "area": "Farmácia",
+      "subarea": "Garantia e controle de qualidade farmacêuticos",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências da Saúde / Área: Farmácia / Subárea: Garantia e controle de qualidade farmacêuticos."
+    },
+    {
+      "grande_area": "Ciências da Saúde",
+      "area": "Farmácia",
+      "subarea": "Patente",
+      "especialidade": "Propriedade Intelectual",
+      "descricao_completa": "Grande área: Ciências da Saúde / Área: Farmácia / Subárea: Patente/Especialidade: Propriedade Intelectual."
+    },
+    {
+      "grande_area": "Ciências da Saúde",
+      "area": "Farmácia",
+      "subarea": "Patente",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências da Saúde / Área: Farmácia / Subárea: Patente."
+    }
+  ],
+  "idiomas": [
+    {
+      "nome": "Inglês",
+      "compreende": "Razoavelmente",
+      "fala": "Razoavelmente",
+      "le": "Bem",
+      "escreve": "Razoavelmente",
+      "proficiencia_completa": "Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente."
+    },
+    {
+      "nome": "Espanhol",
+      "compreende": "Bem",
+      "fala": "Razoavelmente",
+      "le": "Bem",
+      "escreve": "Razoavelmente",
+      "proficiencia_completa": "Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente."
+    }
+  ],
+  "premios_titulos": [
+    {
+      "descricao": "Pesquisador Classe Gold (Top 3) do Programa Integrity Me (Clarivate Analytics), Clarivate Analytics.",
+      "ano": 2019
+    }
+  ],
+  "linhas_de_pesquisa": [],
+  "producao_bibliografica": {
+    "artigos_periodicos": [
+      {
+        "titulo": "O panorama das hepatites virais no mundo e Brasil: uma perspectiva epidemiológica e mercadológica da hepatite C",
+        "ano": 2026,
+        "autores": "PONTES, CARLOS EDUARDO COLLAZO; MAGALHÃES, JORGE LIMA DE",
+        "revista": "Revista JRG de Estudos Acadêmicos",
+        "volume": "9",
+        "numero": "",
+        "paginas": "e093657",
+        "issn": "2595-1661",
+        "doi": "http://dx.doi.org/10.55892/jrg.v9i21.3657",
+        "qualis": ""
+      },
+      {
+        "titulo": "Emerging technology radar driving innovation and strategy foresight",
+        "ano": 2026,
+        "autores": "MAGALHÃES, JORGE LIMA ; PONTES, CARLOS ; FAGUNDES, RENATA ; SANTOS, SÍLVIA ; MENDONÇA, JORGE ; CHAVES, HENRIQUE KOCH ; SILVEIRA, CARLA",
+        "revista": "REVISTA POLÍTICAS PÚBLICAS & CIDADES",
+        "volume": "15",
+        "numero": "",
+        "paginas": "e3446",
+        "issn": "2359-1552",
+        "doi": "http://dx.doi.org/10.23900/2359-1552v15n8-6-2026",
+        "qualis": ""
+      },
+      {
+        "titulo": "Fotoeducação no esporte: relato de experiência na zona oeste do Rio de Janeiro",
+        "ano": 2025,
+        "autores": "SILVA E SOUZA LORCA, B. ; MAFFRA LESSA, T. H. ; COLLAZO PONTES, C. E.",
+        "revista": "REVISTA CONEXÃO UEPG",
+        "volume": "21",
+        "numero": "",
+        "paginas": "1-14",
+        "issn": "2238-7315",
+        "doi": "http://dx.doi.org/10.5212/rev.conexao.v.21.24980.037",
+        "qualis": ""
+      },
+      {
+        "titulo": "Fotoproteção: uma análise dos hábitos e conhecimentos entre indivíduos da população do Rio de Janeiro",
+        "ano": 2022,
+        "autores": "Lorca, Bárbara da Silva e Souza ; PONTES, CARLOS EDUARDO COLLAZO",
+        "revista": "RESEARCH, SOCIETY AND DEVELOPMENT",
+        "volume": "11",
+        "numero": "",
+        "paginas": "e524111638329",
+        "issn": "2525-3409",
+        "doi": "http://dx.doi.org/10.33448/rsd-v11i16.38329",
+        "qualis": ""
+      },
+      {
+        "titulo": "COSMETOLOGIA E INOVAÇÃO: UMA ANÁLISE DOS PEDIDOS DE PATENTE",
+        "ano": 2021,
+        "autores": "PONTES, CARLOS; LORCA, BÁRBARA",
+        "revista": "Enciclopedia Biosfera",
+        "volume": "18",
+        "numero": "",
+        "paginas": "137-145",
+        "issn": "2317-2606",
+        "doi": "http://dx.doi.org/10.18677/encibio_2021c12",
+        "qualis": ""
+      },
+      {
+        "titulo": "Market for biotechnology drugs: market analysis of insulin",
+        "ano": 2019,
+        "autores": "PONTES, CARLOS EDUARDO COLLAZO; BARROSO, WANISE BORGES GOUVEA ; RITO, PRISCILA DA NÓBREGA",
+        "revista": "Journal of Pharmaceutical Health Services Research",
+        "volume": "10",
+        "numero": "",
+        "paginas": "219-226",
+        "issn": "1759-8885",
+        "doi": "http://dx.doi.org/10.1111/jphs.12278",
+        "qualis": ""
+      },
+      {
+        "titulo": "Análise dos pedidos de patente de insulina depositados no Brasil",
+        "ano": 2018,
+        "autores": "PONTES, C. E. C.; BARROSO, W. B. G.",
+        "revista": "RECIIS - Revista Eletrônica de Comunicação, Informação & Inovação em Saúde",
+        "volume": "12",
+        "numero": "",
+        "paginas": "429-442",
+        "issn": "1981-6278",
+        "doi": "http://dx.doi.org/10.29397/reciis.v12i4.1328",
+        "qualis": ""
+      },
+      {
+        "titulo": "Patentes de medicamentos e a indústria farmacêutica nacional: estudo dos depósitos feitos no Brasil",
+        "ano": 2017,
+        "autores": "PONTES, C. E. C",
+        "revista": "REVISTA PRODUÇÃO E DESENVOLVIMENTO",
+        "volume": "3",
+        "numero": "",
+        "paginas": "38-51",
+        "issn": "2446-9580",
+        "doi": "http://dx.doi.org/10.32358/rpd.2017.v3.213",
+        "qualis": ""
+      },
+      {
+        "titulo": "Intoxicação medicamentosa em crianças",
+        "ano": 2012,
+        "autores": "PONTES, C. E. C",
+        "revista": "ESPAÇO CIENTÍFICO LIVRE",
+        "volume": "7",
+        "numero": "",
+        "paginas": "42-51",
+        "issn": "2236-9538",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "A informação tecnológica como ferramenta para gestão de políticas públicas de saúde",
+        "ano": 2010,
+        "autores": "AMARAL, L. ; ANCHITE, E. R. ; PONTES, C. E. C. ; SANTOS, T. C. ; CORONHA, M.",
+        "revista": "REVISTA DE DIREITO SANITÁRIO",
+        "volume": "11",
+        "numero": "",
+        "paginas": "137-163",
+        "issn": "2316-9044",
+        "doi": "http://dx.doi.org/10.11606/issn.2316-9044.v11i2p137-163",
+        "qualis": ""
+      }
+    ],
+    "livros_publicados": [],
+    "capitulos_livros": [
+      {
+        "titulo": "A Blueprint for Education Management in Viral Hepatitis Epidemiology. Digital Knowledge in Modern Education Management. 1ed",
+        "ano": 2026,
+        "autores": "Collazo Pontes, Carlos Eduardo ; de Magalhães, Jorge Lima",
+        "titulo_livro": "",
+        "editora": "IGI Global Scientific Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "183-212"
+      },
+      {
+        "titulo": "Tendências em inteligência artificial: um panorama da prospecção cientifica e tecnológica com uso da base de dados Scopus. Gestão do Conhecimento na Transição Digital e Saúde: reflexões sobre a evolução científica e tecnológica frente a convergência digital.. 1ed",
+        "ano": 2024,
+        "autores": "PONTES, C. E. C. ; CHAVES, H. K. ; DE FREITAS DA SILVEIRA, CARLA CRISTINA ; MAGALHÃES, J.L.",
+        "titulo_livro": "",
+        "editora": "Synergia Editora",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "275-293"
+      },
+      {
+        "titulo": "DESCARTE CONSCIENTE DE MEDICAMENTOS",
+        "ano": 2019,
+        "autores": "Lorca, Bárbara da Silva e Souza ; Peixoto, Fernanda Marques ; PONTES, CARLOS EDUARDO COLLAZO",
+        "titulo_livro": "",
+        "editora": "Atena Editora",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "184-193"
+      },
+      {
+        "titulo": "Prospecção tecnológica de patentes de medicamentos biotecnológicos: perfil dos principais depositantes de pedidos de patente de insulina",
+        "ano": 2018,
+        "autores": "PONTES, CARLOS EDUARDO COLLAZO; BARROSO, WANISE BORGES GOUVEA",
+        "titulo_livro": "",
+        "editora": "Gramma Editora",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "443-461"
+      }
+    ],
+    "trabalhos_completos_congressos": [],
+    "resumos_expandidos": [],
+    "resumos_congressos": [
+      {
+        "titulo": "Prospecção tecnológica de patentes de medicamentos biotecnológicos: perfil dos principais depositantes de pedidos de patente de insulina",
+        "ano": 2017,
+        "autores": "PONTES, C. E. C.; BARROSO, W.",
+        "evento": "X Encontro Acadêmico de Propriedade Intelectual, Inovação e Desenvolvimento (ENAPID), 2017, Rio de Janeiro. X Encontro Acadêmico de Propriedade Intelectual, Inovação e Desenvolvimento",
+        "cidade": ""
+      }
+    ],
+    "artigos_aceitos": [
+      {
+        "titulo": "Análise sobre os pedidos de patente da insulina depositados no Brasil",
+        "ano": 2018,
+        "autores": "PONTES, C. E. C.; BARROSO, W. B. G.",
+        "revista": "RECIIS - Revista Eletrônica de Comunicação, Informação & Inovação em Saúde",
+        "issn": ""
+      }
+    ],
+    "apresentacoes_trabalhos": [
+      {
+        "titulo": "Prospecção tecnológica de patentes de medicamentos biotecnológicos: perfil dos principais depositantes de pedidos de patente de insulina",
+        "ano": 2017,
+        "autores": "PONTES, C. E. C.; BARROSO, W.",
+        "evento": ""
+      },
+      {
+        "titulo": "Estudo de Mercado de Medicamentos Biotecnológicos: o Caso da Insulina",
+        "ano": 2017,
+        "autores": "PONTES, C. E. C.; BARROSO, W.",
+        "evento": ""
+      },
+      {
+        "titulo": "Ética no relacionamento com o cliente no varejo farmacêutico",
+        "ano": 2009,
+        "autores": "Faria, L.M.O ; PONTES, C. E. C. ; LORCA, B.S.S.",
+        "evento": ""
+      },
+      {
+        "titulo": "Intoxicação Medicamentosa em Crianças",
+        "ano": 2009,
+        "autores": "PONTES, C. E. C.; LORCA, B.S.S. ; Faria, L.M.O",
+        "evento": ""
+      }
+    ],
+    "textos_jornais": [],
+    "outras_producoes": []
+  },
+  "producao_tecnica": {
+    "softwares_com_patente": [],
+    "softwares_sem_patente": [],
+    "produtos_tecnologicos": [],
+    "processos_tecnicas": [],
+    "trabalhos_tecnicos": [
+      {
+        "titulo": "Estudo patentário do medicamento erlotinibe",
+        "ano": 2017,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Estudo patentário do medicamento fingolimode",
+        "ano": 2017,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Estudo patentário do medicamento miglustate",
+        "ano": 2017,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Estudo patentário do medicamento daclatasvir",
+        "ano": 2017,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Estudo patentário do medicamento darunavir",
+        "ano": 2017,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Estudo patentário do medicamento darunavir + ritonavir",
+        "ano": 2017,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Estudo patentário do medicamento dolutegravir",
+        "ano": 2017,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Estudo patentário do medicamento dolutegravir+entricitabina+tenofovir",
+        "ano": 2017,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Estudo da situação patentária do medicamento dolutegravir+lamivudina",
+        "ano": 2017,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Estudo da situação patentária do medicamento dolutegravir+lamivudina+tenofovir",
+        "ano": 2017,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Estudo patentário do medicamento entricitabina+tenofovir",
+        "ano": 2017,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Estudo patentário do medicamento everolimo",
+        "ano": 2017,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Parecer técnico do medicamento acetato de dexametasona - creme",
+        "ano": 2017,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Prospecção referente a L-asparaginase de E. coli e S. cerevisiae de origem humana: propriedade intelectual e estudo de mercado",
+        "ano": 2017,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Parecer técnico - sirolimo",
+        "ano": 2016,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Óleo de Cannabis sativa",
+        "ano": 2016,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Parecer técnico - Carapa",
+        "ano": 2016,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "E. C.. Ritonavir",
+        "ano": 2016,
+        "autores": "PONTES, C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "E. C.. Ritonavir + Lopinavir",
+        "ano": 2016,
+        "autores": "PONTES, C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Echinodorus grandiflorus",
+        "ano": 2016,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Echinodorus macrophyllus",
+        "ano": 2016,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Parecer técnico - Vernonia",
+        "ano": 2016,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Parecer técnico - Oseltamivir",
+        "ano": 2016,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "E. C.. Dolutegravir",
+        "ano": 2016,
+        "autores": "PONTES, C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Situação patentária no BR e demais países do gênero Physalis",
+        "ano": 2015,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Investigação da situação patentária no BR e EUA do medicamento Budesonida",
+        "ano": 2015,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Investigação da situação patentária no BR e EUA do medicamento Darunavir",
+        "ano": 2015,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Investigação da situação patentária no BR e EUA do medicamento Tacrolimo",
+        "ano": 2015,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Investigação da situação patentária no BR e EUA do medicamento Salbutamol",
+        "ano": 2015,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Investigação da situação patentária do medicamento pramipexol",
+        "ano": 2015,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Investigação da situação patentária da Primaquina",
+        "ano": 2015,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Investigação da situação patentária no BR e demais países do medicamento Efavirenz",
+        "ano": 2014,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Investigação da situação patentária no BR e demais países do medicamento Fluconazol",
+        "ano": 2014,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Investigação da situação patentária no BR e demais países do medicamento Nevirapina",
+        "ano": 2014,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Investigação da situação patentária no BR e demais países do medicamento Oseltamivir",
+        "ano": 2014,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Situação patentária no BR e demais países do gênero Canavalia",
+        "ano": 2014,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Investigação da situação patentária no BR e demais países do medicamento Sevelamer",
+        "ano": 2013,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Investigação da situação patentária no BR e demais países do medicamento Efavirenz",
+        "ano": 2013,
+        "autores": "PONTES, C. E. C",
+        "tipo": "Trabalho técnico"
+      }
+    ],
+    "outras_producoes_tecnicas": [],
+    "entrevistas": [
+      {
+        "titulo": "Empreendedorismo econômico, científico e ambiental. Dispositivo TempoCerto",
+        "ano": 2024,
+        "autores": "PONTES, C. E. C.; MERGH, C. ; ABRAMOV, D. M. ; MENDONCA, A. C.",
+        "veiculo": ""
+      }
+    ]
+  },
+  "patentes_registros": {
+    "patentes": [],
+    "programas_computador": [],
+    "desenhos_industriais": []
+  },
+  "producao_artistica": [],
+  "orientacoes": {
+    "em_andamento": {
+      "pos_doutorado": [],
+      "doutorado": [],
+      "mestrado": [],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [],
+      "outros": []
+    },
+    "concluidas": {
+      "pos_doutorado": [],
+      "doutorado": [],
+      "mestrado": [],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [],
+      "outros": []
+    }
+  },
+  "eventos": {
+    "participacoes": [
+      {
+        "evento": "III Encontro Internacional em Gestão da Pesquisa",
+        "apresentacao": "Parques Tecnológicos como Catalisadores do Futuro.",
+        "ano": 2026,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Inovação em biodiversidade - Patentes de medicamentos com ativos da biodiversidade",
+        "apresentacao": null,
+        "ano": 2025,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Inovação e Tendências na Indústria Farmacêutica",
+        "apresentacao": null,
+        "ano": 2025,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Inteligência Artificial no Universo da Propriedade Intelectial - Caso do Qthena",
+        "apresentacao": null,
+        "ano": 2025,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Sistema PCT - Tratado de Cooperação de Patentes",
+        "apresentacao": null,
+        "ano": 2025,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Ciclo de Vida de Medicamentos",
+        "apresentacao": null,
+        "ano": 2024,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Os Sistemas de Saúde e o Acesso aos Medicamentos: Características e Desafios frente às Demandas Judiciais de Medicamentos\"",
+        "apresentacao": null,
+        "ano": 2024,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Propriedade Intelectual e os Objetivos de Desenvolvimento Sustentável",
+        "apresentacao": null,
+        "ano": 2024,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Seminário Internacional Inovação em Medicamentos da Biodiversidade na Perspectiva Ecológica",
+        "apresentacao": null,
+        "ano": 2024,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "XVI Encontro Acadêmico de Propriedade Intelectual, Inovação e Desenvolvimento (ENAPID 2024)",
+        "apresentacao": null,
+        "ano": 2024,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Fortec - Fórum Nacional de Gestores de Inovação e Transferência de Tecnologia",
+        "apresentacao": null,
+        "ano": 2023,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "III Workshop Virtual Sisgen da UFPR",
+        "apresentacao": null,
+        "ano": 2023,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Lei da Biodiversidade e o Sistema Nacional de Gestão do Patrimônio Genético e do Conhecimento Tradicional Associado",
+        "apresentacao": null,
+        "ano": 2023,
+        "tipo_evento": "Outra",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Sistemas de Saúde Pública no Brasil e em Portugal: seus desafios e oportunidades na promoção e acesso à saúde integral",
+        "apresentacao": null,
+        "ano": 2023,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "XIV SIPID",
+        "apresentacao": null,
+        "ano": 2023,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Estudos de Caso sobre novas abordagens do ensino e a PI como base nos pilares da educação em Saúde",
+        "apresentacao": null,
+        "ano": 2022,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Novas Abordagens para Gestão de Projetos e Propriedade Industrial em Saúde",
+        "apresentacao": null,
+        "ano": 2022,
+        "tipo_evento": "Oficina",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Saúde Digital",
+        "apresentacao": null,
+        "ano": 2022,
+        "tipo_evento": "Oficina",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Os desafios regulatórios no tratamento das doenças negligenciadas,",
+        "apresentacao": null,
+        "ano": 2021,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Workshop Virtual - Nova Lei da Biodiversidade: Como o SISGEN, PG, CTA, MTA, CDN, CM e IBAMA impactam a Pesquisa Brasileira e a rotina dos pesquisadores?\"",
+        "apresentacao": null,
+        "ano": 2021,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Impressão 3D de medicamentos: desafios e perspectivas",
+        "apresentacao": null,
+        "ano": 2020,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "XII ENAPID",
+        "apresentacao": null,
+        "ano": 2020,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "XI Seminário Internacional Patentes, Inovação e Desenvolvimento (SIPID)",
+        "apresentacao": null,
+        "ano": 2020,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "1º Simpósio Brasileiro Sobre Acesso ao Patrimônio Genético e Conhecimento Tradicional Associado",
+        "apresentacao": null,
+        "ano": 2019,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "4º Simpósio de Pesquisa e Inovação do IOC",
+        "apresentacao": null,
+        "ano": 2019,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Busca de patentes \"Mão na massa - Questel Orbit\"",
+        "apresentacao": null,
+        "ano": 2019,
+        "tipo_evento": "Oficina",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Propriedade intelectual, inovação e desenvolvimento",
+        "apresentacao": null,
+        "ano": 2019,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Prospec(A)ção: Do mapeamento global as decisões cotidianas",
+        "apresentacao": null,
+        "ano": 2019,
+        "tipo_evento": "Oficina",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "8º Simpósio Nacional de Ciência, Tecnologia e Assistência Farmacêutica",
+        "apresentacao": null,
+        "ano": 2018,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Como o Design Thinking te ajuda na era da transformação digital",
+        "apresentacao": null,
+        "ano": 2018,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Empreendedorismo Científico e Tecnológico em Saúde na Fiocruz: Perspectivas em produtos e serviços para o SUS",
+        "apresentacao": null,
+        "ano": 2018,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Oficina de Prospecção: Uso de Ferramentas",
+        "apresentacao": null,
+        "ano": 2018,
+        "tipo_evento": "Oficina",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Empreendedorismo científico e tecnológico: start ups e incubadoras",
+        "apresentacao": null,
+        "ano": 2017,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Fluxo de Remessa e Envio de Material Biológico",
+        "apresentacao": null,
+        "ano": 2017,
+        "tipo_evento": "Oficina",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Os intangíveis e o desafio da gestão em tempos de Big Data",
+        "apresentacao": null,
+        "ano": 2017,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Patrimônio Genético e Conhecimento Tradicional Associado: a Lei da Biodiversidade na Prática",
+        "apresentacao": null,
+        "ano": 2017,
+        "tipo_evento": "Oficina",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "X ENAPID",
+        "apresentacao": "Prospecção tecnológica de patentes de medicamentos biotecnológicos: perfil dos principais depositantes de pedidos de patente de insulina",
+        "ano": 2017,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Cenário de Patenteamento em Câncer",
+        "apresentacao": null,
+        "ano": 2016,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Governança e Gestão: Prospecção e Monitoramento Tecnológicos",
+        "apresentacao": null,
+        "ano": 2016,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Nova Legislação da Biodiversidade",
+        "apresentacao": null,
+        "ano": 2016,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Perspectivas industriais e tecnológicas brasileiras na área da saúde",
+        "apresentacao": null,
+        "ano": 2016,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "3rd International Symposium on Challenges and New Technologies in Drug Discovery and Pharmaceutical Producion",
+        "apresentacao": null,
+        "ano": 2015,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "A revisão da lei de patentes e as implicações para medicamentos",
+        "apresentacao": null,
+        "ano": 2015,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Estudo de Viabilidade Técnico - Econômica (EVTE) para avaliação de projetos inovadores: importância para a transferência de tecnologia",
+        "apresentacao": null,
+        "ano": 2015,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Prospecção Tecnológica para subsidiar pesquisas e projetos inovadores em",
+        "apresentacao": null,
+        "ano": 2015,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "A Sílica e a Vacina Oral: Parceria Instituto Butantan / Cristália",
+        "apresentacao": null,
+        "ano": 2014,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Ciência, Sociedade e Empreendedorismo",
+        "apresentacao": null,
+        "ano": 2014,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "O caso da vacina humana contra a esquistossomose e da vacina veterinária contra a fasciolose",
+        "apresentacao": null,
+        "ano": 2014,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Empreendedorismo Científico:Transformação de Pesquisas em Produtos para o Setor Saúde",
+        "apresentacao": null,
+        "ano": 2013,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Parceria para o Desenvolvimento Produtivo em Saúde: oportunidades e desafios",
+        "apresentacao": null,
+        "ano": 2013,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Patente Como Indicador de Produtividade em Pesquisa",
+        "apresentacao": null,
+        "ano": 2013,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Pesquisa Clínica: Questões Éticas e Estratégicas para o Desenvolvimento do País",
+        "apresentacao": null,
+        "ano": 2013,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Uso Estratégico de Patentes e Informações Patentárias em Projetos de P&D",
+        "apresentacao": null,
+        "ano": 2013,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Inovação no mercado global = Eficiência e Diferenciação",
+        "apresentacao": null,
+        "ano": 2012,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Perspectivas e Desafios para o Enfrentamento das Doenças que Perpetuam a Pobreza: Doenças Negligenciadas",
+        "apresentacao": null,
+        "ano": 2012,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Acesso Livre ao Conhecimento",
+        "apresentacao": null,
+        "ano": 2011,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "IV ENAPID",
+        "apresentacao": null,
+        "ano": 2011,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Papel da Inovação no Desenvolvimento de Economias Emergentes",
+        "apresentacao": null,
+        "ano": 2011,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Tendências Tecnológicas da Indústria Farmacêutica no Mercado Global e a Posição Brasileira",
+        "apresentacao": null,
+        "ano": 2011,
+        "tipo_evento": "Outra",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "A Saúde Pública e os Desafios para o Fortalecimento do Complexo Econômico - Industrial da Saúde",
+        "apresentacao": null,
+        "ano": 2010,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Aspectos Relativos ao Exame na Área de Medicamentos",
+        "apresentacao": null,
+        "ano": 2010,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Atividade Inventiva",
+        "apresentacao": null,
+        "ano": 2010,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "III ENAPID (Encontro Acadêmico de Propriedade Intelectual, Inovação e Desenvolvimento)",
+        "apresentacao": null,
+        "ano": 2010,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Atenção Farmacêutica",
+        "apresentacao": null,
+        "ano": 2006,
+        "tipo_evento": "Oficina",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Atenção Farmacêutica ao Paciente Diabético",
+        "apresentacao": null,
+        "ano": 2006,
+        "tipo_evento": "Oficina",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "3 Congresso de Ciências Farmacêuticas do Rio de Janeiro",
+        "apresentacao": null,
+        "ano": 2005,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "4 Congresso de Ciências Farmacêuticas do Rio de Janeiro",
+        "apresentacao": null,
+        "ano": 2004,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      }
+    ],
+    "organizacoes": [
+      {
+        "autores": "PONTES, C. E. C.. Palestra Acesso ao Patrimônio Genético: nova legislação e seu impacto nas atividades da Fiocruz. 2017. (Outro).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      }
+    ]
+  },
+  "bancas": {
+    "mestrado": [],
+    "doutorado": [],
+    "qualificacao_doutorado": [],
+    "qualificacao_mestrado": [],
+    "graduacao": [],
+    "outras": []
+  },
+  "estatisticas": {
+    "total_artigos_periodicos": 10,
+    "total_livros": 0,
+    "total_capitulos": 4,
+    "total_trabalhos_congressos": 0,
+    "total_projetos_pesquisa": 3,
+    "total_projetos_extensao": 0,
+    "total_projetos_desenvolvimento": 0,
+    "total_orientacoes_concluidas": 0,
+    "total_orientacoes_andamento": 0
+  }
+}

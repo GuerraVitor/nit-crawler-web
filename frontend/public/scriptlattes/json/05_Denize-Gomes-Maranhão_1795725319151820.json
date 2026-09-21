@@ -1,0 +1,371 @@
+{
+  "informacoes_pessoais": {
+    "id_lattes": "1795725319151820",
+    "nome_completo": "Denize Gomes Maranhão",
+    "nome_citacoes": "MARANHÃO, D. G.",
+    "sexo": "Masculino",
+    "rotulo": "* Sem rótulo",
+    "periodo": "",
+    "bolsa_produtividade": "",
+    "endereco_profissional": "",
+    "atualizacao_cv": "21/07/2026",
+    "url": "http://lattes.cnpq.br/1795725319151820",
+    "texto_resumo": "Possui graduação em Arquivologia pela Universidade Federal do Estado do Rio de Janeiro (UNIRIO), graduação em Farmácia pelo Centro Universitário Augusto Motta (UNISUAM) e Bacharelado em Psicologia pelo Centro Universitário Celso Lisboa.Atua como Analista de Organização e Administração no Núcleo de Inovação Tecnológica de Farmanguinhos (NIT-FAR/Fiocruz), onde exerce funções estratégicas no suporte à gestão tecnológica e administrativa. Possui expertise na elaboração de relatórios gerenciais, monitoramento de processos via sistema SEI e suporte técnico em Propriedade Intelectual (patentes). É responsável pelo acompanhamento de parcerias institucionais nacionais e internacionais com destaque para missões em Portugal , além da gestão de recursos e suporte administrativo a bolsistas de iniciação científica (PROVOC, PIBIT e PIBIC).Atua como Psicóloga Clínica em modalidade remota, fundamentando sua prática na Terapia Cognitivo-Comportamental (TCC) e na Terapia Focada em Esquemas. Especialista no manejo de perdas e lutos, ansiedade, depressão e baixa autoestima, integra conhecimentos de Neurociência Terapêutica Aplicada e Neurobiologia das Emoções à prática clínica. Possui capacitação em intervenção em crises e prevenção do comportamento suicida. Sua trajetória é pautada pela interface entre a gestão em Ciência e Tecnologia em Saúde e o cuidado clínico baseado em evidências. (Texto informado pelo autor)"
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Especialização em Saúde da Família",
+      "nome_instituicao": "(Carga Horária: 720h)",
+      "ano_inicio": "2026",
+      "ano_conclusao": "2026",
+      "descricao": "Faculdade Metropolitana de Campinas, Metrocamp, Brasil."
+    },
+    {
+      "tipo": "Especialização em Pós GRaduação em Farmácia Estética",
+      "nome_instituicao": "(Carga Horária: 260h)",
+      "ano_inicio": "2019",
+      "ano_conclusao": "2019",
+      "descricao": "Instituto Izolani de Pesquisa e Inovação, INIPE, Brasil."
+    },
+    {
+      "tipo": "Especialização em Curso de Especialização em Gestão da Inovação em Fitomedicamentos",
+      "nome_instituicao": "(Carga Horária: 395h)",
+      "ano_inicio": "2008",
+      "ano_conclusao": "2009",
+      "descricao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil. Título: Implantação de um Núcleo de Apoio a Programas de Fitoterapia. Orientador: Sandra Aparecida Padilha Magalhães Fraga."
+    },
+    {
+      "tipo": "Graduação em Psicologia",
+      "nome_instituicao": "Centro Universitário Celso Lisboa, CELSO LISBOA, Brasil",
+      "ano_inicio": "2020",
+      "ano_conclusao": "2025",
+      "descricao": "Título: Os Impactos da Doença de Alzheimer na Saúde Mental dos Cuidadores. Orientador: Dr. Bruno Costa Larrubia."
+    },
+    {
+      "tipo": "Graduação em Farmácia",
+      "nome_instituicao": "Centro Universitário Augusto Motta, UNISUAM, Brasil",
+      "ano_inicio": "2002",
+      "ano_conclusao": "2007",
+      "descricao": "Título: Novos esquemas terapêuticos para o tratamento da tuberculose pulmonar. Orientador: Gilberto Marcelo Sperandio da Silva."
+    },
+    {
+      "tipo": "Graduação em Arquivologia",
+      "nome_instituicao": "Universidade Federal do Estado do Rio de Janeiro, UNIRIO, Brasil",
+      "ano_inicio": "1995",
+      "ano_conclusao": "1999",
+      "descricao": "Título: Novos esquemas terapêuticos para o tratamento da tuberculose. Orientador: GILBERTO MARCELO SPERANDIO DA SILVA,."
+    }
+  ],
+  "atuacao_profissional": [
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil.",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2019 - Atual",
+      "ano_inicio": "2019",
+      "ano_fim": "Atual",
+      "vinculo": "Celetista",
+      "enquadramento": "Analista de Organização e Admin. Sênior",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil.",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2024 - 2025",
+      "ano_inicio": "2024",
+      "ano_fim": "2025",
+      "vinculo": "Estágio Supervisionado",
+      "enquadramento": "Estagiária",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2024-2025",
+      "ano_inicio": "2024",
+      "ano_fim": "2025",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil.",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2015 - 2018",
+      "ano_inicio": "2015",
+      "ano_fim": "2018",
+      "vinculo": "Celetista",
+      "enquadramento": "Analista de Qualidade Pleno",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil.",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2010 - 2014",
+      "ano_inicio": "2010",
+      "ano_fim": "2014",
+      "vinculo": "Celetista",
+      "enquadramento": "Analista de Qualidade Pleno",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil.",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2009 - 2010",
+      "ano_inicio": "2009",
+      "ano_fim": "2010",
+      "vinculo": "Celetista",
+      "enquadramento": "Analista de Pesquisa III",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil.",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2007 - 2009",
+      "ano_inicio": "2007",
+      "ano_fim": "2009",
+      "vinculo": "Celetista",
+      "enquadramento": "Assistente de Assuntos Regulatórios",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil.",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2001 - 2006",
+      "ano_inicio": "2001",
+      "ano_fim": "2006",
+      "vinculo": "Celetista",
+      "enquadramento": "Arquivista",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil.",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2000 - 2001",
+      "ano_inicio": "2000",
+      "ano_fim": "2001",
+      "vinculo": "Celetista",
+      "enquadramento": "Bolsista PAP (Programa de Aperfeiçoamento Pro",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Oswaldo Cruz, FIOCRUZ, Brasil",
+      "instituicao_nome": "Fundação Oswaldo Cruz",
+      "instituicao_sigla": "FIOCRUZ",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    }
+  ],
+  "projetos_pesquisa": [],
+  "projetos_extensao": [],
+  "projetos_desenvolvimento": [],
+  "areas_de_atuacao": [],
+  "idiomas": [
+    {
+      "nome": "Inglês",
+      "compreende": "Razoavelmente",
+      "fala": "Pouco",
+      "le": "Razoavelmente",
+      "escreve": "Pouco",
+      "proficiencia_completa": "Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco."
+    }
+  ],
+  "premios_titulos": [],
+  "linhas_de_pesquisa": [],
+  "producao_bibliografica": {
+    "artigos_periodicos": [],
+    "livros_publicados": [],
+    "capitulos_livros": [],
+    "trabalhos_completos_congressos": [],
+    "resumos_expandidos": [],
+    "resumos_congressos": [],
+    "artigos_aceitos": [],
+    "apresentacoes_trabalhos": [],
+    "textos_jornais": [],
+    "outras_producoes": []
+  },
+  "producao_tecnica": {
+    "softwares_com_patente": [],
+    "softwares_sem_patente": [],
+    "produtos_tecnologicos": [],
+    "processos_tecnicas": [],
+    "trabalhos_tecnicos": [],
+    "outras_producoes_tecnicas": [],
+    "entrevistas": []
+  },
+  "patentes_registros": {
+    "patentes": [],
+    "programas_computador": [],
+    "desenhos_industriais": []
+  },
+  "producao_artistica": [],
+  "orientacoes": {
+    "em_andamento": {
+      "pos_doutorado": [],
+      "doutorado": [],
+      "mestrado": [],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [],
+      "outros": []
+    },
+    "concluidas": {
+      "pos_doutorado": [],
+      "doutorado": [],
+      "mestrado": [],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [],
+      "outros": []
+    }
+  },
+  "eventos": {
+    "participacoes": [],
+    "organizacoes": []
+  },
+  "bancas": {
+    "mestrado": [],
+    "doutorado": [],
+    "qualificacao_doutorado": [],
+    "qualificacao_mestrado": [],
+    "graduacao": [],
+    "outras": []
+  },
+  "estatisticas": {
+    "total_artigos_periodicos": 0,
+    "total_livros": 0,
+    "total_capitulos": 0,
+    "total_trabalhos_congressos": 0,
+    "total_projetos_pesquisa": 0,
+    "total_projetos_extensao": 0,
+    "total_projetos_desenvolvimento": 0,
+    "total_orientacoes_concluidas": 0,
+    "total_orientacoes_andamento": 0
+  }
+}

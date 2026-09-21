@@ -1,0 +1,97 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>NIT-Far</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>NIT-Far</h2></div>
+    <link href="css/tabulator_site.min.css" rel="stylesheet" />
+    <link href="css/tabulator-scriplattes.css" rel="stylesheet" />
+    <script src="js/tabulator.min.js"></script>
+    <script src="js/xlsx.full.min.js"></script>
+    
+    <style>
+    /* ellipsis em todas as células */
+    #tabela-publicacoes .tabulator-cell {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    </style>
+    
+    <h3>Dissertação de mestrado</h3><br>
+    
+        <div id="grafico-producoes" style="width:100%; margin:1em auto;"></div>
+        <!-- script src="https://code.highcharts.com/highcharts.js"></script -->
+        <script src="./js/highcharts.js"></script>
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            Highcharts.chart('grafico-producoes', {"chart": {"type": "column", "height": 250}, "title": {"text": ""}, "xAxis": {"categories": ["2003", "2011", "2013", "2014", "2015", "2016", "2017", "2019", "2020", "2021", "2023", "2025", "2026"], "type": "category"}, "yAxis": {"title": {"text": "Quantidade"}}, "legend": {"enabled": false}, "plotOptions": {"column": {"color": "#4A4A4A", "borderRadius": 2, "pointPadding": 0.1, "groupPadding": 0.1}}, "series": [{"name": "Total", "data": [1, 1, 2, 1, 2, 1, 7, 5, 4, 3, 1, 2, 3]}], "credits": {"enabled": false}});
+          });
+        </script>
+        
+    Número total de itens: 33<br>
+    
+    
+    <div class="sl-controls" style="margin-top:.5rem">
+      <button id="pubs-csv">⬇️ CSV</button>
+      <button id="pubs-xlsx">⬇️ XLSX</button>
+    </div>
+    <div id="tabela-publicacoes" class="sl-tabela"></div>
+    
+    <script>
+    const DATA = [{"ano": 2026, "orientado_a": "Caio Velloso Mergh", "titulo_do_trabalho": "Uso da Inteligência Artificial com Aplicação da Técnica de Retrieval-Augmented Generation (RAG) para Compliance Regulatório na Indústria Farmacêutica", "curso_instituicao": "Dissertação (Mestrado em PPG Profissional em Gestão, Pesquisa e Desenvolvimento na Ind Farmacêutica) - Instituto de Tecnologia em Fármacos - Farmanguihos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2026, "orientado_a": "Julia dos Santos Fernandes", "titulo_do_trabalho": "Tendências em inovações tecnológicas nas indústrias farmacêuticas no Brasil e mundo", "curso_instituicao": "Dissertação (Mestrado em PPG Profissional em Gestão, Pesquisa e Desenvolvimento na Ind Farmacêutica) - Instituto de Tecnologia em Fármacos - Farmanguihos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2026, "orientado_a": "Karina Bernardes de Oliveira Ribeiro", "titulo_do_trabalho": "O cenário do aspecto regulatório farmacêutico global e da América Latina em pesquisa clínica: análise comparativa com referências globais", "curso_instituicao": "Dissertação (Mestrado em PPG Profissional em Gestão, Pesquisa e Desenvolvimento na Ind Farmacêutica) - Instituto de Tecnologia em Fármacos - Farmanguihos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2025, "orientado_a": "Isabela Campos Sampaio Ferreti", "titulo_do_trabalho": "Roteiro para implementação do registro eletrônico da produção de medicamentos em um laboratório farmacêutico oficial: uma contribuição para o Complexo Econômico Industrial da Saúde", "curso_instituicao": "Dissertação (Mestrado em PPG Profissional em Gestão, Pesquisa e Desenvolvimento na Ind Farmacêutica) - Instituto de Tecnologia em Fármacos - Farmanguihos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2025, "orientado_a": "Vanessa Lordello Trindade", "titulo_do_trabalho": "As Contribuições das Parceiras para o Desenvolvimento Produtivo para a Promoção da Inovação Tecnológica no Laboratório Farmacêutico Oficial Farmanguinhos/Fiocruz", "curso_instituicao": "Dissertação (Mestrado em PPG Profissional em Gestão, Pesquisa e Desenvolvimento na Ind Farmacêutica) - Instituto de Tecnologia em Fármacos - Farmanguihos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2023, "orientado_a": "ELAINE RIBEIRO FORGOZA", "titulo_do_trabalho": "Diretrizes para um plano de ação na aquisição e padronização de insumos no Laboratório Escola do Senac", "curso_instituicao": "Dissertação (Mestrado em Programa de Pós-Graduação em Gestão, P&D na Indústria Farmacêutica) - Farmanguinhos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2021, "orientado_a": "Erica Fontes Condado", "titulo_do_trabalho": "A norma ABNT NBR ISO 9001:2015 no laboratório analítico de um Laboratório Farmacêutico oficial: uma proposta metodológica baseada na avaliação da aplicabilidade", "curso_instituicao": "Farmacêutica) - Farmanguinhos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2021, "orientado_a": "Maria Tereza de Sousa Silva", "titulo_do_trabalho": "Proposta de modelo para redução do tempo do processo de liberação de lotes de vacinas em laboratório Farmacêutico Oficial", "curso_instituicao": "Farmacêutica) - Farmanguinhos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2021, "orientado_a": "Saulo Moura da Silva", "titulo_do_trabalho": "Proposta para o Alinhamento entre o Plano Estratégico Institucional de um Laboratório Farmacêutico Oficial e o Departamento de TI", "curso_instituicao": "Dissertação (Mestrado em PPG Profissional em Gestão, Pesquisa e Desenvolvimento na Ind Farmacêutica) - Instituto de Tecnologia em Fármacos - Farmanguihos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2020, "orientado_a": "Felipe Gilio Guzzo", "titulo_do_trabalho": "Projetos de parceria de desenvolvimento produtivo em um Laboratório Farmacêutico Oficial: análise do processo decisório a partir da modelagem de processos", "curso_instituicao": "Dissertação (Mestrado em Programa de Pós-Graduação em Gestão, P&D na Indústria Farmacêutica) - Farmanguinhos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2020, "orientado_a": "Giselle Ribeiro de Barros", "titulo_do_trabalho": "Proposta de metodologia de transferência de tecnologia para a etapa de formulação de produtos biológicos entre empresas públicas e privadas", "curso_instituicao": "Farmacêutica) - Farmanguinhos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2020, "orientado_a": "Jorge Luiz Camanho de Aguiar Junior", "titulo_do_trabalho": "Mapeamento das etapas críticas na produção de medicamentos de um Laboratório Farmacêutico Oficial: estudo de caso na etapa de fabricação", "curso_instituicao": "Dissertação (Mestrado em Programa de Pós-Graduação em Gestão, P&D na Indústria Farmacêutica) - Farmanguinhos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2020, "orientado_a": "Luiz Augusto Pinto Lima", "titulo_do_trabalho": "Validação de uma metodologia bioanalítica qPCR e aplicação de modelos matemáticos de regressão para estimativa do limite de detecção: Estudo de caso na quantificação e diagnóstico clínico de vírus Zika", "curso_instituicao": "Dissertação (Mestrado em Programa de Pós-Graduação em Gestão, P&D na Indústria Farmacêutica) - Farmanguinhos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2019, "orientado_a": "Danielle Cristina Pessôa Reis da Silva", "titulo_do_trabalho": "Proposta para auxílio na estratégia de produção de medicamentos antineoplásicos com risco de desabastecimento", "curso_instituicao": "Farmacêutica) - Farmanguinhos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Supervisor"}, {"ano": 2019, "orientado_a": "Juliana Satie de Oliveira Igarashi", "titulo_do_trabalho": "Proposição de ferramenta para análise de risco aplicável a validação do módulo Warehouse Management em uma indústria farmacêutica", "curso_instituicao": "Farmacêutica) - Farmanguinhos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2019, "orientado_a": "Marlede Souza Menezes", "titulo_do_trabalho": "Estudo patentométrico relacionado à terapia de Tuberculose pulmonar", "curso_instituicao": "Farmacêutica) - Farmanguinhos/FIOCRUZ", "agencia_de_fomento": "Instituto de Tecnologia em Fármacos - Farmanguihos/FIOCRUZ", "tipo_de_orientacao": "Orientador"}, {"ano": 2019, "orientado_a": "Thatyana Milene Santos Lima", "titulo_do_trabalho": "Aplicação de Ferramentas da Qualidade para Otimização de análises em Laboratório de Controle de Qualidade de Medicamentos", "curso_instituicao": "Farmacêutica) - Farmanguinhos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Supervisor"}, {"ano": 2019, "orientado_a": "Viviane Theodora Muniz", "titulo_do_trabalho": "Análise comparativa de aspectos regulatórios para registro de medicamentos órfãos nas agências ANVISA, FDA e EMA", "curso_instituicao": "Farmacêutica) - Farmanguinhos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2017, "orientado_a": "Daniele Alves de Oliveira", "titulo_do_trabalho": "Análise do fluxo de planejamento de materiais para a produção de vacinas de Bio-Manguinhos/Fiocruz a luz da visão estratégica da cadeia de decisão", "curso_instituicao": "Farmacêutica) - Farmanguinhos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2017, "orientado_a": "Gabriela de Paula Pereira", "titulo_do_trabalho": "Análise dos Enquadramentos Regulatórios de Ensaios Clínicos para Registro de Medicamentos Inovadores: associação de dose fixa", "curso_instituicao": "Farmacêutica) - Farmanguinhos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2017, "orientado_a": "Giulianna Pereira de Alcântara", "titulo_do_trabalho": "Planejamento, síntese e avaliação biológica de novos análogos do benznidazol, candidatos a protótipos tripanocida", "curso_instituicao": "Dissertação (Mestrado em Programa de Pós-graduação em Química) - Universidade Federal do Rio de Janeiro", "agencia_de_fomento": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior", "tipo_de_orientacao": "Supervisor"}, {"ano": 2017, "orientado_a": "Marcus Vinícius Silva dos Santos Carmo", "titulo_do_trabalho": "CENÁRIO DOS MEDICAMENTOS BIOTECNOLÓGICOS: uma abordagem da ciência ao mercado para os laboratórios farmacêuticos nacionais", "curso_instituicao": "Farmacêutica) - Farmanguinhos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2017, "orientado_a": "Mayara Salles Souza do Nascimento", "titulo_do_trabalho": "Planejamento, síntese e avaliação biológica de novos derivados carboidrazonamidas candidatos a protótipos tripanocida", "curso_instituicao": "Dissertação (Mestrado em Programa de Pós-Graduação em Farmacologia e Química Medicinal) - Universidade Federal do Rio de Janeiro", "agencia_de_fomento": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior", "tipo_de_orientacao": "Supervisor"}, {"ano": 2017, "orientado_a": "Raquel Cristina Henriques Marchetti", "titulo_do_trabalho": "Análise e Gestão de Mudança de Pós-registro de Medicamentos", "curso_instituicao": "Farmacêutica) - Farmanguinhos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2017, "orientado_a": "Walter Alexandre dos Santos Junior", "titulo_do_trabalho": "Proposta metodológica de comissionamento para a nova planta de processamento final de Bio-Manguinhos: uma abordagem integrativa das fases de comissionamento, start up e qualificação para indústria farmacêutica", "curso_instituicao": "Farmacêutica) - Farmanguinhos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2016, "orientado_a": "Marcia Cristina Tomaz Reina", "titulo_do_trabalho": "A criação de um Framework de Gestão do Conhecimento para viabilizar o processo de inovação e competitividade das MPE", "curso_instituicao": "Dissertação (Mestrado em Propriedade Intelectual e Transferência de Tecnologia para Inovação) - Associação Fórum Nacional de Gestores de Inovação e Transferência de Tecnol", "agencia_de_fomento": null, "tipo_de_orientacao": "Supervisor"}, {"ano": 2015, "orientado_a": "Arlene Moreira", "titulo_do_trabalho": "Gestão de catálogo de materiais: estudo de caso da qualidade da informação para o setor de compras de um Laboratorio Oficial", "curso_instituicao": "Farmacêutica) - Farmanguinhos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Supervisor"}, {"ano": 2015, "orientado_a": "Natália Nascimento Santiago", "titulo_do_trabalho": "Planejamento, síntese e avaliação biológica de novos derivados hidrazonoil substituídos com potencial atividade anti-chagásica", "curso_instituicao": "Dissertação (Mestrado em Programa de Pós-graduação em Química) - Universidade Federal do Rio de Janeiro", "agencia_de_fomento": null, "tipo_de_orientacao": "Supervisor"}, {"ano": 2014, "orientado_a": "Bruno de Biscuccia Ferreira Cesar", "titulo_do_trabalho": "Gerenciamento do Controle de Mudança na Indústria Farmacêutica", "curso_instituicao": "Farmacêutica) - Farmanguinhos/FIOCRUZ", "agencia_de_fomento": null, "tipo_de_orientacao": "Orientador"}, {"ano": 2013, "orientado_a": "Janine Boniatti", "titulo_do_trabalho": "Desenvolvimento e validação de metodologia de distribuição granulométrica por espalhamento de luz laser do insumo farmacêutico ativo efavirenz", "curso_instituicao": "na indústria Farmacêut.) - Instituto Tecnológico de Fármacos", "agencia_de_fomento": null, "tipo_de_orientacao": "Supervisor"}, {"ano": 2013, "orientado_a": "Luis Felipe Baumotte Osório", "titulo_do_trabalho": "Planejamento, síntese e avaliação da atividade tripanocida de novos derivados nitroimidazolil éteres de oxima substituídos como potenciais agentes antichagásicos", "curso_instituicao": "Dissertação (Mestrado em Programa de Pós-graduação em Química) - Universidade Federal do Rio de Janeiro", "agencia_de_fomento": null, "tipo_de_orientacao": "Supervisor"}, {"ano": 2011, "orientado_a": "Ramon Borges da Silva", "titulo_do_trabalho": "Síntese e avaliação do perfil tripanocida dos novos derivados imidazólicos trissubstituídos planejados como potenciais agentes anti-chagásicos", "curso_instituicao": "Dissertação (Mestrado em Química orgânica) - Universidade Federal do Rio de Janeiro", "agencia_de_fomento": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior", "tipo_de_orientacao": "Supervisor"}, {"ano": 2003, "orientado_a": "Samir D'Aquino Carvalho", "titulo_do_trabalho": "Planejamento, Síntese e Avaliação da Atividade Tripanomicida de Novas N-Aril-Hidrazonas-1,3,4-tiadiazólicas, Candidatas a Farmacos antichagásicos", "curso_instituicao": "Dissertação (Mestrado em Química) - Universidade Federal do Rio de Janeiro", "agencia_de_fomento": null, "tipo_de_orientacao": "Supervisor"}];
+    const COLUMNS = [{"title": "Ano", "field": "ano", "hozAlign": "center", "sorter": "number", "headerFilter": "input", "headerFilterParams": {"values": true}, "width": 110, "formatter": "fmtAno", "tooltip": true, "resizable": true, "widthGrow": 0}, {"title": "Orientado(a)", "field": "orientado_a", "hozAlign": "left", "sorter": "string", "headerFilter": "input", "tooltip": true, "resizable": true, "minWidth": 200, "widthGrow": 2}, {"title": "Título do Trabalho", "field": "titulo_do_trabalho", "hozAlign": "left", "sorter": "string", "headerFilter": "input", "tooltip": true, "resizable": true, "minWidth": 200, "widthGrow": 2}, {"title": "Curso/Instituição", "field": "curso_instituicao", "hozAlign": "left", "sorter": "string", "headerFilter": "input", "tooltip": true, "resizable": true, "minWidth": 200, "widthGrow": 2}, {"title": "Agência de Fomento", "field": "agencia_de_fomento", "hozAlign": "left", "sorter": "string", "headerFilter": "input", "tooltip": true, "resizable": true, "minWidth": 200, "widthGrow": 2}, {"title": "Tipo de Orientação", "field": "tipo_de_orientacao", "hozAlign": "left", "sorter": "string", "headerFilter": "input", "tooltip": true, "resizable": true, "minWidth": 100, "widthGrow": 0, "width": 120}];
+    
+    const LANG_PT = {
+      "pt-br": {
+        "pagination": {
+          "first":"«","first_title":"Primeira",
+          "last":"»","last_title":"Última",
+          "prev":"‹","prev_title":"Anterior",
+          "next":"›","next_title":"Próxima"
+        },
+        "headerFilters": { "default":"⎯ Filtrar ⎯" }
+      }
+    };
+    
+    // Ano: mostra "—" quando 0
+    function fmtAno(cell) {
+      const v = cell.getValue() || 0;
+      return v === 0 ? "—" : v;
+    }
+    
+    // DOI → link clicável (aceita "10.xxxx/..." ou "doi:10...." ou já com http/https)
+    function fmtDOI(cell) {
+      let v = cell.getValue();
+      if (!v) return "";
+      v = String(v).trim();
+      let href = v;
+      if (!/^https?:/i.test(v)) {
+        v = v.replace(/^doi:\s*/i, "");
+        href = "https://doi.org/" + v;
+      }
+      const esc = (t) => String(t).replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[m]);
+      return `<a href="${esc(href)}" target="_blank" rel="noopener">${esc(v)}</a>`;
+    }
+    
+    // aplica formatter customizado quando marcado como "fmtDOI" em Python
+    COLUMNS.forEach(col => {
+      if (col.formatter === "fmtDOI") col.formatter = fmtDOI;
+    });
+    
+    document.addEventListener("DOMContentLoaded", function(){
+      const table = new Tabulator("#tabela-publicacoes", {
+        data: DATA,
+        layout: "fitColumns",
+        height: (DATA.length < 30 ? "45vh" : "70vh"),
+        responsiveLayout: "collapse",
+        pagination: "local",
+        paginationSize: 100,
+        paginationSizeSelector: [50, 100, 200, 500, 1000],
+        movableColumns: true,
+        headerFilterLiveFilter: true,
+        columns: COLUMNS,
+        locale: true, langs: LANG_PT, locale: "pt-br",
+      });
+    
+      document.getElementById("pubs-csv").onclick  = () => table.download("csv",  "publicacoes.csv",  { bom:true });
+      document.getElementById("pubs-xlsx").onclick = () => table.download("xlsx", "publicacoes.xlsx", { sheetName:"Publicações" });
+    });
+    </script>
+    <br><p><br>(*) Relatório criado com produções desde 1900 até 2026
+<br>Data de processamento: 20/09/2026 23:49:57<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V.2025.09</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:admin@email.com">admin@email.com</a>         </div> </body></html>

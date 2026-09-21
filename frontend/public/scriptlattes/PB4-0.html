@@ -1,0 +1,97 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>NIT-Far</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>NIT-Far</h2></div>
+    <link href="css/tabulator_site.min.css" rel="stylesheet" />
+    <link href="css/tabulator-scriplattes.css" rel="stylesheet" />
+    <script src="js/tabulator.min.js"></script>
+    <script src="js/xlsx.full.min.js"></script>
+    
+    <style>
+    /* ellipsis em todas as células */
+    #tabela-publicacoes .tabulator-cell {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    </style>
+    
+    <h3>Trabalhos completos publicados em anais de congressos</h3><br>
+    
+        <div id="grafico-producoes" style="width:100%; margin:1em auto;"></div>
+        <!-- script src="https://code.highcharts.com/highcharts.js"></script -->
+        <script src="./js/highcharts.js"></script>
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            Highcharts.chart('grafico-producoes', {"chart": {"type": "column", "height": 250}, "title": {"text": ""}, "xAxis": {"categories": ["1987", "1991", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2004", "2010", "2013", "2014", "2020"], "type": "category"}, "yAxis": {"title": {"text": "Quantidade"}}, "legend": {"enabled": false}, "plotOptions": {"column": {"color": "#4A4A4A", "borderRadius": 2, "pointPadding": 0.1, "groupPadding": 0.1}}, "series": [{"name": "Total", "data": [3, 1, 1, 2, 3, 1, 1, 3, 4, 3, 1, 2, 1, 1, 2, 1]}], "credits": {"enabled": false}});
+          });
+        </script>
+        
+    Número total de itens: 30<br>
+    
+    
+    <div class="sl-controls" style="margin-top:.5rem">
+      <button id="pubs-csv">⬇️ CSV</button>
+      <button id="pubs-xlsx">⬇️ XLSX</button>
+    </div>
+    <div id="tabela-publicacoes" class="sl-tabela"></div>
+    
+    <script>
+    const DATA = [{"ano": 2020, "autores": "SILVA, S. M. ; FIGUEIREDO, T. A. ; MAGALHÃES, JORGE L", "titulo": "Proposta para o Alinhamento entre o Plano Estratégico Institucional de um Laboratório Farmacêutico Oficial e o Departamento de TI", "veiculo": "VIII Simpósio Internacional de Gestão de Projetos", "paginas": "1-16", "doi": "http://dx.doi.org/10.4018/978-1-4666-4562-2.ch009"}, {"ano": 2014, "autores": "BARROSO, W. ; QUONIAM, L. ; MAGALHÃES, J.L. ; Corrêa, Marilena Cordeiro Dias Villela", "titulo": "Patente como fonte de informação tecnológica: utilização de documentos de patente em domínio público", "veiculo": "III Simpósio Internacional de Gestão de Projetos (III SINGEP) e II Simpósio Internacional de Inovação e Sustentabilidade (II S2IS)", "paginas": null, "doi": null}, {"ano": 2014, "autores": "MAGALHÃES, J.L.; HARTZ, Z. M. A. ; BORSCHIVER, S. ; BARROSO, W. ; QUONIAM, L.", "titulo": "CENÁRIO PROSPECTIVO DA P,D&I DE MEDICAMENTOS ONCOLÓGICOS NO BRASIL: UMA ABORDAGEM 2.0 PARA INOVAÇÃO E COMPETITIVIDADE EM FÁRMACOS", "veiculo": "III Simpósio Internacional de Gestão de Projetos (III SINGEP) e II Simpósio Internacional de Inovação e Sustentabilidade (II S2IS)", "paginas": null, "doi": null}, {"ano": 2013, "autores": "MAGALHÃES, J.L.; QUONIAM, L.", "titulo": "A Inteligência Colaborativa como Ferramenta para Gestão de Redes e Análise de Patentes em Dengue: um estudo de caso aplicado à saúde pública", "veiculo": "10th International Conference on Information Systems and Technology Management ? CONTECSI", "paginas": null, "doi": null}, {"ano": 2010, "autores": "Barroso, Wanise Borges Gouvea ; SILVEIRA, Carla Cristina de Freitas da ; Dutra, Larissa Vasconcelos ; Corrêa, Ana Paula Dantas", "titulo": "Mapeamento dos Documentos de Patentes Relacionados à Tuberculose", "veiculo": "III Encontro Acadêmico de Propriedade Intelectual", "paginas": null, "doi": "http://dx.doi.org/10.4018/978-1-7998-8011-0.ch014"}, {"ano": 2004, "autores": "Edson F. da Silva; CARVALHO, S. D. ; o mesmo ; GIBALDI, D. ; o mesmo ; HENRIQUES, M. G. M. O. ; FRAGA, C. A. M.", "titulo": "Avaliação da Atividade Tripanomicida de Novos Isósteros do Megazol", "veiculo": "27a Reunião Anual da Sociedade Brasileira de Química/Federacion Latinoamericana de Asociaciones Químicas (FLAQ)", "paginas": "MD-83-MD-83", "doi": null}, {"ano": 2004, "autores": "Edson F. da Silva; GIBALDI, D. ; o mesmo ; RIENTE, R. R. ; o mesmo ; RAMOS, M. C. K. V.", "titulo": "Avaliação \"in vitro\" da Atividade Tripanomicida e Citotoxicidade de Derivados 2-Benzil-(sulfeto, sulfóxido e sulfona) do Megazol", "veiculo": "27a Reunião Anual da Sociedade Brasileira de Química/Federación Latinoamericana de Asociaciones Químicas (FLAQ)", "paginas": "MD-82-MD-82", "doi": null}, {"ano": 2002, "autores": "Edson F. da Silva. Avaliação \"in vitro\"da atividade tripanomicida de um derivado megazol", "titulo": "In: 25a Reunião Anual da Sociedade Brasileira de Química, 2002, Poços de Caldas. Livros de Resumos da 25a Reunião Anual da Sociedade Brasileira de Química. São Paulo: Sociedade Brasileira de Química", "veiculo": null, "paginas": "MD-54", "doi": null}, {"ano": 2001, "autores": "BARBOSA, L. S. ; CARVALHO, S. D. ; FERNANDES, R. C. ; Edson F. da Silva", "titulo": "Síntese de um novo derivado do megazol com perfil anti-parasitário", "veiculo": "Resumos da 24a. Reunião Anual da Sociedade Brasileira de Química", "paginas": "QO111", "doi": null}, {"ano": 2001, "autores": "FRAGA, A. G. M. ; CARVALHO, S. D. ; Edson F. da Silva ; FRAGA, C. A. M.", "titulo": "Síntese de novos derivados 1,3,4-tiadiazólicos planejados como candidatos à agentes antitumorais análogos ao derivado 1043C", "veiculo": "Resumos da 24a. Reunião Anual da Sociedade Brasileira de Química", "paginas": "QO-98", "doi": null}, {"ano": 2001, "autores": "VELOSO, M. P. ; Edson F. da Silva ; FRAGA, C. A. M. ; BARREIRO, E. J.", "titulo": "Síntese de um novo derivado pirazólico tricíclico, planejado como análogo da Olanzapina", "veiculo": "Resumo da 24a. Reunião Anual da Sociedade Brasileira de Química", "paginas": "QO-97", "doi": null}, {"ano": 2000, "autores": "Edson F. da Silva; FRAGA, A. G. M. ; FRAGA, C. A. M.", "titulo": "Síntese de novos derivados 1,3,4-Tiadiazólicos planejados como Leishmanicidas análogos à Combrestatinas naturais", "veiculo": "XXIII Reunião Anual da Sociedade Brasileira de Química", "paginas": "MD-00", "doi": null}, {"ano": 2000, "autores": "Edson F. da Silva; FRAGA, A. G. M. ; REBELLO, F. R.", "titulo": "Síntese de novas tiosemicarbazonas com potencial atividade leishmanicida", "veiculo": "II Bienal de Pesquisa da Fundação Oswaldo Cruz", "paginas": "258", "doi": null}, {"ano": 2000, "autores": "Edson F. da Silva; MAMOUROS, C. ; NOGUEIRA, C. M.", "titulo": "Síntese e Avaliação in vitro da atividade antineoplásica de derivados do sistema 1,3,4-Tiadiazol", "veiculo": "XXIII Reunião Anual da Sociedade Brasileira de Química", "paginas": "MD-00", "doi": null}, {"ano": 2000, "autores": "Edson F. da Silva; REBELLO, F. R.", "titulo": "Investigação por DSC, RMN e IV da formação de complexo de inclusão entre o Megazol e a Beta-Ciclodextrina", "veiculo": "XXIII Reunião Anual da Sociedade Brasileira de Química", "paginas": "FQ-00", "doi": null}, {"ano": 1999, "autores": "Edson F. da Silva; BAPTISTA, R. C.", "titulo": "Preparação do complexo de inclusão entre o Megazol e a Beta-ciclodextrina", "veiculo": "VII Reunião Anual de Iniciação Científica da Fundação Oswaldo Cruz", "paginas": "6", "doi": null}, {"ano": 1999, "autores": "Edson F. da Silva; LIMA, E. L. S. ; FERNANDES, R. C.", "titulo": "Síntese one-pot do Tinidazol", "veiculo": "I Bienal de Pesquisa da Fundação Oswaldo Cruz", "paginas": "104", "doi": null}, {"ano": 1999, "autores": "Edson F. da Silva; NOGUEIRA, C. M. ; BOZZA, M.", "titulo": "In vitro and in vivo Evaluation of Tripanosomicid Activity of Megazol Analog", "veiculo": "XXVI Annual Meeting on Basic Research on Chagas Disease", "paginas": null, "doi": null}, {"ano": 1998, "autores": "Edson F. da Silva; LIMA, E. L. S. ; NOGUEIRA, C. M.", "titulo": "Evaluation of ant-trypanosomal activity of several analogous from megazol", "veiculo": "XXV Annual Meeting on Basic Research in Chagas Disease", "paginas": "300", "doi": null}, {"ano": 1997, "autores": "Edson F. da Silva; PEREIRA, A. S. ; BARREIRO, E. J.", "titulo": "Derivados Beta-Ciclodextrinas. Avaliação enantioseletiva e uma contribuição para o estudo do mecanismo de separação quiral", "veiculo": "Resumos da XX Reunião Anual da Sociedade Brasileira de Química", "paginas": "QA-93", "doi": null}, {"ano": 1996, "autores": "Edson F. da Silva; AQUINO NETO, F. R. ; PEREIRA, A. S.", "titulo": "Aplicação da cromatografia gasosa de alta temperatura na análise e acompanhamento de sínteses de derivados de Beta-Ciclodextrinas", "veiculo": "Resumos da XIX Reunião Anual da Sociedade Brasileira de Química", "paginas": "QA-00", "doi": null}, {"ano": 1996, "autores": "Edson F. da Silva; FRAGA, C. A. M. ; AQUINO NETO, F. R.", "titulo": "Análise por cromatografia gasosa quiral dos estereoisômeros do derivado 3-hidroximetil-5-carbetoxi-2-oxabiciclo[3.3.0]octano", "veiculo": "Resumos da XIX Reunião Anual da Sociedade Brasileira de Química", "paginas": "QA138", "doi": null}, {"ano": 1996, "autores": "SILVEIRA, Carla Cristina de Freitas da", "titulo": "NMR Characterization of polyester-ethers", "veiculo": "5o Simpósio Latinoamericano de Polímeros e do 3o Simpósio Iberoamericano de Polímeros (SLAP'96)", "paginas": null, "doi": null}, {"ano": 1995, "autores": "Edson F. da Silva; PEREIRA, A. S. ; RADLER, F.", "titulo": "Análises de derivados de beta-Ciclodextrinas por cromatografia gasosa de alta temperatura", "veiculo": "Resumos da XVIII Reunião Anual da Sociedade Brasileira de Química", "paginas": "QA-73", "doi": null}, {"ano": 1995, "autores": "Edson F. da Silva; RAMOS, M. C. K. V. ; AQUINO NETO, F. R.", "titulo": "Ciclodextrinas modificadas como seletores quirais: Avaliação da qualidade de colunas de vidro", "veiculo": "Resumos da XVIII Reunião Anual da Sociedade Brasileira de Química", "paginas": "QA-88", "doi": null}, {"ano": 1994, "autores": "Edson F. da Silva; PEREIRA, A. S. ; AQUINO NETO, F. R.", "titulo": "Redução do Tempo de Análise, em CGAR, de Enantiômeros (limoneno e mentol) em Coluna de Comprimento Reduzido, com beta-ciclodextrina permetilada como fase estacionária", "veiculo": "Resumos da XVII Reunião da Sociedade Brasileira de Química", "paginas": "QA-89", "doi": null}, {"ano": 1991, "autores": "Edson F", "titulo": "da Silva. Síntese de um novo protótipo de antiinflamatório não esteroidal a partir do safrol", "veiculo": "Resumos da 14a. Reunião Anual da Sociedade Brasileira", "paginas": "QO-05", "doi": null}, {"ano": 1987, "autores": "Edson F. da Silva; FREITAS, A. C. C. ; BARREIRO, E. J.", "titulo": "Síntese de derivados pirazólicos com potencial atividade inibitória da quimiotaxia de leucócitos", "veiculo": "II Encontro Brasileiro de Síntese Orgânica", "paginas": null, "doi": null}, {"ano": 1987, "autores": "Edson F. da Silva; FREITAS, A. C. C. ; BARREIRO, E. J.", "titulo": "Derivados Pirazólicos com Potencial Atividade Inibidora de Tromboxana-sintetase", "veiculo": "II Encontro Brasileiro de Síntese Orgânica", "paginas": null, "doi": null}, {"ano": 1987, "autores": "Edson F. da Silva; FREITAS, A. C. C. ; BARREIRO, E. J.", "titulo": "Síntese de Pirazóis Bioativos Inibidores da Lipooxigenase", "veiculo": "II Encontro de Química Orgânica do Nordeste", "paginas": null, "doi": null}];
+    const COLUMNS = [{"title": "Ano", "field": "ano", "hozAlign": "center", "sorter": "number", "headerFilter": "input", "headerFilterParams": {"values": true}, "width": 110, "formatter": "fmtAno", "tooltip": true, "resizable": true, "widthGrow": 0}, {"title": "Autores", "field": "autores", "hozAlign": "left", "sorter": "string", "headerFilter": "input", "tooltip": true, "resizable": true, "minWidth": 200, "widthGrow": 2}, {"title": "Título", "field": "titulo", "hozAlign": "left", "sorter": "string", "headerFilter": "input", "tooltip": true, "resizable": true, "minWidth": 200, "widthGrow": 2}, {"title": "Veículo", "field": "veiculo", "hozAlign": "left", "sorter": "string", "headerFilter": "input", "tooltip": true, "resizable": true, "minWidth": 200, "widthGrow": 2}, {"title": "Páginas", "field": "paginas", "hozAlign": "left", "sorter": "string", "headerFilter": "input", "tooltip": true, "resizable": true, "minWidth": 70, "widthGrow": 0, "width": 90}, {"title": "DOI", "field": "doi", "hozAlign": "left", "sorter": "string", "headerFilter": "input", "tooltip": true, "resizable": true, "minWidth": 100, "widthGrow": 0, "width": 120, "formatter": "fmtDOI"}];
+    
+    const LANG_PT = {
+      "pt-br": {
+        "pagination": {
+          "first":"«","first_title":"Primeira",
+          "last":"»","last_title":"Última",
+          "prev":"‹","prev_title":"Anterior",
+          "next":"›","next_title":"Próxima"
+        },
+        "headerFilters": { "default":"⎯ Filtrar ⎯" }
+      }
+    };
+    
+    // Ano: mostra "—" quando 0
+    function fmtAno(cell) {
+      const v = cell.getValue() || 0;
+      return v === 0 ? "—" : v;
+    }
+    
+    // DOI → link clicável (aceita "10.xxxx/..." ou "doi:10...." ou já com http/https)
+    function fmtDOI(cell) {
+      let v = cell.getValue();
+      if (!v) return "";
+      v = String(v).trim();
+      let href = v;
+      if (!/^https?:/i.test(v)) {
+        v = v.replace(/^doi:\s*/i, "");
+        href = "https://doi.org/" + v;
+      }
+      const esc = (t) => String(t).replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[m]);
+      return `<a href="${esc(href)}" target="_blank" rel="noopener">${esc(v)}</a>`;
+    }
+    
+    // aplica formatter customizado quando marcado como "fmtDOI" em Python
+    COLUMNS.forEach(col => {
+      if (col.formatter === "fmtDOI") col.formatter = fmtDOI;
+    });
+    
+    document.addEventListener("DOMContentLoaded", function(){
+      const table = new Tabulator("#tabela-publicacoes", {
+        data: DATA,
+        layout: "fitColumns",
+        height: (DATA.length < 30 ? "45vh" : "70vh"),
+        responsiveLayout: "collapse",
+        pagination: "local",
+        paginationSize: 100,
+        paginationSizeSelector: [50, 100, 200, 500, 1000],
+        movableColumns: true,
+        headerFilterLiveFilter: true,
+        columns: COLUMNS,
+        locale: true, langs: LANG_PT, locale: "pt-br",
+      });
+    
+      document.getElementById("pubs-csv").onclick  = () => table.download("csv",  "publicacoes.csv",  { bom:true });
+      document.getElementById("pubs-xlsx").onclick = () => table.download("xlsx", "publicacoes.xlsx", { sheetName:"Publicações" });
+    });
+    </script>
+    <br><p><br>(*) Relatório criado com produções desde 1900 até 2026
+<br>Data de processamento: 20/09/2026 23:49:57<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V.2025.09</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:admin@email.com">admin@email.com</a>         </div> </body></html>
