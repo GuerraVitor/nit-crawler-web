@@ -9,3 +9,10 @@ PyJWT==2.9.0
 python-dotenv==1.1.0
 pytz==2025.2
 sqlparse==0.5.3
+
+# scriptLattes (vendored in backend/vendor) dependencies
+beautifulsoup4==4.13.5
+networkx==3.5
+rapidfuzz==3.14.0
+scipy==1.16.1
+selenium==4.35.0

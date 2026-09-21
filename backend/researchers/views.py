@@ -1,5 +1,15 @@
+import threading
+
+from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework.response import Response
+
+from .models import LattesReportRun
+from .lattes_runner import (
+    InvalidLattesIdError,
+    parse_extra_ids,
+    run_scriptlattes,
+)
 
 # Dados fictícios simulando o retorno de uma busca via scriptLattes.
 # TODO: substituir por integração real com o crawler scriptLattes.
@@ -117,5 +127,82 @@ class ResearcherSearchView(APIView):
                 "query": query,
                 "count": len(results),
                 "results": results,
+            }
+        )
+
+
+def _run_lattes_report_in_background(run_id):
+    try:
+        run = LattesReportRun.objects.get(pk=run_id)
+        result = run_scriptlattes(run.extra_ids)
+        run.status = LattesReportRun.STATUS_DONE
+        run.log = result["log"]
+        run.ignored_duplicate_ids = result["ignored_duplicate_ids"]
+    except Exception as exc:  # noqa: BLE001 - queremos capturar qualquer falha do subprocess
+        run.status = LattesReportRun.STATUS_FAILED
+        run.error = str(exc)
+    finally:
+        run.save()
+
+
+class LattesReportTriggerView(APIView):
+    """Dispara a execução do scriptLattes com os membros de Farmanguinhos + IDs extras."""
+
+    def post(self, request, *args, **kwargs):
+        if LattesReportRun.objects.filter(
+            status__in=[LattesReportRun.STATUS_PENDING, LattesReportRun.STATUS_RUNNING]
+        ).exists():
+            return Response(
+                {"detail": "Já existe uma execução do scriptLattes em andamento."},
+                status=status.HTTP_409_CONFLICT,
+            )
+
+        raw_ids = request.data.get("extra_ids", [])
+        if not isinstance(raw_ids, list):
+            return Response(
+                {"detail": "extra_ids deve ser uma lista de IDs Lattes."},
+                status=status.HTTP_400_BAD_REQUEST,
+            )
+
+        try:
+            extra_ids = parse_extra_ids(raw_ids)
+        except InvalidLattesIdError as exc:
+            return Response({"detail": str(exc)}, status=status.HTTP_400_BAD_REQUEST)
+
+        run = LattesReportRun.objects.create(
+            status=LattesReportRun.STATUS_RUNNING, extra_ids=extra_ids
+        )
+        thread = threading.Thread(
+            target=_run_lattes_report_in_background, args=(run.pk,), daemon=True
+        )
+        thread.start()
+
+        return Response(
+            {"run_id": run.pk, "status": run.status, "extra_ids": extra_ids},
+            status=status.HTTP_202_ACCEPTED,
+        )
+
+
+class LattesReportStatusView(APIView):
+    """Consulta o status da última execução do scriptLattes."""
+
+    def get(self, request, *args, **kwargs):
+        run = LattesReportRun.objects.first()
+        if run is None:
+            return Response({"status": "never_run"})
+
+        return Response(
+            {
+                "run_id": run.pk,
+                "status": run.status,
+                "extra_ids": run.extra_ids,
+                "ignored_duplicate_ids": run.ignored_duplicate_ids,
+                "log": run.log,
+                "error": run.error,
+                "created_at": run.created_at,
+                "updated_at": run.updated_at,
+                "report_url": "/media/lattes_report/index.html"
+                if run.status == LattesReportRun.STATUS_DONE
+                else None,
             }
         )

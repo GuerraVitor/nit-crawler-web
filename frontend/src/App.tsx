@@ -7,6 +7,7 @@ import ResearcherSearch from "./pages/ResearcherSearch";
 import { GlobalStyle } from "./GlobalStyle";
 import AboutUs from "./pages/About";
 import Contact from "./pages/Contact";
+import LattesReport from "./pages/LattesReport";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/pesquisadores" element={<ResearcherSearch />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/relatorio-lattes" element={<LattesReport />} />
           </Routes>
         </div>
         <Footer />
